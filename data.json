@@ -4,77 +4,121 @@
     "Symptoms": ["Persistent, recurrent red spots or swelling on the skin, generally known as pimples; the swelling may become inflamed and fill with pus. They typically appear on the face, chest, shoulders, neck, or upper portion of the back Dark spots with open pores at the center blackheads Tiny white bumps under the skin that have no obvious opening whiteheads Red swellings or lumps known as papules that are visibly filled with pus Nodules or lumps under the skin that are inflamed fluid-filled, and often tender these nodules may become as large as an inch across"],
     "Treatment": [
         {
-    "Treatment_1": "Soap and water. Gentle cleansing of the face with soap and water no more than two times a day can help with acne. However, this does not clear up acne that is already present. Aggressive scrubbing can injure the skin and cause other skin problems. Additionally, there are many cleansers and soaps advertised for treating acne. They often contain benzoyl peroxide, glycolic acid, salicylic acid, or sulfur.", 
-    "Treatment_2": "Benzoyl peroxide - For mild acne, you may try, or your doctor may recommend, treatment with a nonprescription drug that contains benzoyl peroxide. It's believed that this compound works by destroying the bacteria associated with acne. It usually takes at least four weeks to work and it must be used continuously to keep acne at bay. Like many over-the-counter and prescription products, it does not affect sebum production or the way the skin follicle cells are shed, and when you stop using it, the acne comes back. It is available in many forms: creams, lotions, washes, foams,cleansing pads and gels. Benzoyl peroxide can cause dry skin and can bleach fabrics, so take care when applying it. Consider wearing an old T-shirt to bed if you are applying it to your back or chest overnight.",
-    "Treatment_3": "Salicylic acid. On the skin, salicylic acid helps to correct the abnormal shedding of cells. For milder acne, salicylic acid helps unclog pores to resolve and prevent lesions. It does not have any effect on sebum production and does not kill bacteria. It must be used continuously, just like benzoyl peroxide, because its effects stop when you stop using it -- pores clog up again and the acne returns. Salicylic acid is available in many acne products, including lotions, creams, and pads.",
-    "Treatment_4": "Sulfur. In combination with other substances such as alcohol, sodium sulfacetamide (a prescription medication) and salicylic acid, sulfur is a component of many over-the-counter acne medications. It usually isn't used by itself because of its unpleasant odor and temporary skin discoloration.Sulfur helps to prevent pores from being clogged and inhibits growth of bacteria. but it has only a marginal benefit in most cases.", 
-    "Treatment_5": "Topical retinol gel or creams. Retinol works to keep pimples from being able to form. It affects the growth of cells, causing increased cell turnover to unblock pores. Your acne may appear to get worse before it gets better because it will work on the pimples that have already started forming beneath your skin. It must be used continuously and may take 8-12 weeks to get results. Retinoids used to be available in only a prescription strength. Differin Gel is the only topical retinoid approved as an over-the-counter treatment for acne.",
-    "Treatment_6": "Alcohol and acetone. Alcohol is a mild anti-bacterial agent, and acetone can remove oils from the surface of the skin. These substances are combined in some over-the-counter acne drugs. These agents dry out the skin, have little or no effect on acne, and are generally not recommended by dermatologists.",
-    "Treatment_7": "When pus-filled pimples are ready to break, apply a hot towel for a few minutes to encourage the natural bursting process. Inflamed pimples should be opened only by a nurse or doctor using surgical instruments and following antiseptic practices. Squeezing pimples yourself may lead to further inflammation and perhaps permanent scars.",
-    "Treatment_8": "Antibiotics.Antibiotics may be used on top of the skin (topical) or taken orally (systemic). Antibiotics work by clearing the skin of acne-causing bacteria and reducing inflammation. There are several topical products available in creams, gels, solutions, pads, foams, and lotions. Topical antibiotics are limited in their ability to penetrate the skin and clear more deep-seated acne, whereas systemic antibiotics circulate throughout the body and into sebaceous glands. However, systemic antibiotics often cause more side effects than topicals, but they can be used for more severe kinds of acne. Usually, topical antibiotics aren't recommended alone as an acne treatment, as they can increase the risk for antibiotic resistance in skin bacteria. However, using benzoyl peroxide with a topical antibiotic may reduce the chances of developing antibiotic resistance.", 
-    "Treatment_9": "Topical clindamycin (Cleocin T, Clinda-Derm) and erythromycin (Akne-Mycin, ATS, Erycette, Erygel, Ilotycin) are antibiotics that are also anti-inflammatory drugs and are effective against a number of bacteria. They should always be combined with benzoyl peroxide or a topical retinoid and applied directly to the skin. Oral erythromycin is also available, but you may become resistant to its effects, limiting its usefulness. Other oral antiinflammatory antibiotics often used are doxycycline, minocycline, and tetracycline, all of which are quite effective in many cases of acne.",
-    "Treatment_10": "Retinoids or vitamin A derivatives. These drugs are available as topical or oral drugs. Topical retinoids clear up moderate-to-severe acne by affecting the way the skin grows and sheds. They can be used in combination with other acne products, such as benzoyl peroxide and oral antibiotics. Topical retinoids don't have the severe side effects of oral retinoids; however, they aren't recommended for pregnant or nursing women. Side effects of topical retinoids include redness, dryness, and itchy skin.",
-    "Treatment_11": "For severe cystic acne, isotretinoin (Absorica, Accutane, Amnesteem, Claravis, Sotret, Zenatane) is the most effective therapy. This drug is the only drug that intervenes in all of three of the causes of acne. It can often even clear severe acne that hasn't responded to other treatments. However, the product can have side effects. It can cause severe birth defects and must NEVER be taken by a woman who is pregnant or who is not using contraception. In addition, it shouldn't be taken by a woman who is nursing. Some studies suggest its use has been associated with an increased risk of depression, suicide, and inflammatory bowel disease. Talk to your doctor about the potential risks of this drug",
-    "Treatment_12": "Azelaic acid. Another topical is azelaic acid, which comes in a gel, cream or foam and has antibacterial and anti-inflammatory properties. It is more commonly used for another type of condition called rosacea, but it may help mild acne.Additionally, Dapsone is a topical gel that is antibacterial and anti-inflammatory.",
-    "Treatment_13": "Oral contraceptives.Birth control pills contain female hormones that work by counteracting the effect of male hormones (such as testosterone) on acne. Their use is limited to female patients. The maximum benefit of oral contraceptives on acne occurs in three to four months. Side effects include nausea, spotting, breast tenderness, and blood clots.",
-    "Treatment_14": "Spironolactone(Aldactone). Spironolactone is an oral drug that can block the action of the bodys hormones on the skins oil glands. This medication is not FDA-approved for acne, but is especially helpful for women who have acne that worsens around the time of menstruation and menopause.", 
-    "Treatment_15": "Clascoterone (Winlevi) is a newly approved topical treatment for moderate to severe acne which is considered an alternative to spironolactone. It targets the hormones that cause acne. Just how it works is not quite understood but it has been found to reduce acne in both males and females over the age of 12. Another common drug your doctor may try is triamcinolone, a type of corticosteroid solution that is injected directly into acne nodules.",
-    "Treatment_16": null,
-    "Treatment_17": null
-        }
-      ],
-      "Prevention": ["Because of acne's association with fluctuating hormone levels and possible genetic influences, many doctors believe there is no way to prevent it. The accepted wisdom is that neither good hygiene nor diet can prevent outbreaks. Treatments can control acne and minimize future breakouts. Sensible skin care is recommended, especially during adolescence. The basics include a daily bath or shower and washing the face and hands with unscented or mildly antibacterial soap.", "Use non-comedogenic or sensitive skin products to reduce the chance of new lesions and minimize skin irritation. Use a mild cleanser twice a day. Avoid cleansers or products that contain scrubbing particles or have a gritty texture. These products can irritate the skin and lead to breakouts. Use a daily non-comedogenic moisturizer and broad spectrum sunscreen (SPF 30 with zinc oxide). Wear makeup that is non-comedogenic. Avoid picking, squeezing, or popping pimples. This can lead to scarring and skin infections."]
+    "Treatment": "Soap and water. Gentle cleansing of the face with soap and water no more than two times a day can help with acne. However, this does not clear up acne that is already present. Aggressive scrubbing can injure the skin and cause other skin problems. Additionally, there are many cleansers and soaps advertised for treating acne. They often contain benzoyl peroxide, glycolic acid, salicylic acid, or sulfur."
     },
+    {
+      "Treatment": "Benzoyl peroxide - For mild acne, you may try, or your doctor may recommend, treatment with a nonprescription drug that contains benzoyl peroxide. It's believed that this compound works by destroying the bacteria associated with acne. It usually takes at least four weeks to work and it must be used continuously to keep acne at bay. Like many over-the-counter and prescription products, it does not affect sebum production or the way the skin follicle cells are shed, and when you stop using it, the acne comes back. It is available in many forms: creams, lotions, washes, foams,cleansing pads and gels. Benzoyl peroxide can cause dry skin and can bleach fabrics, so take care when applying it. Consider wearing an old T-shirt to bed if you are applying it to your back or chest overnight."
+    },
+    {
+      "Treatment": "Salicylic acid. On the skin, salicylic acid helps to correct the abnormal shedding of cells. For milder acne, salicylic acid helps unclog pores to resolve and prevent lesions. It does not have any effect on sebum production and does not kill bacteria. It must be used continuously, just like benzoyl peroxide, because its effects stop when you stop using it -- pores clog up again and the acne returns. Salicylic acid is available in many acne products, including lotions, creams, and pads."
+    },
+    {
+      "Treatment": "Sulfur. In combination with other substances such as alcohol, sodium sulfacetamide (a prescription medication) and salicylic acid, sulfur is a component of many over-the-counter acne medications. It usually isn't used by itself because of its unpleasant odor and temporary skin discoloration.Sulfur helps to prevent pores from being clogged and inhibits growth of bacteria. but it has only a marginal benefit in most cases."
+    },
+    {
+      "Treatment": "Topical retinol gel or creams. Retinol works to keep pimples from being able to form. It affects the growth of cells, causing increased cell turnover to unblock pores. Your acne may appear to get worse before it gets better because it will work on the pimples that have already started forming beneath your skin. It must be used continuously and may take 8-12 weeks to get results. Retinoids used to be available in only a prescription strength. Differin Gel is the only topical retinoid approved as an over-the-counter treatment for acne."
+    },
+    {
+      "Treatment": "Alcohol and acetone. Alcohol is a mild anti-bacterial agent, and acetone can remove oils from the surface of the skin. These substances are combined in some over-the-counter acne drugs. These agents dry out the skin, have little or no effect on acne, and are generally not recommended by dermatologists."
+    },
+    {
+      "Treatment": "When pus-filled pimples are ready to break, apply a hot towel for a few minutes to encourage the natural bursting process. Inflamed pimples should be opened only by a nurse or doctor using surgical instruments and following antiseptic practices. Squeezing pimples yourself may lead to further inflammation and perhaps permanent scars."
+    },
+    {
+      "Treatment": "Antibiotics.Antibiotics may be used on top of the skin (topical) or taken orally (systemic). Antibiotics work by clearing the skin of acne-causing bacteria and reducing inflammation. There are several topical products available in creams, gels, solutions, pads, foams, and lotions. Topical antibiotics are limited in their ability to penetrate the skin and clear more deep-seated acne, whereas systemic antibiotics circulate throughout the body and into sebaceous glands. However, systemic antibiotics often cause more side effects than topicals, but they can be used for more severe kinds of acne. Usually, topical antibiotics aren't recommended alone as an acne treatment, as they can increase the risk for antibiotic resistance in skin bacteria. However, using benzoyl peroxide with a topical antibiotic may reduce the chances of developing antibiotic resistance."
+    },
+    {
+      "Treatment": "Topical clindamycin (Cleocin T, Clinda-Derm) and erythromycin (Akne-Mycin, ATS, Erycette, Erygel, Ilotycin) are antibiotics that are also anti-inflammatory drugs and are effective against a number of bacteria. They should always be combined with benzoyl peroxide or a topical retinoid and applied directly to the skin. Oral erythromycin is also available, but you may become resistant to its effects, limiting its usefulness. Other oral antiinflammatory antibiotics often used are doxycycline, minocycline, and tetracycline, all of which are quite effective in many cases of acne."
+    },
+    {
+      "Treatment": "Retinoids or vitamin A derivatives. These drugs are available as topical or oral drugs. Topical retinoids clear up moderate-to-severe acne by affecting the way the skin grows and sheds. They can be used in combination with other acne products, such as benzoyl peroxide and oral antibiotics. Topical retinoids don't have the severe side effects of oral retinoids; however, they aren't recommended for pregnant or nursing women. Side effects of topical retinoids include redness, dryness, and itchy skin."
+    },
+    {
+      "Treatment": "For severe cystic acne, isotretinoin (Absorica, Accutane, Amnesteem, Claravis, Sotret, Zenatane) is the most effective therapy. This drug is the only drug that intervenes in all of three of the causes of acne. It can often even clear severe acne that hasn't responded to other treatments. However, the product can have side effects. It can cause severe birth defects and must NEVER be taken by a woman who is pregnant or who is not using contraception. In addition, it shouldn't be taken by a woman who is nursing. Some studies suggest its use has been associated with an increased risk of depression, suicide, and inflammatory bowel disease. Talk to your doctor about the potential risks of this drug"
+    },
+    {
+      "Treatment": "Azelaic acid. Another topical is azelaic acid, which comes in a gel, cream or foam and has antibacterial and anti-inflammatory properties. It is more commonly used for another type of condition called rosacea, but it may help mild acne.Additionally, Dapsone is a topical gel that is antibacterial and anti-inflammatory."
+    },
+    {
+      "Treatment": "Oral contraceptives.Birth control pills contain female hormones that work by counteracting the effect of male hormones (such as testosterone) on acne. Their use is limited to female patients. The maximum benefit of oral contraceptives on acne occurs in three to four months. Side effects include nausea, spotting, breast tenderness, and blood clots."
+    },
+    {
+      "Treatment": "Spironolactone(Aldactone). Spironolactone is an oral drug that can block the action of the bodys hormones on the skins oil glands. This medication is not FDA-approved for acne, but is especially helpful for women who have acne that worsens around the time of menstruation and menopause."
+    },
+    {
+      "Treatment": "Clascoterone (Winlevi) is a newly approved topical treatment for moderate to severe acne which is considered an alternative to spironolactone. It targets the hormones that cause acne. Just how it works is not quite understood but it has been found to reduce acne in both males and females over the age of 12. Another common drug your doctor may try is triamcinolone, a type of corticosteroid solution that is injected directly into acne nodules."
+    },
+    {
+      "Treatment": ""
+    },
+    {
+      "Treatment": ""
+    }
+  ],
+    
+      "Prevention": ["Because of acne's association with fluctuating hormone levels and possible genetic influences, many doctors believe there is no way to prevent it. The accepted wisdom is that neither good hygiene nor diet can prevent outbreaks. Treatments can control acne and minimize future breakouts. Sensible skin care is recommended, especially during adolescence. The basics include a daily bath or shower and washing the face and hands with unscented or mildly antibacterial soap.", "Use non-comedogenic or sensitive skin products to reduce the chance of new lesions and minimize skin irritation. Use a mild cleanser twice a day. Avoid cleansers or products that contain scrubbing particles or have a gritty texture. These products can irritate the skin and lead to breakouts. Use a daily non-comedogenic moisturizer and broad spectrum sunscreen (SPF 30 with zinc oxide). Wear makeup that is non-comedogenic. Avoid picking, squeezing, or popping pimples. This can lead to scarring and skin infections."]
+  },
     {
     "Disease/Illness": "Allergy",
     "Symptoms": ["Allergy symptoms can be categorized as mild, moderate, or severe. Mild allergy symptoms can include:Rash, Localized itching, Congestion, Mild allergic reactions do not spread to other parts of the body.Moderate allergic reactions can include symptoms that spread to other parts of the body, including: Widespread itching, Difficulty breathing. Anaphylaxis is a rare, life-threatening emergency in which the response to the allergen is sudden and affects the whole body. Allergy symptoms may within minutes progress to more serious symptoms, including: Itching of eyes or face Varying degrees of swelling of the mouth, throat, and tongue that can make breathing and swallowing difficult, Hives, Abdominal pain, Cramps, Vomiting, Diarrhea, Mental confusion or dizziness"],
     "Treatment": [
         {
-        "Treatment_1": "In general, there is no cure for allergies, but there are several types of medications available -- both over-the-counter and prescription -- to help ease and treat annoying symptoms like congestion and runny nose. These allergy drugs include antihistamines, decongestants, combination drugs, corticosteroids, and others. Immunotherapy in the form of allergy shots or pills under the tongue, which gradually increase your ability to tolerate allergens, are also available.",
-        "Treatment_2": "Antihistamines. Antihistamines have been used for years to treat allergy symptoms. They can be taken as pills, liquid, nasal spray, or eye drops. Over-the-counter (OTC) antihistamine eye drops can relieve red itchy eyes, while nasal sprays can be used to treat the symptoms of seasonal or year-round allergies. Examples of antihistamines include: Over-the-counter:Cetirizine (Zyrtec), fexofenadine (Allegra), levocetirizine (Xyzal), and loratadine (Alavert, Claritin) are taken by mouth. Brompheniramine (Dimetapp allergy, Nasahist B), chlorpheniramine (Chlor-Trimeton), clemastine (Tavist), and diphenhydramine (Benadryl) can make you drowsy. Ketotifen (Zaditor) and naphazoline and pheniramine combination ophthalmic (OcuHist) are eye drops. Prescription: Desloratadine (Clarinex) is a medication taken by mouth. Azelastine nasal (Astelin) is a nasal spray. Eye drops include azelastine ophthalmic (Optivar), epinastine ophthalmic (Elestat), and olopatadine ophthalmic (Patanol). How Do Antihistamines Work? When you are exposed to an allergen -- for example, ragweed pollen -- it triggers your immune system. People with allergies have an exaggerated immune response. Immune system cells known as mast cells release a substance called histamine, which attaches to receptors in blood vessels, causing them to enlarge. Histamine also binds to other receptors causing redness, swelling, itching, and changes in secretions. By blocking histamine and keeping it from binding to receptors, antihistamines prevent these symptoms. Many older over-the-counter antihistamines may cause drowsiness. Newer antihistamines that don'''t make you drowsy are available over-the-counter and by prescription.",
-        "Treatment_3": "Decongestants relieve congestion and are often prescribed along with antihistamines for allergies. They can come in nasal sprays, eye drops, liquids, and pills. Nasal spray and eye drop decongestants should be used for only a few days at a time because long-term use can make symptoms worse. Pills and liquid decongestants can be taken longer safely. Some examples of decongestants that are available over-the-counter include: Pseudoephedrine (Sudafed tablets or liquid), Phenylephrine (Neo-Synephrine) and oxymetazoline (Afrin) nasal sprays, Some Visine eye drops. How Do Decongestants Work? During an allergic reaction, tissues in your nose may swell in response to contact with the allergen. That swelling makes fluid and mucus. Blood vessels in the eyes can also swell, causing redness. Decongestants work by shrinking swollen nasal tissues and blood vessels, relieving the symptoms of nasal swelling, congestion, mucus secretion, and redness. What Are the Side Effects of Decongestants? Decongestants may raise blood pressure, so they typically are not recommended for people who have blood pressure problems or glaucoma. They may also cause insomnia or irritability and restrict urinary flow.",
-        "Treatment_4": "Some allergy drugs contain both an antihistamine and a decongestant to relieve multiple allergy symptoms. Other drugs have multiple effects aside from just blocking the effects of histamine, such as preventing mast cells from releasing other allergy-inducing chemicals. Some examples of combination allergy medicines include: Over-the-counter:cetirizine and pseudoephedrine (Zyrtec-D), fexofenadine and pseudoephedrine (Allegra-D), diphenhydramine and pseudoephedrine (Benadryl Allergy and Sinus), loratadine and pseudoephedrine (Claritin-D), and pseudoephedrine/triprolidine (Actifed) for nasal allergies; and naphazoline/pheniramine (Naphcon A) for allergic conjunctivitis. Prescription: acrivastine and pseudoephedrine (Semprex-D) for nasal allergies; azelastine/fluticasone (Dymista) combines an antihistamine with a steroid in a nasal spray for seasonal nasal allergies. Anticholinergic Nasal Sprays. The drug Ipratropium bromide (Atrovent) can reduce runny nose. When sprayed into each nostril, it lessens mucus from the glands lining the nasal passages. What Are the Side Effects of Anticholinergic Nasal Sprays? They may cause a very dry nose, leading to nosebleeds or irritation. Other side effects include headaches, stuffy nose, upset stomach, and sore throat.",
-        "Treatment_5": "Steroids. Steroids, known medically as corticosteroids, can reduce inflammation associated with allergies. They prevent and treat nasal stuffiness, sneezing, and itchy, runny nose due to seasonal or year-round allergies. They can also decrease inflammation and swelling from other types of allergic reactions. Systemic steroids are available in various forms: as pills or liquids for serious allergies or asthma, locally acting inhalers for asthma, locally acting nasal sprays for seasonal or year-round allergies, topical creams for skin allergies, or topical eye drops for allergic conjunctivitis. In addition to steroid medications, your doctor may decide to prescribe additional types of medications to help combat your allergic symptoms.",
-        "Treatment_6": "Steroids are highly effective drugs for allergies, but they must be taken regularly, often daily, to be of benefit -- even when you aren't feeling allergy symptoms. In addition, it may take 1 to 2 weeks before the full effect of the medicine can be felt. Some steroids include: Prescription nasal steroids: beclomethasone (Beconase, Qnasl, Qvar), ciclesonide (Alvesco, Omnaris, Zetonna), fluticasone furoate (Veramyst), and mometasone (Nasonex), Over-the-counter nasal steroids: budesonide (Rhinocort Allergy), fluticasone (Flonase Allergy Relief), and triamcinolone (Nasacort Allergy 24HR), Eye drops: dexamethasone ophthalmic (Maxidex), and loteprednol ophthalmic  (Alrex), Oral steroids:prednisone (Deltasone). What Are the Side Effects of Steroids? Steroids have many potential side effects, especially when taken for a long time. Side effects of systemic steroids with short-term use include: Weight gain, Fluid retention, High blood pressure, Side effects with long-term use include: Growth suppression, Diabetes, Cataracts of the eyes, Bone-thinning osteoporosis, Muscle weakness, Side effects of inhaled steroids may include cough, hoarseness, or fungal infections of the mouth.",
-        "Treatment_7": "Mast Cell Stabilizers. Mast cell stabilizers treat mild to moderate inflammation. Mast cell stabilizers are available as eye drops for allergic conjunctivitis, and nasal sprays for nasal allergy symptoms. Like with many drugs, it may take several weeks before the full effects are felt. Some examples of mast cell stabilizers include: Cromolyn sodium (Opticrom), Lodoxamide-tromethamine (Alomide), Nedocromil (Alocril), Pemirolast (Alamast).How Do Mast Cell Stabilizers Work? Mast cell stabilizers prevent the release of histamine from mast cells (cells that make and store histamine). Some of these drugs also have important anti-inflammatory effects, but typically they are not as effective as steroids. What Are the Side Effects of Mast Cell Stabilizers? Throat irritation, coughing, or skin rashes sometimes happen. Mast cell stabilizers in the form of eye drops may cause burning, stinging, or blurred vision. Leukotriene Modifiers. Leukotriene modifiers treat asthma and nasal allergy symptoms. They can be prescribed along with other drugs. These medications are available only with a doctor's prescription and come as pills, chewable tablets, and oral granules. The only leukotriene modifier that has FDA approval is montelukast  (Singulair).",
-        "Treatment_8": "How Do Leukotriene Modifiers Work? Leukotriene modifiers block the effects of leukotrienes, chemicals produced in the body in response to an allergic reaction. What Are the Side Effects of Leukotriene Modifiers? Side effects of these drugs are rare but may include: Stomach pain or stomach upset, Heartburn, Fever, Stuffy nose, Cough, Rash, Headache, Irritability, Other Over-the, Counter Products, Some simple over-the-counter products can help with allergy symptoms. They include: Saltwater solution, or saline, is available as a nasal spray to relieve mild congestion, loosen mucus, and prevent crusting. These sprays contain no medicine. Artificial tears, which also contain no medicine, are available to treat itchy, watery, and red eyes. Immunotherapy, Immunotherapy may be one of the most effective forms of treatment if you suffer from allergies more than 3 months of the year. Allergy shots expose you to gradually increasing levels of the offending allergen to help your immune system build tolerance. The FDA has approved several under-the-tongue immunotherapy tablets that can be taken at home. The prescription tablets, called Grastek, Oralair, and Ragwitek, treat hay fever and work the same way as shots. The goal is to boost a patient'''s tolerance of allergy triggers. Odactra is an under-the-tongue medication that can relieve symptoms of allergies to dust mites. Palforzia treats peanut allergy.",
-        "Treatment_9": null,
-        "Treatment_10": null,
-        "Treatment_11": null,
-        "Treatment_12": null,
-        "Treatment_13": null,
-        "Treatment_14": null,
-        "Treatment_15": null,
-        "Treatment_16": null,
-        "Treatment_17": null,
-        "Treatment_18": null
+        "Treatment": "In general, there is no cure for allergies, but there are several types of medications available -- both over-the-counter and prescription -- to help ease and treat annoying symptoms like congestion and runny nose. These allergy drugs include antihistamines, decongestants, combination drugs, corticosteroids, and others. Immunotherapy in the form of allergy shots or pills under the tongue, which gradually increase your ability to tolerate allergens, are also available."
+        },
+        {
+          "Treatment": "Antihistamines. Antihistamines have been used for years to treat allergy symptoms. They can be taken as pills, liquid, nasal spray, or eye drops. Over-the-counter (OTC) antihistamine eye drops can relieve red itchy eyes, while nasal sprays can be used to treat the symptoms of seasonal or year-round allergies. Examples of antihistamines include: Over-the-counter:Cetirizine (Zyrtec), fexofenadine (Allegra), levocetirizine (Xyzal), and loratadine (Alavert, Claritin) are taken by mouth. Brompheniramine (Dimetapp allergy, Nasahist B), chlorpheniramine (Chlor-Trimeton), clemastine (Tavist), and diphenhydramine (Benadryl) can make you drowsy. Ketotifen (Zaditor) and naphazoline and pheniramine combination ophthalmic (OcuHist) are eye drops. Prescription: Desloratadine (Clarinex) is a medication taken by mouth. Azelastine nasal (Astelin) is a nasal spray. Eye drops include azelastine ophthalmic (Optivar), epinastine ophthalmic (Elestat), and olopatadine ophthalmic (Patanol). How Do Antihistamines Work? When you are exposed to an allergen -- for example, ragweed pollen -- it triggers your immune system. People with allergies have an exaggerated immune response. Immune system cells known as mast cells release a substance called histamine, which attaches to receptors in blood vessels, causing them to enlarge. Histamine also binds to other receptors causing redness, swelling, itching, and changes in secretions. By blocking histamine and keeping it from binding to receptors, antihistamines prevent these symptoms. Many older over-the-counter antihistamines may cause drowsiness. Newer antihistamines that don't make you drowsy are available over-the-counter and by prescription."
+        },
+        {
+          "Treatment": "Decongestants relieve congestion and are often prescribed along with antihistamines for allergies. They can come in nasal sprays, eye drops, liquids, and pills. Nasal spray and eye drop decongestants should be used for only a few days at a time because long-term use can make symptoms worse. Pills and liquid decongestants can be taken longer safely. Some examples of decongestants that are available over-the-counter include: Pseudoephedrine (Sudafed tablets or liquid), Phenylephrine (Neo-Synephrine) and oxymetazoline (Afrin) nasal sprays, Some Visine eye drops. How Do Decongestants Work? During an allergic reaction, tissues in your nose may swell in response to contact with the allergen. That swelling makes fluid and mucus. Blood vessels in the eyes can also swell, causing redness. Decongestants work by shrinking swollen nasal tissues and blood vessels, relieving the symptoms of nasal swelling, congestion, mucus secretion, and redness. What Are the Side Effects of Decongestants? Decongestants may raise blood pressure, so they typically are not recommended for people who have blood pressure problems or glaucoma. They may also cause insomnia or irritability and restrict urinary flow."
+        },
+        {
+          "Treatment": "Some allergy drugs contain both an antihistamine and a decongestant to relieve multiple allergy symptoms. Other drugs have multiple effects aside from just blocking the effects of histamine, such as preventing mast cells from releasing other allergy-inducing chemicals. Some examples of combination allergy medicines include: Over-the-counter:cetirizine and pseudoephedrine (Zyrtec-D), fexofenadine and pseudoephedrine (Allegra-D), diphenhydramine and pseudoephedrine (Benadryl Allergy and Sinus), loratadine and pseudoephedrine (Claritin-D), and pseudoephedrine/triprolidine (Actifed) for nasal allergies; and naphazoline/pheniramine (Naphcon A) for allergic conjunctivitis. Prescription: acrivastine and pseudoephedrine (Semprex-D) for nasal allergies; azelastine/fluticasone (Dymista) combines an antihistamine with a steroid in a nasal spray for seasonal nasal allergies. Anticholinergic Nasal Sprays. The drug Ipratropium bromide (Atrovent) can reduce runny nose. When sprayed into each nostril, it lessens mucus from the glands lining the nasal passages. What Are the Side Effects of Anticholinergic Nasal Sprays? They may cause a very dry nose, leading to nosebleeds or irritation. Other side effects include headaches, stuffy nose, upset stomach, and sore throat."
+        },
+        {
+          "Treatment": "Steroids. Steroids, known medically as corticosteroids, can reduce inflammation associated with allergies. They prevent and treat nasal stuffiness, sneezing, and itchy, runny nose due to seasonal or year-round allergies. They can also decrease inflammation and swelling from other types of allergic reactions. Systemic steroids are available in various forms: as pills or liquids for serious allergies or asthma, locally acting inhalers for asthma, locally acting nasal sprays for seasonal or year-round allergies, topical creams for skin allergies, or topical eye drops for allergic conjunctivitis. In addition to steroid medications, your doctor may decide to prescribe additional types of medications to help combat your allergic symptoms."
+        },
+        {
+          "Treatment": "Steroids are highly effective drugs for allergies, but they must be taken regularly, often daily, to be of benefit -- even when you aren't feeling allergy symptoms. In addition, it may take 1 to 2 weeks before the full effect of the medicine can be felt. Some steroids include: Prescription nasal steroids: beclomethasone (Beconase, Qnasl, Qvar), ciclesonide (Alvesco, Omnaris, Zetonna), fluticasone furoate (Veramyst), and mometasone (Nasonex), Over-the-counter nasal steroids: budesonide (Rhinocort Allergy), fluticasone (Flonase Allergy Relief), and triamcinolone (Nasacort Allergy 24HR), Eye drops: dexamethasone ophthalmic (Maxidex), and loteprednol ophthalmic  (Alrex), Oral steroids:prednisone (Deltasone). What Are the Side Effects of Steroids? Steroids have many potential side effects, especially when taken for a long time. Side effects of systemic steroids with short-term use include: Weight gain, Fluid retention, High blood pressure, Side effects with long-term use include: Growth suppression, Diabetes, Cataracts of the eyes, Bone-thinning osteoporosis, Muscle weakness, Side effects of inhaled steroids may include cough, hoarseness, or fungal infections of the mouth."
+        },
+        {
+          "Treatment": "Mast Cell Stabilizers. Mast cell stabilizers treat mild to moderate inflammation. Mast cell stabilizers are available as eye drops for allergic conjunctivitis, and nasal sprays for nasal allergy symptoms. Like with many drugs, it may take several weeks before the full effects are felt. Some examples of mast cell stabilizers include: Cromolyn sodium (Opticrom), Lodoxamide-tromethamine (Alomide), Nedocromil (Alocril), Pemirolast (Alamast).How Do Mast Cell Stabilizers Work? Mast cell stabilizers prevent the release of histamine from mast cells (cells that make and store histamine). Some of these drugs also have important anti-inflammatory effects, but typically they are not as effective as steroids. What Are the Side Effects of Mast Cell Stabilizers? Throat irritation, coughing, or skin rashes sometimes happen. Mast cell stabilizers in the form of eye drops may cause burning, stinging, or blurred vision. Leukotriene Modifiers. Leukotriene modifiers treat asthma and nasal allergy symptoms. They can be prescribed along with other drugs. These medications are available only with a doctor's prescription and come as pills, chewable tablets, and oral granules. The only leukotriene modifier that has FDA approval is montelukast  (Singulair)."
+        },
+        {
+          "Treatment": "How Do Leukotriene Modifiers Work? Leukotriene modifiers block the effects of leukotrienes, chemicals produced in the body in response to an allergic reaction. What Are the Side Effects of Leukotriene Modifiers? Side effects of these drugs are rare but may include: Stomach pain or stomach upset, Heartburn, Fever, Stuffy nose, Cough, Rash, Headache, Irritability, Other Over-the, Counter Products, Some simple over-the-counter products can help with allergy symptoms. They include: Saltwater solution, or saline, is available as a nasal spray to relieve mild congestion, loosen mucus, and prevent crusting. These sprays contain no medicine. Artificial tears, which also contain no medicine, are available to treat itchy, watery, and red eyes. Immunotherapy, Immunotherapy may be one of the most effective forms of treatment if you suffer from allergies more than 3 months of the year. Allergy shots expose you to gradually increasing levels of the offending allergen to help your immune system build tolerance. The FDA has approved several under-the-tongue immunotherapy tablets that can be taken at home. The prescription tablets, called Grastek, Oralair, and Ragwitek, treat hay fever and work the same way as shots. The goal is to boost a patient's tolerance of allergy triggers. Odactra is an under-the-tongue medication that can relieve symptoms of allergies to dust mites. Palforzia treats peanut allergy."
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
-      ],
+    ],
     "Prevention": ""
     },
     {
     "Disease/Illness": "Alzheimer",
-    "Symptoms": ["The symptoms of Alzheimer's disease often come on slowly. It might start when someone has trouble recalling things that just happened or putting thoughts into words. But over time, the problems get worse. People in the later stages of the disease usually cant live alone or care for themselves. There are three main phases of Alzheimer's: mild, moderate, and severe. Each stage has its own set of symptoms. The first stage usually lasts from 2 to 4 years. The symptoms include Having less energy and drive to do things, Less interest in work and social activities and spending more time just sitting, watching TV, or sleeping, Loss of recent memories, like forgetting conversations and events that just happened, Language problems, like trouble putting their thoughts into words or understanding others, Mild coordination problems, such as trouble writing or using familiar objects, A hard time with everyday tasks, such as following a recipe or balancing a checkbook, Mood swings that involve depression or a lack of interest, Trouble with driving, like getting lost on familiar routes When a person has one or a few of these issues, it doesn'''t necessarily mean they have Alzheimer's. There are other medical conditions that can cause the same problems, such as: Conditions that affect metabolism, such as a thyroid problem, Drug abuse, Taking medications that don'''t work well together, Parkinson's disease, Stress, Depression. A doctor can check on these symptoms and do tests to know if a person has Alzheimer'''s or something else. Moderate Alzheimer's: This is when memory loss gets worse and starts to cause problems in daily life. This stage can last from 2 to 10 years. Someone with moderate Alzheimer's may start to forget details about their life, like where they went to high school or when they got married. They may not recognize or remember family members and friends. They might also forget where they leave things and can'''t retrace their steps to find them. Other symptoms at this stage can include: Rambling speech, Trouble coming up with the right words and using the wrong ones, A hard time planning or solving problems, Confusion about time or place. They may get lost in places they have been before. Once they are there, they may not know how or why they got to that place, Not dressing for the weather, Getting angry or upset easily, sometimes lashing out at family or caregivers, Trouble sleeping, Wandering, Delusions, such as thinking a caregiver is trying to hurt them, Some people with moderate Alzheimer'''s also become more aware that they'''re losing control of their lives, which can make them even more frustrated or depressed. Severe Alzheimers .The third stage, also known as late Alzheimers, is the most severe. It typically lasts 1 to 3 years. People in this phase might have some or all of these symptoms: Major confusion about what'''s in the past and what'''s happening now Can'''t express themselves, remember, or process information, Problems with swallowing and control of their bladder and bowels, Weight loss, seizures, skin infections, and other illnesses, Extreme mood swings, Seeing, hearing, or feeling things that aren't really there, called hallucinations, Can'''t move easily on their own. Alzheimer's or Normal Aging? Just about everyone has minor memory glitches as they get older. If someone forgets a name or why they walked into the kitchen, that doesn't mean they have Alzheimer's. The main problem that defines the disease is trouble planning and handling day-to-day tasks, like paying bills, managing a checkbook, or using familiar appliances around the house. If you think you notice the signs of Alzheimer'''s in yourself or a loved one, the best thing to do is to talk to a doctor. They can let you know what the symptoms mean and what your options are for treating them. There are new advances available which can help with early detection and treatment. One is as simple as a blood test to determine the presence or absence of proteins that may indicate there are Alzheimer's associated plaques in the brain."],
+    "Symptoms": ["The symptoms of Alzheimer's disease often come on slowly. It might start when someone has trouble recalling things that just happened or putting thoughts into words. But over time, the problems get worse. People in the later stages of the disease usually cant live alone or care for themselves. There are three main phases of Alzheimer's: mild, moderate, and severe. Each stage has its own set of symptoms. The first stage usually lasts from 2 to 4 years. The symptoms include Having less energy and drive to do things, Less interest in work and social activities and spending more time just sitting, watching TV, or sleeping, Loss of recent memories, like forgetting conversations and events that just happened, Language problems, like trouble putting their thoughts into words or understanding others, Mild coordination problems, such as trouble writing or using familiar objects, A hard time with everyday tasks, such as following a recipe or balancing a checkbook, Mood swings that involve depression or a lack of interest, Trouble with driving, like getting lost on familiar routes When a person has one or a few of these issues, it doesn't necessarily mean they have Alzheimer's. There are other medical conditions that can cause the same problems, such as: Conditions that affect metabolism, such as a thyroid problem, Drug abuse, Taking medications that don't work well together, Parkinson's disease, Stress, Depression. A doctor can check on these symptoms and do tests to know if a person has Alzheimer's or something else. Moderate Alzheimer's: This is when memory loss gets worse and starts to cause problems in daily life. This stage can last from 2 to 10 years. Someone with moderate Alzheimer's may start to forget details about their life, like where they went to high school or when they got married. They may not recognize or remember family members and friends. They might also forget where they leave things and can't retrace their steps to find them. Other symptoms at this stage can include: Rambling speech, Trouble coming up with the right words and using the wrong ones, A hard time planning or solving problems, Confusion about time or place. They may get lost in places they have been before. Once they are there, they may not know how or why they got to that place, Not dressing for the weather, Getting angry or upset easily, sometimes lashing out at family or caregivers, Trouble sleeping, Wandering, Delusions, such as thinking a caregiver is trying to hurt them, Some people with moderate Alzheimer's also become more aware that they're losing control of their lives, which can make them even more frustrated or depressed. Severe Alzheimers .The third stage, also known as late Alzheimers, is the most severe. It typically lasts 1 to 3 years. People in this phase might have some or all of these symptoms: Major confusion about what's in the past and what's happening now Can't express themselves, remember, or process information, Problems with swallowing and control of their bladder and bowels, Weight loss, seizures, skin infections, and other illnesses, Extreme mood swings, Seeing, hearing, or feeling things that aren't really there, called hallucinations, Can't move easily on their own. Alzheimer's or Normal Aging? Just about everyone has minor memory glitches as they get older. If someone forgets a name or why they walked into the kitchen, that doesn't mean they have Alzheimer's. The main problem that defines the disease is trouble planning and handling day-to-day tasks, like paying bills, managing a checkbook, or using familiar appliances around the house. If you think you notice the signs of Alzheimer's in yourself or a loved one, the best thing to do is to talk to a doctor. They can let you know what the symptoms mean and what your options are for treating them. There are new advances available which can help with early detection and treatment. One is as simple as a blood test to determine the presence or absence of proteins that may indicate there are Alzheimer's associated plaques in the brain."],
     "Treatment": [
         {
-        "Treatment_1": "Right now, there is no cure for Alzheimer's disease. Once a person starts showing signs  memory loss and problems with learning, judgment, communication, and daily life -- there arent any treatments that can stop or reverse them. But there are medicines that can ease some of the symptoms in some people. They can slow down how quickly the disease gets worse, and help the brain work better for longer. Its important to talk to your doctor about which option may work best for you. How to Choose a Treatment? Your doctor will help you choose the best treatment based on a few things about you, including: Your age, overall health, and medical history, How severe your disease is, How well a medicine or therapy will work for you and your lifestyle, Your preferences or those of your family or caregivers",
-        "Treatment_2": "The FDA has approved the drug aducanumab-avwa (aduhelm) as the first therapy that targets the fundamental pathophysiology of the disease by reducing amyloid beta plaques in the brain. It is not without controversy because of concerns it may cause swelling of bleeding in the brain. Some drugs curb the breakdown of a chemical in the brain, called acetylcholine, thats important for memory and learning. They may slow down how fast symptoms get worse for about half of people who take them. The effect lasts for a limited time, on average 6 to 12 months. Common side effects are usually mild for these medications and include diarrhea, vomiting, nausea, fatigue, insomnia, loss of appetite, and weight loss. There are three drugs of this type: donepezil (Aricept), galantamine (Razadyne), and rivastigmine (Exelon).",
-        "Treatment_3": "Aricept is the only treatment approved by the FDA for all stages of Alzheimers disease: mild, moderate, and severe. You can take it as a tablet that you swallow or that dissolves in your mouth. Razadyne (formerly called Reminyl) is also for mild to moderate Alzheimers. You can get it as a tablet that works right away, a capsule that gives off the medicine slowly, and in liquid forms. Exelon is for people who have mild to moderate Alzheimers. You can wear a skin patch that has the drug, or take it in capsules and in liquid form.",
-        "Treatment_4": "Memantine (Namenda)treats moderate-to-severe Alzheimer's disease. It works by changing the amount of a brain chemical called glutamate, which plays a role in learning and memory. Brain cells in people with Alzheimers disease give off too much glutamate. Namenda keeps the levels of that chemical in check by blocking the receptors. It may improve how well the brain works and how well some people can do everyday tasks. The drug may work even better when you take it with Aricept, Exelon, or Razadyne. Namendas side effects include tiredness, dizziness, confusion, constipation, and headache. Namzaric. This drug is a mix of Namenda and Aricept. It's best for people with moderate to severe Alzheimer's who already take the two drugs separately. Doctors can also prescribe medicines for other health problems that happen along with the disease, including depression, sleeplessness, and behavior problems like agitation and aggression.",
-        "Treatment_5": "Scientists are looking for new treatments for Alzheimers in clinical trials. These studies test new drugs to see if they can slow the progress of the disease or improve memory problems or other symptoms. Theyre also looking for other ways beyond drugs to treat the disease, such as an Alzheimers vaccine. Many people hoped that supplements such as vitamin E, coenzyme Q10, coral calcium, ginkgo biloba, and huperzine A might work well as treatments for the disease. But so far, theres no evidence that they have any effect. The results of studies on omega-3 fatty acids have been mixed, and scientists are doing more research to look into their effects on Alzheimers. Scientists continue to look for ways to diagnose Alzheimers earlier, before symptoms appear, which could help people start treatment sooner.",
-        "Treatment_6": null,
-        "Treatment_7": null,
-        "Treatment_8": null,
-        "Treatment_9": null,
-        "Treatment_10": null,
-        "Treatment_11": null,
-        "Treatment_12": null,
-        "Treatment_13": null,
-        "Treatment_14": null,
-        "Treatment_15": null,
-        "Treatment_16": null,
-        "Treatment_17": null,
-        "Treatment_18": null
+        "Treatment": "Right now, there is no cure for Alzheimer's disease. Once a person starts showing signs  memory loss and problems with learning, judgment, communication, and daily life -- there arent any treatments that can stop or reverse them. But there are medicines that can ease some of the symptoms in some people. They can slow down how quickly the disease gets worse, and help the brain work better for longer. Its important to talk to your doctor about which option may work best for you. How to Choose a Treatment? Your doctor will help you choose the best treatment based on a few things about you, including: Your age, overall health, and medical history, How severe your disease is, How well a medicine or therapy will work for you and your lifestyle, Your preferences or those of your family or caregivers"
+        },
+        {
+          "Treatment": "The FDA has approved the drug aducanumab-avwa (aduhelm) as the first therapy that targets the fundamental pathophysiology of the disease by reducing amyloid beta plaques in the brain. It is not without controversy because of concerns it may cause swelling of bleeding in the brain. Some drugs curb the breakdown of a chemical in the brain, called acetylcholine, thats important for memory and learning. They may slow down how fast symptoms get worse for about half of people who take them. The effect lasts for a limited time, on average 6 to 12 months. Common side effects are usually mild for these medications and include diarrhea, vomiting, nausea, fatigue, insomnia, loss of appetite, and weight loss. There are three drugs of this type: donepezil (Aricept), galantamine (Razadyne), and rivastigmine (Exelon)."
+        },
+        {
+          "Treatment": "Aricept is the only treatment approved by the FDA for all stages of Alzheimers disease: mild, moderate, and severe. You can take it as a tablet that you swallow or that dissolves in your mouth. Razadyne (formerly called Reminyl) is also for mild to moderate Alzheimers. You can get it as a tablet that works right away, a capsule that gives off the medicine slowly, and in liquid forms. Exelon is for people who have mild to moderate Alzheimers. You can wear a skin patch that has the drug, or take it in capsules and in liquid form."
+        },
+        {
+          "Treatment": "Memantine (Namenda)treats moderate-to-severe Alzheimer's disease. It works by changing the amount of a brain chemical called glutamate, which plays a role in learning and memory. Brain cells in people with Alzheimers disease give off too much glutamate. Namenda keeps the levels of that chemical in check by blocking the receptors. It may improve how well the brain works and how well some people can do everyday tasks. The drug may work even better when you take it with Aricept, Exelon, or Razadyne. Namendas side effects include tiredness, dizziness, confusion, constipation, and headache. Namzaric. This drug is a mix of Namenda and Aricept. It's best for people with moderate to severe Alzheimer's who already take the two drugs separately. Doctors can also prescribe medicines for other health problems that happen along with the disease, including depression, sleeplessness, and behavior problems like agitation and aggression."
+        },
+        {
+          "Treatment": "Scientists are looking for new treatments for Alzheimers in clinical trials. These studies test new drugs to see if they can slow the progress of the disease or improve memory problems or other symptoms. Theyre also looking for other ways beyond drugs to treat the disease, such as an Alzheimers vaccine. Many people hoped that supplements such as vitamin E, coenzyme Q10, coral calcium, ginkgo biloba, and huperzine A might work well as treatments for the disease. But so far, theres no evidence that they have any effect. The results of studies on omega-3 fatty acids have been mixed, and scientists are doing more research to look into their effects on Alzheimers. Scientists continue to look for ways to diagnose Alzheimers earlier, before symptoms appear, which could help people start treatment sooner."
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": ""
@@ -84,35 +128,70 @@
     "Symptoms": ["Not everyone develops all of the following symptoms of ankylosing spondylitis, arthritis of the spine. What you experience depends on the severity of the condition: Stiffness and pain in the lower back, buttocks, and hips upon waking in the morning or after a period of inactivity, Back pain relieved by movement and exercise, Difficulty bending the spine, Pain in the hips and difficulty walking, Pain in the heels and soles of the feet, Pain in the jaw, the temporomandibular joint (TMJ), Bent-over posture, Straightening of the normal curvature of the spine, Loss of appetite, weight loss, Fatigue, decreased energy, Eye swelling, redness, and pain, Sensitivity to light, Difficulty taking a deep breath (because expanding the chest is difficult and painful), Heart failure, Heart block (problems with the flow of the electrical impulses that control your heart muscle), Bowel inflammation like Crohn's disease or ulcerative colitis. Additionally having redness or swelling in the eye, that is abnormally sensitive to light; you could have iritis, a condition commonly associated with ankylosing spondylitis."],
     "Treatment": [
         {
-        "Treatment_1": "Ankylosing spondylitis (AS) is a lifelong condition that has no cure. But several types of medications may stop or delay more spinal problems and ease your pain and swelling. That -- along with exercise and a healthy diet -- would help you to move better and to keep or slow your condition from worsening. AS is not the same as non-radiographic axial spondyloarthritis (nrAxSpA). But experts think the conditions sometimes can be two stages of the same disease. So you'''ll probably get the same treatment for both.",
-        "Treatment_2": "NSAIDs. The first thing your doctor will have you try is nonsteroidal anti-inflammatory drugs (NSAIDs). Some are sold over the counter and others are prescription only. They calm AS-related pain by stopping your body from making inflammation-causing chemicals called prostaglandins. If you take NSAIDs at night, they may help you sleep so you feel better in the morning. NSAIDs that may help with AS include: Celecoxib (Celebrex), Diclofenac/Misoprostol (Arthrotec), Ibuprofen (Advil, Motrin, Nuprin), Indomethacin (Tivorbex), Meloxicam (Mobic), Naproxen (Aleve, Anaprox, Naprosyn), It may take several weeks for you to feel better. If you use NSAIDs for a long time, they may hurt your stomach. You may also get: Heartburn, Stomach inflammation, Ulcers or bleeding. Your doctor may want you to take an antacid and other drugs to protect your stomach lining. Tell your doctor if you have a history of heart disease. NSAIDs can make you more likely to get a heart attack or stroke.",
-        "Treatment_3": "DMARDs. NSAIDs may not control all of your symptoms. Your doctor may also want you to take disease-modifying antirheumatic drugs (DMARDs). This group of different medications works to limit the tissue damage from inflammation. Your doctor may prescribe: Methotrexate (Otrexup, Rasuvo, Rheumatrex, Trexall), Sulfasalazine (Azulfidine). You can take sulfasalazine as a pill. You may notice side effects, including headaches, stomach bloating, nausea, and mouth ulcers. It'''s rare, but you could have problems with your bone marrow. That'''s why your doctor may test your blood when you'''re on sulfasalazine. Methotrexate comes as a pill or as a shot you give yourself. You'''ll need to take it together with folic acid to help prevent mouth sores, nausea, and other side effects. Methotrexate is a powerful drug. Your doctor will test your blood and keep an eye on your liver. You shouldn'''t take methotrexate if you'''re pregnant. ",
-        "Treatment_4": "Corticosteroids. These drugs are a type of steroid hormone that your body makes naturally. You may get a shot of a man-made version called prednisone. This can help ease pain and swelling in specific spots. But your doctor won'''t use it for your whole body. And you may be able to get shots for your inflamed joints only a few times a year, a few months apart.",
-        "Treatment_5": "Biologics. If other treatments dont work, your doctor may try a drug made from living organisms. These biologics help your immune system block proteins called cytokines responsible for inflammation. You can give yourself a shot of a biologic medication at home. Types include: TNF inhibitors. TNF stands for tumor necrosis factor. These drugs can treat inflammation in your joints, gut, eyes, and spine. They may slow the growth of your disease. Each medicine works in a different way. If one doesn'''t help, your doctor may switch you to a different one. These five TNF inhibitors are approved by the FDA to treat AS: Adalimumab (Humira), Certolizumab pegol (Cimzia), Etanercept (Enbrel), Golimumab (Simponi), Infliximab (Remicade), Interleukin inhibitors. These are also called IL-17 inhibitors. Your doctor may want you to try them if you don'''t respond to TNF inhibitors. You may get fewer side effects. The FDA has approved two IL-17 inhibitors for AS. They are: Ixekizumab (Taltz), Secukinumab (Cosentyx), Biologics raise your chances for infections like tuberculous (TB). You will need a TB test before you start treatment. Other side effects include: Slightly higher risk of skin cancer, Higher risk of lymphoma in children, Higher risk of inflammatory bowel disease (IBD) or worse symptoms if you already have it.If you don'''t feel better within 3 months, your doctor may stop or switch your biologic treatment.",
-        "Treatment_6": "Pain Medications. You should feel better when you treat your inflammation. But it may take some time for you to find the right medicine. If you still hurt, ask your doctors if you should take something just for pain. They can tell you if any over-the-counter or prescription painkillers may help.",
-        "Treatment_7": "Future Treatments. Experts are still trying to find new drugs to reverse AS. Theyre also studying how your genes play a role in getting AS. This could lead to new medications. Someday, doctors may be able to give you a treatment tailored just for you.",
-        "Treatment_8": null,
-        "Treatment_9": null,
-        "Treatment_10": null
+        "Treatment": "Ankylosing spondylitis (AS) is a lifelong condition that has no cure. But several types of medications may stop or delay more spinal problems and ease your pain and swelling. That -- along with exercise and a healthy diet -- would help you to move better and to keep or slow your condition from worsening. AS is not the same as non-radiographic axial spondyloarthritis (nrAxSpA). But experts think the conditions sometimes can be two stages of the same disease. So you'll probably get the same treatment for both."
+        },
+        {
+          "Treatment": "NSAIDs. The first thing your doctor will have you try is nonsteroidal anti-inflammatory drugs (NSAIDs). Some are sold over the counter and others are prescription only. They calm AS-related pain by stopping your body from making inflammation-causing chemicals called prostaglandins. If you take NSAIDs at night, they may help you sleep so you feel better in the morning. NSAIDs that may help with AS include: Celecoxib (Celebrex), Diclofenac/Misoprostol (Arthrotec), Ibuprofen (Advil, Motrin, Nuprin), Indomethacin (Tivorbex), Meloxicam (Mobic), Naproxen (Aleve, Anaprox, Naprosyn), It may take several weeks for you to feel better. If you use NSAIDs for a long time, they may hurt your stomach. You may also get: Heartburn, Stomach inflammation, Ulcers or bleeding. Your doctor may want you to take an antacid and other drugs to protect your stomach lining. Tell your doctor if you have a history of heart disease. NSAIDs can make you more likely to get a heart attack or stroke."
+        },
+        {
+          "Treatment": "DMARDs. NSAIDs may not control all of your symptoms. Your doctor may also want you to take disease-modifying antirheumatic drugs (DMARDs). This group of different medications works to limit the tissue damage from inflammation. Your doctor may prescribe: Methotrexate (Otrexup, Rasuvo, Rheumatrex, Trexall), Sulfasalazine (Azulfidine). You can take sulfasalazine as a pill. You may notice side effects, including headaches, stomach bloating, nausea, and mouth ulcers. It's rare, but you could have problems with your bone marrow. That's why your doctor may test your blood when you're on sulfasalazine. Methotrexate comes as a pill or as a shot you give yourself. You'll need to take it together with folic acid to help prevent mouth sores, nausea, and other side effects. Methotrexate is a powerful drug. Your doctor will test your blood and keep an eye on your liver. You shouldn't take methotrexate if you're pregnant. "
+        },
+        {
+          "Treatment": "Corticosteroids. These drugs are a type of steroid hormone that your body makes naturally. You may get a shot of a man-made version called prednisone. This can help ease pain and swelling in specific spots. But your doctor won't use it for your whole body. And you may be able to get shots for your inflamed joints only a few times a year, a few months apart."
+        },
+        {
+          "Treatment": "Biologics. If other treatments dont work, your doctor may try a drug made from living organisms. These biologics help your immune system block proteins called cytokines responsible for inflammation. You can give yourself a shot of a biologic medication at home. Types include: TNF inhibitors. TNF stands for tumor necrosis factor. These drugs can treat inflammation in your joints, gut, eyes, and spine. They may slow the growth of your disease. Each medicine works in a different way. If one doesn't help, your doctor may switch you to a different one. These five TNF inhibitors are approved by the FDA to treat AS: Adalimumab (Humira), Certolizumab pegol (Cimzia), Etanercept (Enbrel), Golimumab (Simponi), Infliximab (Remicade), Interleukin inhibitors. These are also called IL-17 inhibitors. Your doctor may want you to try them if you don't respond to TNF inhibitors. You may get fewer side effects. The FDA has approved two IL-17 inhibitors for AS. They are: Ixekizumab (Taltz), Secukinumab (Cosentyx), Biologics raise your chances for infections like tuberculous (TB). You will need a TB test before you start treatment. Other side effects include: Slightly higher risk of skin cancer, Higher risk of lymphoma in children, Higher risk of inflammatory bowel disease (IBD) or worse symptoms if you already have it.If you don't feel better within 3 months, your doctor may stop or switch your biologic treatment."
+        },
+        {
+          "Treatment": "Pain Medications. You should feel better when you treat your inflammation. But it may take some time for you to find the right medicine. If you still hurt, ask your doctors if you should take something just for pain. They can tell you if any over-the-counter or prescription painkillers may help."
+        },
+        {
+          "Treatment": "Future Treatments. Experts are still trying to find new drugs to reverse AS. Theyre also studying how your genes play a role in getting AS. This could lead to new medications. Someday, doctors may be able to give you a treatment tailored just for you."
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {"Treatment": ""
         }
       ],
     "Prevention": ""
     },
     {
     "Disease/Illness": "Anorexia",
-    "Symptoms": ["If you think you may have anorexia, its a good idea to reach out for help. Anorexia is an eating disorder that affects many people. One of the main signs of anorexia is not eating enough food. You might not eat because you think you'''ll look perfect if you lose a lot of weight. But starving yourself can make you very sick, or even lead to death, so you need to get help. Starvation isn'''t the only sign of anorexia. Call a doctor right away if you have some of the symptoms listed below. They can help you get back on track with a plan to live a better life. You don'''t eat enough, so you'''re underweight, Your self-esteem is based on the way your body looks, You are obsessed with and terrified of gaining weight, It'''s hard for you to sleep through the night, Dizziness or fainting, Your hair is falling out, You no longer get your period, Constipation, You feel like your heart is beating in a strange way, Dehydration, Swollen arms or legs, Warning Signs of Anorexia. Even before you develop symptoms of anorexia, you may start to notice certain warning signs that you'''re headed that way, including: Constant worry about dieting, food, calories, and weight, You complain a lot about being “fat”, You refuse to eat whole groups of food, like carbohydrates, You pretend you'''re not hungry when really you are, You stick to a difficult exercise schedule, You avoid friends and have no interest in your usual activities, You lie about how much food you'''ve eaten, You check yourself in the mirror a lot, Not wanting to eat in public, You wear layers of clothes so people can'''t see how much you weigh, Why You Should Call a Doctor, You may feel like a failure and think that asking for medical help will create a burden for the doctor. This isn'''t true. Your doctor wants to help you. When you don'''t eat enough, you starve your body of the nutrients it needs. This can lead to problems like fainting, tiredness, weak muscles, slow heart rate, low blood pressure, and more. It can even put your life at risk. You need to get medical help before it gets to that point. When You Need to Call for Emergency Help, If you'''re having any thoughts about ending your life, call your doctor or 911 immediately. People care about you and they want to help. You can also call one of the free suicide prevention helplines, including the National Suicide Prevention Lifeline at 800-273-8255. And you don'''t need to give your name. Facing anorexia can make you feel angry or sad. Don'''t forget that doctors treat lots of people for anorexia and they'''ve gotten better. When you spot symptoms and ask for help, you put yourself on the road to recovery."],
+    "Symptoms": ["If you think you may have anorexia, its a good idea to reach out for help. Anorexia is an eating disorder that affects many people. One of the main signs of anorexia is not eating enough food. You might not eat because you think you'll look perfect if you lose a lot of weight. But starving yourself can make you very sick, or even lead to death, so you need to get help. Starvation isn't the only sign of anorexia. Call a doctor right away if you have some of the symptoms listed below. They can help you get back on track with a plan to live a better life. You don't eat enough, so you're underweight, Your self-esteem is based on the way your body looks, You are obsessed with and terrified of gaining weight, It's hard for you to sleep through the night, Dizziness or fainting, Your hair is falling out, You no longer get your period, Constipation, You feel like your heart is beating in a strange way, Dehydration, Swollen arms or legs, Warning Signs of Anorexia. Even before you develop symptoms of anorexia, you may start to notice certain warning signs that you're headed that way, including: Constant worry about dieting, food, calories, and weight, You complain a lot about being “fat”, You refuse to eat whole groups of food, like carbohydrates, You pretend you're not hungry when really you are, You stick to a difficult exercise schedule, You avoid friends and have no interest in your usual activities, You lie about how much food you've eaten, You check yourself in the mirror a lot, Not wanting to eat in public, You wear layers of clothes so people can't see how much you weigh, Why You Should Call a Doctor, You may feel like a failure and think that asking for medical help will create a burden for the doctor. This isn't true. Your doctor wants to help you. When you don't eat enough, you starve your body of the nutrients it needs. This can lead to problems like fainting, tiredness, weak muscles, slow heart rate, low blood pressure, and more. It can even put your life at risk. You need to get medical help before it gets to that point. When You Need to Call for Emergency Help, If you're having any thoughts about ending your life, call your doctor or 911 immediately. People care about you and they want to help. You can also call one of the free suicide prevention helplines, including the National Suicide Prevention Lifeline at 800-273-8255. And you don't need to give your name. Facing anorexia can make you feel angry or sad. Don't forget that doctors treat lots of people for anorexia and they've gotten better. When you spot symptoms and ask for help, you put yourself on the road to recovery."],
     "Treatment": [
         {
-        "Treatment_1": "Treatment for anorexia must address both psychological and physical problems. The treatment team should include a mental health professional and a primary care doctor. Successful treatment usually includes continuous medical care, regular therapy, nutritional counseling, and sometimes medication. Although certain antidepressants are sometimes used to treat anorexia, they are not always effective, and no medication is FDA approved to treat it. Doctors should pay attention to bone loss, electrolyte levels in the blood, and heart function. Psychologists and other types of mental health professionals can help a person let go of self-destructive thoughts and behaviors and adopt a more positive outlook. Support groups of other recovering anorexics -- when properly moderated by a mental-health professional -- can also be very helpful. Treatment usually is successful, but it doesn't work overnight. Long-term psychological and medical attention usually is needed.",
-        "Treatment_2": null,
-        "Treatment_3": null,
-        "Treatment_4": null,
-        "Treatment_5": null,
-        "Treatment_6": null,
-        "Treatment_7": null,
-        "Treatment_8": null,
-        "Treatment_9": null,
-        "Treatment_10": null
+        "Treatment": "Treatment for anorexia must address both psychological and physical problems. The treatment team should include a mental health professional and a primary care doctor. Successful treatment usually includes continuous medical care, regular therapy, nutritional counseling, and sometimes medication. Although certain antidepressants are sometimes used to treat anorexia, they are not always effective, and no medication is FDA approved to treat it. Doctors should pay attention to bone loss, electrolyte levels in the blood, and heart function. Psychologists and other types of mental health professionals can help a person let go of self-destructive thoughts and behaviors and adopt a more positive outlook. Support groups of other recovering anorexics -- when properly moderated by a mental-health professional -- can also be very helpful. Treatment usually is successful, but it doesn't work overnight. Long-term psychological and medical attention usually is needed."
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": ""
@@ -122,16 +201,34 @@
     "Symptoms": ["Panic attacks are intense periods of fear or feelings of doom developing over a very short time frame -- up to 10 minutes -- and associated with at least four of the following: Overwhelming fear (of losing control or going crazy), Palpitations, Sweating, Trembling, Shortness of breath, Sense of choking, Chest pain, Nausea, Dizziness, A feeling of being detached from the world (de-realization), Fear of dying, Numbness or tingling in the limbs or entire body, Chills or hot flushes, Panic attacks and panic disorder are not the same thing. Panic disorder involves recurrent panic attacks along with constant fears about having future attacks and, often, avoiding situations that may trigger or remind someone of previous or unexpected attacks. Not all panic attacks are caused by panic disorder. Sometimes, theyre related to conditions like: Social phobia, Agoraphobia (fear of not being able to escape, such as flying in an airplane or being in crowds), Other anxiety disorders, Post-traumatic stress disorder (PTSD), Doctors will often look for other medical conditions that might trigger or be related to panic attacks or similar episodes. They might include: Thyroid problems, Asthma or other breathing problems, Heart problems such as abnormal rhythms or mitral valve prolapse, Neurologic problems such as seizures, Stimulant or other substance use, Generalized anxiety disorder is excessive and unrealistic worry over a period of at least 6 months. It is associated with at least three of the following symptoms: Restlessness, Fatigue, Difficulty concentrating, Irritability or anger, Muscle tension, aches, or soreness, Sleep disturbances, Phobic disorders are intense, persistent, and recurrent fear of certain objects (such as snakes, spiders, blood) or situations (such as heights, speaking in front of a group, public places). These exposures may trigger a panic attack. Social phobia and agoraphobia are examples of phobic disorders. Posttraumatic stress disorder -- or PTSD -- was considered to be a type of anxiety disorder in earlier versions of the American Psychiatric Association's Diagnostic and Statistical Manual of Mental Disorders. But in 2013, PTSD was reclassified as its own condition. It describes a range of emotional reactions caused by exposure to either death or near-death circumstances (such as fires, floods, earthquakes, shootings, assault, automobile accidents, or wars) or to events that threaten one's own or another person's physical well-being. The traumatic event is re-experienced with fear of feelings of helplessness or horror and may appear in thoughts and dreams. Common behaviors include the following: Avoiding activities, places, or people associated with the event, Persistently re-experiencing the traumatic event, such as:, Unwanted memories, Nightmares or flashbacks, Emotional or physical distress when experiencing reminders of the trauma, Changes in arousal or reactivity, including:, Trouble concentrating, Trouble sleeping, Being hypervigilant (you closely watch your surroundings) or being easily startled, Irritability or aggression, Risky behavior, Negative changes in feelings and thoughts, such as:, Feeling a general sense of doom and gloom with diminished emotions (such as loving feelings or aspirations for the future), Feeling isolated or negative about the world, Less interest in activities, Exaggerated feelings of blame for self or others about the trauma, Negative thoughts and feelings about the world. Symptoms such as chest pain, shortness of breath, palpitations, dizziness, fainting, and weakness should not be automatically attributed to anxiety and require evaluation by a doctor. What Should I Ask My Doctor? If you have anxiety or were recently diagnosed with an anxiety disorder, consider asking your doctor these questions at your next visit. "],
     "Treatment": [
         {
-        "Treatment_1": "The first step is to rule out the possibility that your symptoms are being caused by a medical condition that is not psychiatric. Among the conditions that produce symptoms similar to those of anxiety are hyperthyroidism or other endocrine problems, too much or too little calcium, low blood sugar, and certain heart problems. Certain medicines also can sometimes cause anxiety. A thorough evaluation by your health care provider will determine if any of these conditions are the cause of your symptoms. If no other medical culprit can be found and the symptoms seem out of proportion to any situation you are facing, you may be diagnosed with an anxiety disorder.",
-        "Treatment_2": "edication is useful for alleviating the symptoms of generalized anxiety disorder and is often prescribed in conjunction with other therapies. Some types of anxiety drugs can be habit-forming and are usually prescribed on a short-term or as-needed basis. Different anxiety disorders have different medication regimens. Some are preventive and some are designed to cure the problem.",
-        "Treatment_3": "Antidepressants, particularly the selective serotonin reuptake inhibitors (SSRIs), are widely used to treat and prevent a variety of anxiety disorders. Examples of SSRIs that are commonly used to treat chronic anxiety include citalopram (Celexa), escitalopram (Lexapro), fluoxetine (Prozac), paroxetine (Paxil), and sertraline (Zoloft). The antidepressants duloxetine (Cymbalta) and venlafaxine (Effexor), SNRIs (serotonin and norepinephrine reuptake inhibitors) which act on the brain chemicals serotonin and norephinephrine, and some of the tricyclic antidepressants like imipramine (Tofranil), may also help. Novel antidepressants such as mirtazepine (Remeron) are also prescribed at times. ",
-        "Treatment_4": "Antihistamines (such as hydroxyzine) and beta-blockers (such as propranolol) can help mild cases of anxiety as well as performance anxiety, a type of social anxiety disorder. Antidepressants such as SSRIs or SNRIs or tricyclics need to be taken daily whether or not you have anxiety on that particular day, as prescribed by your health care provider. Antihistamines or beta-blockers are usually taken only when needed for anxiety, or immediately before an anxiety-provoking event (for example, taking propranolol shortly before giving a speech). Finally, certain anticonvulsant medicines, such as gabapentin (Neurontin) and pregabalin (Lyrica), are also beginning to show value in treating some forms of anxiety in initial research studies",
-        "Treatment_5": "If you have acute anxiety (panic attack), you will likely need to take an anti-anxiety medicine as well. The most prominent of anti-anxiety drugs for the purpose of immediate relief are those known as benzodiazepines; among them are alprazolam (Xanax), clonazepam (Klonopin), chlordiazepoxide (Librium), diazepam (Valium), and lorazepam (Ativan). They have drawbacks: Benzodiazepines sometimes cause drowsiness, irritability, dizziness, memory and attention problems, and physical dependence. Nonetheless, in recent decades they have largely replaced barbiturates because they tend to be safer if taken in large doses. Another anti-anxiety drug is busprirone (Buspar). It has fewer side effects than the benzodiazepines and is not associated with dependence. Buspar, however, can have its own side effects and may not always be as effective when a person has taken benzodiazepines in the past.",
-        "Treatment_6": "Psychotherapy, with or without medication, is often considered a fundamental aspect of treatment for generalized anxiety disorder. Several specific forms of psychotherapy have been described in research studies as helpful for alleviating the symptoms of GAD. Two -- psychodynamic psychotherapy and supportive-expressive therapy -- focus on anxiety as an outgrowth of feelings about important relationships. Another form of psychotherapy, called cognitive-behavioral therapy, involves learning behavioral relaxation techniques as well as restructuring patterns of thinking that foster anxiety. Biofeedback is another helpful tool. In a series of sessions with a therapist, you watch your own brain-wave patterns on an electroencephalograph and gradually learns to control the waves. This teaches you to achieve a more relaxed state at will. Practitioners estimate that after about a dozen sessions, you will be able to exert control over mental activity without the help of the therapist or monitoring instrument.",
-        "Treatment_7": "Daily exercise can be another helpful treatment for anxiety symptoms. If you find that exercise works for you, push yourself to go for brisk walks or undertake an active sport that you enjoy. Get your heart rate into the target range for your age for at least 30 minutes each time you exercise.",
-        "Treatment_8": "Since anxiety is often accompanied by shallow breathing, deep breathing exercises can also be helpful. Try the following form of yoga breathing: Lie on your back in a comfortable place. Breathe in slowly through your nose, using your diaphragm to suck air into your lungs while allowing your abdomen to expand. (Put your hand on your abdomen just below the navel to make sure the abdomen is being pushed up and out by the diaphragm.) After the abdomen is expanded, continue to inhale as deeply as possible. When you breathe out, reverse the process: Contract the abdomen while exhaling slowly and completely. Repeat several times.",
-        "Treatment_9": "Progressive relaxation is another helpful technique. It begins by tensing and then relaxing one part of the body, usually beginning with the toes. When this part of the body is relaxed, another part of the body is tensed and relaxed until the entire body is free of tension. Relaxing visualization can also help. A therapist or meditation trainer suggests relaxing images for a person to hold in mind. Once the image is in place, the person imagines soothing sensations such as pleasant scents and sounds. Eventually people can learn to do this themselves when they anticipate -- or find themselves in -- stressful situations.",
-        "Treatment_10": null
+        "Treatment": "The first step is to rule out the possibility that your symptoms are being caused by a medical condition that is not psychiatric. Among the conditions that produce symptoms similar to those of anxiety are hyperthyroidism or other endocrine problems, too much or too little calcium, low blood sugar, and certain heart problems. Certain medicines also can sometimes cause anxiety. A thorough evaluation by your health care provider will determine if any of these conditions are the cause of your symptoms. If no other medical culprit can be found and the symptoms seem out of proportion to any situation you are facing, you may be diagnosed with an anxiety disorder."
+        },
+        {
+          "Treatment": "edication is useful for alleviating the symptoms of generalized anxiety disorder and is often prescribed in conjunction with other therapies. Some types of anxiety drugs can be habit-forming and are usually prescribed on a short-term or as-needed basis. Different anxiety disorders have different medication regimens. Some are preventive and some are designed to cure the problem."
+        },
+        {
+          "Treatment": "Antidepressants, particularly the selective serotonin reuptake inhibitors (SSRIs), are widely used to treat and prevent a variety of anxiety disorders. Examples of SSRIs that are commonly used to treat chronic anxiety include citalopram (Celexa), escitalopram (Lexapro), fluoxetine (Prozac), paroxetine (Paxil), and sertraline (Zoloft). The antidepressants duloxetine (Cymbalta) and venlafaxine (Effexor), SNRIs (serotonin and norepinephrine reuptake inhibitors) which act on the brain chemicals serotonin and norephinephrine, and some of the tricyclic antidepressants like imipramine (Tofranil), may also help. Novel antidepressants such as mirtazepine (Remeron) are also prescribed at times. "
+        },
+        {
+          "Treatment": "Antihistamines (such as hydroxyzine) and beta-blockers (such as propranolol) can help mild cases of anxiety as well as performance anxiety, a type of social anxiety disorder. Antidepressants such as SSRIs or SNRIs or tricyclics need to be taken daily whether or not you have anxiety on that particular day, as prescribed by your health care provider. Antihistamines or beta-blockers are usually taken only when needed for anxiety, or immediately before an anxiety-provoking event (for example, taking propranolol shortly before giving a speech). Finally, certain anticonvulsant medicines, such as gabapentin (Neurontin) and pregabalin (Lyrica), are also beginning to show value in treating some forms of anxiety in initial research studies"
+        },
+        {
+          "Treatment": "If you have acute anxiety (panic attack), you will likely need to take an anti-anxiety medicine as well. The most prominent of anti-anxiety drugs for the purpose of immediate relief are those known as benzodiazepines; among them are alprazolam (Xanax), clonazepam (Klonopin), chlordiazepoxide (Librium), diazepam (Valium), and lorazepam (Ativan). They have drawbacks: Benzodiazepines sometimes cause drowsiness, irritability, dizziness, memory and attention problems, and physical dependence. Nonetheless, in recent decades they have largely replaced barbiturates because they tend to be safer if taken in large doses. Another anti-anxiety drug is busprirone (Buspar). It has fewer side effects than the benzodiazepines and is not associated with dependence. Buspar, however, can have its own side effects and may not always be as effective when a person has taken benzodiazepines in the past."
+        },
+        {
+          "Treatment": "Psychotherapy, with or without medication, is often considered a fundamental aspect of treatment for generalized anxiety disorder. Several specific forms of psychotherapy have been described in research studies as helpful for alleviating the symptoms of GAD. Two -- psychodynamic psychotherapy and supportive-expressive therapy -- focus on anxiety as an outgrowth of feelings about important relationships. Another form of psychotherapy, called cognitive-behavioral therapy, involves learning behavioral relaxation techniques as well as restructuring patterns of thinking that foster anxiety. Biofeedback is another helpful tool. In a series of sessions with a therapist, you watch your own brain-wave patterns on an electroencephalograph and gradually learns to control the waves. This teaches you to achieve a more relaxed state at will. Practitioners estimate that after about a dozen sessions, you will be able to exert control over mental activity without the help of the therapist or monitoring instrument."
+        },
+        {
+          "Treatment": "Daily exercise can be another helpful treatment for anxiety symptoms. If you find that exercise works for you, push yourself to go for brisk walks or undertake an active sport that you enjoy. Get your heart rate into the target range for your age for at least 30 minutes each time you exercise."
+        },
+        {
+          "Treatment": "Since anxiety is often accompanied by shallow breathing, deep breathing exercises can also be helpful. Try the following form of yoga breathing: Lie on your back in a comfortable place. Breathe in slowly through your nose, using your diaphragm to suck air into your lungs while allowing your abdomen to expand. (Put your hand on your abdomen just below the navel to make sure the abdomen is being pushed up and out by the diaphragm.) After the abdomen is expanded, continue to inhale as deeply as possible. When you breathe out, reverse the process: Contract the abdomen while exhaling slowly and completely. Repeat several times."
+        },
+        {
+          "Treatment": "Progressive relaxation is another helpful technique. It begins by tensing and then relaxing one part of the body, usually beginning with the toes. When this part of the body is relaxed, another part of the body is tensed and relaxed until the entire body is free of tension. Relaxing visualization can also help. A therapist or meditation trainer suggests relaxing images for a person to hold in mind. Once the image is in place, the person imagines soothing sensations such as pleasant scents and sounds. Eventually people can learn to do this themselves when they anticipate -- or find themselves in -- stressful situations."
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": ""
@@ -141,24 +238,34 @@
     "Symptoms": ["What Does Asthma Feel Like? People with asthma experience symptoms when the airways tighten, inflame, or fill with mucus. Common asthma symptoms include: Coughing, especially at night, Wheezing, Shortness of breath, Chest tightness, pain, or pressure, Still, not every person with asthma has the same symptoms in the same way. You may not have all of these symptoms, or you may have different symptoms at different times. Your asthma symptoms may also vary from one asthma attack to the next, being mild during one and severe during another. Some people with asthma may go for extended periods without having any symptoms, interrupted by periodic worsening of their symptoms called asthma attacks. Others might have asthma symptoms every day. In addition, some people may only have asthma during exercise, or asthma with viral infections like colds. Mild asthma attacks are generally more common. Usually, the airways open up within a few minutes to a few hours. Severe attacks are less common but last longer and require immediate medical help. It is important to recognize and treat even mild asthma symptoms to help you prevent severe episodes and keep asthma under better control. Early warning signs are changes that happen just before or at the very beginning of an asthma attack. These signs may start before the well-known symptoms of asthma and are the earliest signs that your asthma is worsening. In general, these signs are not severe enough to stop you from going about your daily activities. But by recognizing these signs, you can stop an asthma attack or prevent one from getting worse. Early warning signs of an asthma attack include: Frequent cough, especially at night, Losing your breath easily or shortness of breath, Feeling very tired or weak when exercising, Wheezing or coughing after exercise, Feeling tired, easily upset, grouchy, or moody, Decreases or changes in lung function as measured on a peak flow meter. Signs of a cold or allergies (sneezing, runny nose, cough, nasal congestion, sore throat, and headache), Trouble sleeping. If you have these warning signs, adjust your medication, as described in your asthma action plan. Know the Symptoms of an Asthma Attack. An asthma attack is the episode in which bands of muscle surrounding the airways are triggered to tighten. This tightening is called bronchospasm. During the attack, the lining of the airways becomes swollen or inflamed and the cells lining the airways produce more and thicker mucus than normal. All of these factors -- bronchospasm, inflammation, and mucus production -- cause symptoms such as difficulty breathing, wheezing, coughing, shortness of breath, and difficulty performing normal daily activities. Other symptoms of an asthma attack include:Severe wheezing when breathing both in and out, Coughing that won't stop, Very rapid breathing, Chest pain or pressure, Tightened neck and chest muscles, called retractions, Difficulty talking, Feelings of anxiety or panic, Pale, sweaty face, Blue lips or fingernails. The severity of an asthma attack can escalate rapidly, so it's important to treat these asthma symptoms immediately once you recognize them. Without immediate treatment, such as with your asthma inhaler or bronchodilator, your breathing will become more labored. If you use a peak flow meter at this time, the reading will probably be less than 50%. Many asthma action plans suggest interventions starting at 80% of normal. As your lungs continue to tighten, you will be unable to use the peak flow meter at all. Gradually, your lungs will tighten so there is not enough air movement to produce wheezing. You need to be transported to a hospital immediately. Unfortunately, some people interpret the disappearance of wheezing as a sign of improvement and fail to get prompt emergency care. if you do not receive adequate asthma treatment, you may eventually be unable to speak and will develop a bluish coloring around your lips. This color change, known as cyanosis, means you have less and less oxygen in your blood. Without aggressive treatment for this asthma emergency, you may lose consciousness and eventually die. While asthma symptoms can begin at any age, most children have their first asthma symptoms by age 5. Not all children with asthma wheeze. Chronic coughing with asthma may be the only obvious sign, and a childs asthma may go unrecognized if the cough is attributed to recurrent bronchitis.Not everyone with asthma has the usual symptoms of cough, wheezing, and shortness of breath. Sometimes individuals have unusual asthma symptoms that may not appear to be related to asthma. Some unusual asthma symptoms may include the following: rapid breathing, sighing, fatigue, inability to exercise properly (called exercise-induced asthma), difficulty sleeping or nighttime asthma, anxiety, chronic cough without wheezing. Also, asthma symptoms can be mimicked by other conditions such as bronchitis, vocal cord dysfunction, and even heart failure. It's important to understand your body. Talk with your asthma doctor and others with asthma. Be aware that asthma may not always have the same symptoms in every person. Why Infections Trigger Asthma Symptoms. Sometimes a virus or bacterial infection is an asthma trigger. For instance, you might have a cold virus that triggers your asthma symptoms. Or your asthma can be triggered by a bacterial sinus infection. Sinusitis with asthma is common. Its important to know the signs and symptoms of respiratory tract infections and to call your health care provider immediately for diagnosis and treatment. For instance, you might have symptoms of increased shortness of breath, difficulty breathing, or wheezing with a bronchial infection. In people who dont have asthma, the bronchial infection may not trigger the same debilitating symptoms. Know your body and understand warning signs that an infection might be starting. Then take the proper medications as prescribed to eliminate the infection and regain control of your asthma and health."],
     "Treatment": [
         {
-        "Treatment_1": "If you or a loved one has asthma, you should know about the best treatments for short-term relief and long-term control. This will help you and your doctor manage the symptoms. If you have symptoms or an asthma attack, it's important to know when to call your doctor to prevent an emergency. Asthma Medications. You might need to use fast-acting rescue medicines, long-term treatments, or both. Rescue inhalers (or quick-relief inhalers). You use these medications to ease asthma symptoms. They relax the muscles that tighten around your airways. This helps open them up so you can breathe easier. If youre using this type of medication more than 2 days a week, see your doctor.",
-        "Treatment_2": "Short-acting beta-agonists are the first choice for quick relief of asthma symptoms. They include albuterol (ProAir HFA, Proventil HFA, Ventolin HFA), epinephrine (Asthmanefrin, Primatene Mist), and levalbuterol (Xopenex HFA). Anticholinergics such as ipratropium (Atrovent) lessen mucus in addition to opening your airways. They take longer to work than short-acting beta-agonists. Oral corticosteroids such as methylprednisolone ands prednisone lower swelling in your airways. Combination quick-relief medicines have both an anticholinergic and a short-acting beta-agonist.",
-        "Treatment_3": "Preventive long-term medications. These treat symptoms and prevent asthma attacks. They reduce swelling and mucus in your airways so theyre less sensitive and less likely to react to asthma triggers. Inhaled corticosteroids are the most effective long-term control medicines. These arent the same as anabolic steroids that people use to grow muscle. They include beclomethasone (Qvar RediHaler), budesonide (Pulmicort Flexhaler), ciclesonide (Alvesco), fluticasone (Flovent HFA), and mometasone (Asmanex Twisthaler). Inhaled long-acting beta-agonists open your airways by relaxing the smooth muscles around them. Youll take this medication along with an inhaled corticosteroid. They include formoterol, salmeterol, and vilanterol. Combination inhaled medicines have an inhaled corticosteroid along with a long-acting beta-agonist. This is an easy way to take them together. They include Advair, Breo, Dulera, and Symbicort. Biologics target a cell or protein in your body to prevent airway inflammation. They may be shots or infusions you get every few weeks. They can be expensive, so you usually get them if other medications dont work. Biologics include benralizumab (Fasenra), dupilumab (Dupixent), mepolizumab (Nucala), omalizumab (Xolair), and reslizumab (Cinqair). Leukotriene modifiers relax the smooth muscles around your airways and ease swelling. You can take them as pills or liquids. These include montelukast (Singulair), zafirlukast (Accolate), and zileuton (Zyflo). Cromolyn prevents your airways from swelling when they come into contact with an asthma trigger. Its a non-steroid medicine that comes in an inhaler. Theophylline (Theo-24, Theo-Dur) relaxes the smooth muscles that narrow your airways. It comes as a tablet, capsule, solution, or syrup. Tezepelumab-ekko (Tezspire) injection is a first-in-class medicine indicated for the add-on maintenance treatment of adult and pediatric patients aged 12 years and older. Long-acting bronchodilators. You might use tiotropium (Spiriva) along with corticosteroids if you have ongoing asthma symptoms even though you take a daily inhaled steroid. Never use long-acting bronchodilators alone as a long-term asthma treatment. Corticosteroids. If no other medicine can get your asthma attacks under control, your doctor might have you take these medications for a couple of weeks. They come in pills or liquids.",
-        "Treatment_4": "Asthma inhalers. Asthma inhalers are the most common and effective way to deliver asthma medicine to your lungs. Theyre available in several types that work in different ways. Some deliver one medication. Others contain two medications. Your doctor might give you: A metered-dose inhaler, which uses a small aerosol canister to push out a short burst of medication through a plastic mouthpiece, A dry powder inhaler, which releases the medicine only when you take a deep breath. Asthma nebulizer, If youre having trouble using small inhalers, your doctor may recommend a nebulizer. This machine changes asthma medications from a liquid to a mist so its easier to get the medicine into your lungs. It also has a mouthpiece or mask that makes it a good option for infants, small children, older adults, or anyone who has trouble using inhalers with spacers. It takes a few more minutes to use than an inhaler",
-        "Treatment_5": "Many medications have side effects. For example, inhaled steroids can cause mild problems, such as thrush infections and a sore throat, or more serious ones including eye disorders and bone loss. Keep your doctor up to date with how well your treatment is working and whether you have side effects. Theyll work with you to keep your asthma under control with as little medicine as possible.",
-        "Treatment_6": "Other Asthma Treatments. Medications arent the only way to control asthma. Your doctor might also try a condition called bronchial thermoplasty. People with asthma often have extra smooth muscle in their airway walls. In this procedure, your doctor uses a small tube called a bronchoscope to send heat to the walls and reduce the smooth muscle. Youll get the treatment over three visits about 2 or 3 weeks apart.",
-        "Treatment_7": "Breathing exercises. These can lower the amount of medication you need to control your symptoms. Herbal and natural remedies. Things that may help improve asthma symptoms include: Black seed oil (Nigella sativa). Some studies have shown that it can help open airways. Caffeine. Its a mild bronchodilator, meaning it can open your airways, but it doesnt work as fast as medications. Avoid caffeine for several hours before any medical appointment that might include a lung function test. Choline. This helps your body work the way it should. You can get it in meat, liver, eggs, poultry, fish, shellfish, peanuts, and cauliflower, or from a supplement.",
-        "Treatment_8": "Treatment for Allergy-Induced Asthma. If allergies trigger your asthma, your doctor might give you medications such as: Omalizumab (Xolair). It targets proteins in your body that increase when you come into contact with something youre allergic to. You get it as a shot every 2 to 4 weeks. Immunotherapy. These allergy shots or drops that you hold under your tongue build up your tolerance to allergy triggers over time. They might even get rid of the allergy. Talk to Your Asthma Specialist If youve been diagnosed with asthma but your treatment doesnt seem to work anymore, its time to see your doctor again. Likewise, if youre having to use your rescue inhaler too often, see your doctor. You may need to change your asthma treatment for better control. Though asthma is common, its a serious condition that needs a diagnosis and treatment. Talk to your doctor for asthma support, and find the medications that work best for you.",
-        "Treatment_9": null,
-        "Treatment_10": null,
-        "Treatment_11": null,
-        "Treatment_12": null,
-        "Treatment_13": null,
-        "Treatment_14": null,
-        "Treatment_15": null,
-        "Treatment_16": null,
-        "Treatment_17": null,
-        "Treatment_18": null
+        "Treatment": "If you or a loved one has asthma, you should know about the best treatments for short-term relief and long-term control. This will help you and your doctor manage the symptoms. If you have symptoms or an asthma attack, it's important to know when to call your doctor to prevent an emergency. Asthma Medications. You might need to use fast-acting rescue medicines, long-term treatments, or both. Rescue inhalers (or quick-relief inhalers). You use these medications to ease asthma symptoms. They relax the muscles that tighten around your airways. This helps open them up so you can breathe easier. If youre using this type of medication more than 2 days a week, see your doctor."
+        },
+        {
+          "Treatment": "Short-acting beta-agonists are the first choice for quick relief of asthma symptoms. They include albuterol (ProAir HFA, Proventil HFA, Ventolin HFA), epinephrine (Asthmanefrin, Primatene Mist), and levalbuterol (Xopenex HFA). Anticholinergics such as ipratropium (Atrovent) lessen mucus in addition to opening your airways. They take longer to work than short-acting beta-agonists. Oral corticosteroids such as methylprednisolone ands prednisone lower swelling in your airways. Combination quick-relief medicines have both an anticholinergic and a short-acting beta-agonist."
+        },
+        {
+          "Treatment": "Preventive long-term medications. These treat symptoms and prevent asthma attacks. They reduce swelling and mucus in your airways so theyre less sensitive and less likely to react to asthma triggers. Inhaled corticosteroids are the most effective long-term control medicines. These arent the same as anabolic steroids that people use to grow muscle. They include beclomethasone (Qvar RediHaler), budesonide (Pulmicort Flexhaler), ciclesonide (Alvesco), fluticasone (Flovent HFA), and mometasone (Asmanex Twisthaler). Inhaled long-acting beta-agonists open your airways by relaxing the smooth muscles around them. Youll take this medication along with an inhaled corticosteroid. They include formoterol, salmeterol, and vilanterol. Combination inhaled medicines have an inhaled corticosteroid along with a long-acting beta-agonist. This is an easy way to take them together. They include Advair, Breo, Dulera, and Symbicort. Biologics target a cell or protein in your body to prevent airway inflammation. They may be shots or infusions you get every few weeks. They can be expensive, so you usually get them if other medications dont work. Biologics include benralizumab (Fasenra), dupilumab (Dupixent), mepolizumab (Nucala), omalizumab (Xolair), and reslizumab (Cinqair). Leukotriene modifiers relax the smooth muscles around your airways and ease swelling. You can take them as pills or liquids. These include montelukast (Singulair), zafirlukast (Accolate), and zileuton (Zyflo). Cromolyn prevents your airways from swelling when they come into contact with an asthma trigger. Its a non-steroid medicine that comes in an inhaler. Theophylline (Theo-24, Theo-Dur) relaxes the smooth muscles that narrow your airways. It comes as a tablet, capsule, solution, or syrup. Tezepelumab-ekko (Tezspire) injection is a first-in-class medicine indicated for the add-on maintenance treatment of adult and pediatric patients aged 12 years and older. Long-acting bronchodilators. You might use tiotropium (Spiriva) along with corticosteroids if you have ongoing asthma symptoms even though you take a daily inhaled steroid. Never use long-acting bronchodilators alone as a long-term asthma treatment. Corticosteroids. If no other medicine can get your asthma attacks under control, your doctor might have you take these medications for a couple of weeks. They come in pills or liquids."
+        },
+        {
+          "Treatment": "Asthma inhalers. Asthma inhalers are the most common and effective way to deliver asthma medicine to your lungs. Theyre available in several types that work in different ways. Some deliver one medication. Others contain two medications. Your doctor might give you: A metered-dose inhaler, which uses a small aerosol canister to push out a short burst of medication through a plastic mouthpiece, A dry powder inhaler, which releases the medicine only when you take a deep breath. Asthma nebulizer, If youre having trouble using small inhalers, your doctor may recommend a nebulizer. This machine changes asthma medications from a liquid to a mist so its easier to get the medicine into your lungs. It also has a mouthpiece or mask that makes it a good option for infants, small children, older adults, or anyone who has trouble using inhalers with spacers. It takes a few more minutes to use than an inhaler"
+        },
+        {
+          "Treatment": "Many medications have side effects. For example, inhaled steroids can cause mild problems, such as thrush infections and a sore throat, or more serious ones including eye disorders and bone loss. Keep your doctor up to date with how well your treatment is working and whether you have side effects. Theyll work with you to keep your asthma under control with as little medicine as possible."
+        },
+        {
+          "Treatment": "Other Asthma Treatments. Medications arent the only way to control asthma. Your doctor might also try a condition called bronchial thermoplasty. People with asthma often have extra smooth muscle in their airway walls. In this procedure, your doctor uses a small tube called a bronchoscope to send heat to the walls and reduce the smooth muscle. Youll get the treatment over three visits about 2 or 3 weeks apart."
+        },
+        {
+          "Treatment": "Breathing exercises. These can lower the amount of medication you need to control your symptoms. Herbal and natural remedies. Things that may help improve asthma symptoms include: Black seed oil (Nigella sativa). Some studies have shown that it can help open airways. Caffeine. Its a mild bronchodilator, meaning it can open your airways, but it doesnt work as fast as medications. Avoid caffeine for several hours before any medical appointment that might include a lung function test. Choline. This helps your body work the way it should. You can get it in meat, liver, eggs, poultry, fish, shellfish, peanuts, and cauliflower, or from a supplement."
+        },
+        {
+          "Treatment": "Treatment for Allergy-Induced Asthma. If allergies trigger your asthma, your doctor might give you medications such as: Omalizumab (Xolair). It targets proteins in your body that increase when you come into contact with something youre allergic to. You get it as a shot every 2 to 4 weeks. Immunotherapy. These allergy shots or drops that you hold under your tongue build up your tolerance to allergy triggers over time. They might even get rid of the allergy. Talk to Your Asthma Specialist If youve been diagnosed with asthma but your treatment doesnt seem to work anymore, its time to see your doctor again. Likewise, if youre having to use your rescue inhaler too often, see your doctor. You may need to change your asthma treatment for better control. Though asthma is common, its a serious condition that needs a diagnosis and treatment. Talk to your doctor for asthma support, and find the medications that work best for you."
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": "Avoid Asthma Triggers. Many things in the world around you can set off an asthma attack. By keeping them under control, you can lower your chances of problems. Common triggers include: Pet dander. If you cant live without a pet, at least keep them out of your bedroom. Dust mites. Wash your bedding in hot water, vacuum your furniture, and get rid of carpets if you can. Get someone else to vacuum if you can. Use a dust mask if you do it. Pollen and outdoor mold. Keep windows closed. Stay inside from late morning to afternoon. Tobacco smoke. If you smoke, get help to quit. Dont let others smoke in your home or car. Cockroaches. Keep food and garbage in closed containers, and treat your house for pests. Stay out of the room until fumes go away. Cold air. Cover your mouth and nose in cold weather. Indoor mold. Fix leaky pipes, and clean moldy surfaces with bleach."
@@ -168,51 +275,98 @@
     "Symptoms": ["What Are the Symptoms of Atrial Fibrillation? When you put your hand on your chest, you might feel your heart's familiar lub-dub beat. If your heart races rather than beats and the feeling lasts for a few minutes, thats a sign you might have a condition called atrial fibrillation. You might hear it called AFib for short. Some of these symptoms, such as shortness of breath or chest pain, can mimic those of a heart attack. If you arent sure whether you have AFib or you're having a heart attack, call your doctor or 911. When you have this condition, faulty electrical signals make your heart flutter or beat too fast. This abnormal rhythm stops your heart from pumping as well as it should. Your blood flow can slow enough to pool and form clots. AFib raises your chances for a stroke and other heart complications. Heart palpitations -- a flutter in your chest, Pain and pressure in your chest, Confused, Dizzy, Faint, Short of breath, Sweaty, Tired, Weak, Not everyone with AFib has a racing or pounding heartbeat. A few things can affect whether you have symptoms and how severe they are, including: Your age -- older people often don't have symptoms, What caused your AFib, How much it affects your heart's ability to pump, What Does AFib Feel Like?, You might feel a flutter or quiver in your chest when your heart beats. Your heart might beat faster than usual, pound, or race. The feeling often lasts for a few minutes. Sometimes your heart will skip a beat. `A regular heartbeat, or what your doctor will call normal sinus rhythm is a “lub-dub, lub-dub” sound. Your heart contracts and relaxes to move blood from the upper chambers (called the atria) to the lower ones (the ventricles) and out to your body. How Long Does It Last? Doctors classify AFib by how long your symptoms last. The fluttering goes on longer with some forms than others: Paroxysmal fibrillation last 7 days or less, Persistent AFib lasts for more than 7 days, Permanent AFib doesn't go away. If your AFib continues for many months or years, you can reach the point where you barely notice the symptoms. Sometimes, they don't go away on their own. Your doctor may have to treat you to bring your heart back into the right rhythm. Call your doctor if your heart doesn't go back into a normal rhythm within a few minutes, or your symptoms get worse. Call 911 right away if you have these symptoms, which could be signs of a heart attack or stroke: Pain or pressure in the middle of your chest that lasts more than a few minutes, Pain that spreads to your jaw, neck, arms, back, or stomach, Nausea, Cold sweat, Drooping face, Arm weakness, Trouble speaking, Your doctor will do tests to check your heartbeat and the electrical impulses in your heart. These and other tests can show whether you have AFib. If you do have an irregular heartbeat, you can get treatments to bring it back into a normal rhythm. You may also need treatments to lower your heart rate, or you may not need anything done at all. Your doctor may also recommend medication to lower your chance of having a stroke."],
     "Treatment": [
         {
-        "Treatment_1": "With AFib, your heart quivers, beats irregularly, or skips beats. It can't pump blood through its chambers and out to your body as well as it should. Sometimes blood can pool in the heart and form clots, which could lead to a stroke. Treatments such as medications, nonsurgical procedures, and surgery can slow your heartbeat and bring it back into a normal rhythm. AFib treatments can also prevent clots and help keep your heart healthy.",
-        "Treatment_2": "What Are Some Medications That Treat AFib? These can prevent clots and strokes, slow your heart rate, and control your heart rhythm.Blood thinners: These medications thin your blood to lower your chance of having those problems. But they can raise your risk of bleeding, so you might have to cut back on some activities that can lead to injuries. The most common are: Apixaban (Eliquis), Aspirin, Dabigatran (Pradaxa), Enoxaparin (Lovenox), Heparin, Rivaroxaban (Xarelto), Warfarin (Coumadin, Jantoven), Blood thinners can make you more likely to bruise or bleed too much. You'll see your doctor for a blood test every month to make sure the medication is working and you're on the right dose.",
-        "Treatment_3": "Heart rate medicines: The most common way to treat atrial fibrillation is with drugs that control your heartbeat. These slow your rapid heart rate so your heart can pump better. You may need other drugs. Some are called beta-blockers. They also slow your heart rate. Some examples are: Atenolol (Tenormin), Bisoprolol (Zebeta, Ziac), Carvedilol (Coreg), Metoprolol (Lopressor, Toprol), Propranolol (Inderal, Innopran), Timolol (Betimol, Istalol), Others are known as calcium channel blockers. They slow your heart rate and tone down contractions. You might get: Diltiazem (Cardizem, Dilacor), Verapamil (Calan, Calan SR, Covera-HS, Isoptin SR, Verelan), Heart rhythm medicines: They slow the electrical signals to bring your heartbeat into whats called a normal sinus rhythm. These treatments are sometimes called chemical cardioversion: Sodium channel blockers, which slow your heart's ability to conduct electricity: Flecainide (Tambocor), Propafenone (Rythmol), Quinidine, Potassium channel blockers, which slow the electrical signals that cause AFib: Amiodarone (Cordarone, Nexterone Pacerone), Dofetilide (Tikosyn), Sotalol (Betapace, Sorine, Sotylize). You might get them in your doctor's office or at a hospital. Your doctor will monitor you to make sure the medicine is working.",
-        "Treatment_4": "If medicines don't work or they cause side effects, you can try one of two procedures called cardioversion or ablation. These treat AFib without surgery. Electrical cardioversion: The doctor gives your heart a shock to regulate your heartbeat. Theyll use paddles or stick patches called electrodes onto your chest. First, you'll get medicine to make you fall asleep. Then, your doctor will put the paddles on your chest, and sometimes your back. These will give you a mild electrical shock to get your heart's rhythm back to normal. Most people only need one. Because youre sedated, you probably wont remember being shocked. You can usually go home the same day. Your skin may be irritated where the paddles touched it. Your doctor can point you toward a lotion to ease pain or itching.",
-        "Treatment_5": "Cardiac ablation: There are two major options: Catheter ablation, also called radiofrequency or pulmonary vein ablation, isnt surgery, and its a less invasive ablation option. Your doctor puts a thin, flexible tube into a blood vessel in your leg or neck. Then they guide it to your heart. When it reaches the area thats causing the arrhythmia, it sends out electrical signals that destroy those cells. The treated tissue helps get your heartbeat regular again. There are two main types of catheter ablation: Radiofrequency ablation: The doctor uses catheters to send radiofrequency energy (similar to microwave heat) that creates circular scars around each vein or group of veins. Cryoablation: A single catheter sends a balloon tipped with a substance that freezes the tissues to cause a scar. Surgical ablation involves cutting into your chest: Maze procedure: This is usually done while you're having open-heart surgery for another problem, like a bypass or valve replacement. The surgeon makes small cuts in the upper part of your heart. They're stitched together to form the scar tissue that stops abnormal signals. Mazechanginge: Most people with AFib don'''t need open-heart surgery. That'''s where this less invasive option comes in. The doctor makes several small cuts between your ribs and uses a camera to guide catheters for either cryoablation or radiofrequency ablation. Some hospitals offer robot-assisted surgery that uses smaller cuts and allows for greater precision. ",
-        "Treatment_6": "Convergent procedure: This pairs catheter ablation with a mazechanging. The doctor uses radiofrequency ablation in the pulmonary vein, and a surgeon makes a small cut under your breastbone to use radiofrequency energy on the outside of your heart. AV node ablation: You might get this procedure if: You dont respond to medications. You cant take medications because of side effects . You arent a good candidate for a procedure that cures you. Your doctor will insert a catheter into a vein in your groin and slide it up to the AV node, a nerve that conducts electrical impulses between the top and bottom chambers of your heart. Theyll send radiofrequency energy through the catheter to destroy the AV node. This stops the signals from reaching your ventricle. Then the doctor will implant a pacemaker into your chest. For some people, ablation restores a normal heart rhythm better than medicine. It's generally safe, but it does have some risks. Some of the things that can go wrong are: Bleeding around your heart or where the catheter is inserted, Hole in the heart, Stroke, Heart attack, Narrowing of the pulmonary vein, Damage to the esophagus, the tube that carries food from your mouth to your stomach. Also, your AFib can come back in the first few months after you have ablation. In that case, you may need to have the procedure again or take heart rhythm drugs.",
-        "Treatment_7": "Pacemaker. This is a small device that monitors your heartbeat and sends out a signal to stimulate your heart if it's beating too slowly. Its made up of a small device called a generator that holds a battery and a tiny computer. Very thin wires called leads connect the pacemaker to your heart. Getting a pacemaker may sound like a big deal, but it's a minor procedure. First, your doctor inserts a needle into a large vein near your shoulder, which guides the leads into your heart. The pacemaker then goes into your chest through a small cut. Once it's in place, your doctor tests it to make sure it works. There are some risks, such as: Bleeding or bruising in the area where your doctor places the pacemaker, Infection, Damaged blood vessel, Collapsed lung, If there are problems with the device, you may need another surgery to fix it. Sometimes the impulses your pacemaker sends to your heart can cause discomfort. You may be dizzy or feel a throbbing in your neck. Once you have one put in, you might have to keep your distance from objects that give off a strong magnetic field because they could affect the electrical signals from your pacemaker. Some devices that can interfere with it are: Metal detectors, Cell phones and MP3 players, Electric generators, Some medical machines such as an MRI, Treating the Causes of AFib. If problems such as high blood pressure, cholesterol, or an overactive thyroid caused your AFib, you'll need to treat the root cause. Your doctor might prescribe medications to get those conditions under control.Your doctor may also recommend screening and treatment for sleep apnea, a disorder in which breathing starts and stops throughout the night.",
-        "Treatment_8": "Complementary Treatments. We need more research into alternative and complementary treatments for AFib. But a few have shown some promise in early studies. They include:Yoga, Acupuncture, Biofeedback, Omega-3 fatty acids, Antioxidant vitamins, such as Vitamins C and E, Herbal supplements like berberine, cinchona bark, and shenshongyanxin (a traditional Chinese mixture), Always check with your doctor before you try a complementary treatment.",
-        "Treatment_9": "Lifestyle Changes. Your doctor also might recommend you take some simple steps to help keep your heart healthy: Change your diet -- eat heart-healthy, low-salt food. Go for fruits, veggies, and whole grains. Get more exercise -- more physical activity strengthens your heart. They'll probably suggest that you make other changes to lower your odds of heart disease, as well as conditions like diabetes and lung disease that can contribute to AFib: Quit smoking, Stay at, or try to reach, a healthy weight, Control your blood pressure, Manage your cholesterol, If you drink alcohol, do it in moderation",
-        "Treatment_10": "Your doctor will likely advise you to avoid stimulants, which can trigger AFib episodes. These include over-the-counter cough medicines that contain pseudoephedrine as well as recreational drugs like cocaine and amphetamines. Don't overlook your emotional health. Stress may make atrial fibrillation worse, so find ways to manage it. You might try: Yoga, tai chi, or other mind-body techniques, Meditation, Spending time with family and friends, If you have symptoms of anxiety or depression, like long-lasting sadness or trouble concentrating, ask your doctor to refer you to a mental health specialist."
+        "Treatment": "With AFib, your heart quivers, beats irregularly, or skips beats. It can't pump blood through its chambers and out to your body as well as it should. Sometimes blood can pool in the heart and form clots, which could lead to a stroke. Treatments such as medications, nonsurgical procedures, and surgery can slow your heartbeat and bring it back into a normal rhythm. AFib treatments can also prevent clots and help keep your heart healthy."
+        },
+        {"Treatment": "What Are Some Medications That Treat AFib? These can prevent clots and strokes, slow your heart rate, and control your heart rhythm.Blood thinners: These medications thin your blood to lower your chance of having those problems. But they can raise your risk of bleeding, so you might have to cut back on some activities that can lead to injuries. The most common are: Apixaban (Eliquis), Aspirin, Dabigatran (Pradaxa), Enoxaparin (Lovenox), Heparin, Rivaroxaban (Xarelto), Warfarin (Coumadin, Jantoven), Blood thinners can make you more likely to bruise or bleed too much. You'll see your doctor for a blood test every month to make sure the medication is working and you're on the right dose."
+        },
+        {
+          "Treatment": "Heart rate medicines: The most common way to treat atrial fibrillation is with drugs that control your heartbeat. These slow your rapid heart rate so your heart can pump better. You may need other drugs. Some are called beta-blockers. They also slow your heart rate. Some examples are: Atenolol (Tenormin), Bisoprolol (Zebeta, Ziac), Carvedilol (Coreg), Metoprolol (Lopressor, Toprol), Propranolol (Inderal, Innopran), Timolol (Betimol, Istalol), Others are known as calcium channel blockers. They slow your heart rate and tone down contractions. You might get: Diltiazem (Cardizem, Dilacor), Verapamil (Calan, Calan SR, Covera-HS, Isoptin SR, Verelan), Heart rhythm medicines: They slow the electrical signals to bring your heartbeat into whats called a normal sinus rhythm. These treatments are sometimes called chemical cardioversion: Sodium channel blockers, which slow your heart's ability to conduct electricity: Flecainide (Tambocor), Propafenone (Rythmol), Quinidine, Potassium channel blockers, which slow the electrical signals that cause AFib: Amiodarone (Cordarone, Nexterone Pacerone), Dofetilide (Tikosyn), Sotalol (Betapace, Sorine, Sotylize). You might get them in your doctor's office or at a hospital. Your doctor will monitor you to make sure the medicine is working."
+        },
+        {
+          "Treatment": "If medicines don't work or they cause side effects, you can try one of two procedures called cardioversion or ablation. These treat AFib without surgery. Electrical cardioversion: The doctor gives your heart a shock to regulate your heartbeat. Theyll use paddles or stick patches called electrodes onto your chest. First, you'll get medicine to make you fall asleep. Then, your doctor will put the paddles on your chest, and sometimes your back. These will give you a mild electrical shock to get your heart's rhythm back to normal. Most people only need one. Because youre sedated, you probably wont remember being shocked. You can usually go home the same day. Your skin may be irritated where the paddles touched it. Your doctor can point you toward a lotion to ease pain or itching."
+        },
+        {
+          "Treatment": "Cardiac ablation: There are two major options: Catheter ablation, also called radiofrequency or pulmonary vein ablation, isnt surgery, and its a less invasive ablation option. Your doctor puts a thin, flexible tube into a blood vessel in your leg or neck. Then they guide it to your heart. When it reaches the area thats causing the arrhythmia, it sends out electrical signals that destroy those cells. The treated tissue helps get your heartbeat regular again. There are two main types of catheter ablation: Radiofrequency ablation: The doctor uses catheters to send radiofrequency energy (similar to microwave heat) that creates circular scars around each vein or group of veins. Cryoablation: A single catheter sends a balloon tipped with a substance that freezes the tissues to cause a scar. Surgical ablation involves cutting into your chest: Maze procedure: This is usually done while you're having open-heart surgery for another problem, like a bypass or valve replacement. The surgeon makes small cuts in the upper part of your heart. They're stitched together to form the scar tissue that stops abnormal signals. Mazechanginge: Most people with AFib don't need open-heart surgery. That's where this less invasive option comes in. The doctor makes several small cuts between your ribs and uses a camera to guide catheters for either cryoablation or radiofrequency ablation. Some hospitals offer robot-assisted surgery that uses smaller cuts and allows for greater precision. "
+        },
+        {
+          "Treatment": "Convergent procedure: This pairs catheter ablation with a mazechanging. The doctor uses radiofrequency ablation in the pulmonary vein, and a surgeon makes a small cut under your breastbone to use radiofrequency energy on the outside of your heart. AV node ablation: You might get this procedure if: You dont respond to medications. You cant take medications because of side effects . You arent a good candidate for a procedure that cures you. Your doctor will insert a catheter into a vein in your groin and slide it up to the AV node, a nerve that conducts electrical impulses between the top and bottom chambers of your heart. Theyll send radiofrequency energy through the catheter to destroy the AV node. This stops the signals from reaching your ventricle. Then the doctor will implant a pacemaker into your chest. For some people, ablation restores a normal heart rhythm better than medicine. It's generally safe, but it does have some risks. Some of the things that can go wrong are: Bleeding around your heart or where the catheter is inserted, Hole in the heart, Stroke, Heart attack, Narrowing of the pulmonary vein, Damage to the esophagus, the tube that carries food from your mouth to your stomach. Also, your AFib can come back in the first few months after you have ablation. In that case, you may need to have the procedure again or take heart rhythm drugs."
+        },
+        {
+          "Treatment": "Pacemaker. This is a small device that monitors your heartbeat and sends out a signal to stimulate your heart if it's beating too slowly. Its made up of a small device called a generator that holds a battery and a tiny computer. Very thin wires called leads connect the pacemaker to your heart. Getting a pacemaker may sound like a big deal, but it's a minor procedure. First, your doctor inserts a needle into a large vein near your shoulder, which guides the leads into your heart. The pacemaker then goes into your chest through a small cut. Once it's in place, your doctor tests it to make sure it works. There are some risks, such as: Bleeding or bruising in the area where your doctor places the pacemaker, Infection, Damaged blood vessel, Collapsed lung, If there are problems with the device, you may need another surgery to fix it. Sometimes the impulses your pacemaker sends to your heart can cause discomfort. You may be dizzy or feel a throbbing in your neck. Once you have one put in, you might have to keep your distance from objects that give off a strong magnetic field because they could affect the electrical signals from your pacemaker. Some devices that can interfere with it are: Metal detectors, Cell phones and MP3 players, Electric generators, Some medical machines such as an MRI, Treating the Causes of AFib. If problems such as high blood pressure, cholesterol, or an overactive thyroid caused your AFib, you'll need to treat the root cause. Your doctor might prescribe medications to get those conditions under control.Your doctor may also recommend screening and treatment for sleep apnea, a disorder in which breathing starts and stops throughout the night."
+        },
+        {
+          "Treatment": "Complementary Treatments. We need more research into alternative and complementary treatments for AFib. But a few have shown some promise in early studies. They include:Yoga, Acupuncture, Biofeedback, Omega-3 fatty acids, Antioxidant vitamins, such as Vitamins C and E, Herbal supplements like berberine, cinchona bark, and shenshongyanxin (a traditional Chinese mixture), Always check with your doctor before you try a complementary treatment."
+        },
+        {
+          "Treatment": "Lifestyle Changes. Your doctor also might recommend you take some simple steps to help keep your heart healthy: Change your diet -- eat heart-healthy, low-salt food. Go for fruits, veggies, and whole grains. Get more exercise -- more physical activity strengthens your heart. They'll probably suggest that you make other changes to lower your odds of heart disease, as well as conditions like diabetes and lung disease that can contribute to AFib: Quit smoking, Stay at, or try to reach, a healthy weight, Control your blood pressure, Manage your cholesterol, If you drink alcohol, do it in moderation"
+        },
+        {
+          "Treatment": "Your doctor will likely advise you to avoid stimulants, which can trigger AFib episodes. These include over-the-counter cough medicines that contain pseudoephedrine as well as recreational drugs like cocaine and amphetamines. Don't overlook your emotional health. Stress may make atrial fibrillation worse, so find ways to manage it. You might try: Yoga, tai chi, or other mind-body techniques, Meditation, Spending time with family and friends, If you have symptoms of anxiety or depression, like long-lasting sadness or trouble concentrating, ask your doctor to refer you to a mental health specialist."
         }
       ],
     "Prevention": ""
     },
     {
     "Disease/Illness": "Autism Spectrum Disorder",
-    "Symptoms": ["Autism spectrum disorder (ASD) can look different in different people. Its a developmental disability that affects the way people communicate, behave, or interact with others. What Are the Causes of Autism? Experts dont fully understand all of the causes of autism spectrum disorder. It seems to be genetic, but things such as parental age and prescription medications taken during pregnancy may be involved. But up to half of parents of children with ASD noticed issues by the time their child reached 12 months, and between 80% and 90% noticed problems by 2 years. Children with ASD will have symptoms throughout their lives, but its possible for them to get better as they get older. The autism spectrum is very wide. Some people might have very noticeable issues, others might not. The common thread is differences in social skills, communication, and behavior compared with people who aren't on the spectrum. How Does Autism Affect a Child's Social Skills? A child with ASD has a hard time interacting with others. Problems with social skills are some of the most common signs. They might want to have close relationships but not know how. If your child is on the spectrum, they might show some social symptoms by the time they're 8 to 10 months old, including: They don't respond to their name by their first birthday, Playing, sharing, or talking with other people don'''t interest them, They prefer to be alone, They avoid or reject physical contact, including hugging, They avoid eye contact, When they'''re upset, they don'''t like to be comforted, They don'''t understand emotions -- their own or others''', They may not stretch out their arms to be picked up or guided with walking. How Does Autism Affect Communication, About 40% of kids with autism spectrum disorders don'''t talk at all, and between 25% and 30% develop some language skills during infancy but then lose them later. Some children with ASD start talking later in life. Delayed speech and language skills, Flat, robotic speaking voice, or singsong voice, Echolalia (repeating the same phrase over and over), Problems with pronouns (saying “you” instead of “I,” for example), Not using or rarely using common gestures (pointing or waving), and not responding to them, Inability to stay on topic when talking or answering questions, Not recognizing sarcasm or joking, Trouble expressing needs and emotions, Not getting signals from body language, tone of voice, and expressions, What Are Patterns of Behavior With Autism? Children with ASD also act in ways that seem unusual or have interests that aren't typical, including: Repetitive behaviors like hand-flapping, rocking, jumping, or twirling, Constant moving (pacing) and “hyper” behavior, Fixations on certain activities or objects, Specific routines or rituals (and getting upset when a routine is changed, even slightly), Extreme sensitivity to touch, light, and sound, Not taking part in “make-believe” play or imitating others''' behaviors, Fussy eating habits, Lack of coordination, clumsiness, Impulsiveness (acting without thinking), Aggressive behavior, both with self and others, Short attention span, How Can I Spot Signs of Autism?, The earlier treatment for autism spectrum disorder begins, the more likely it is to be effective. That'''s why knowing how to identify the signs and symptoms is so important. Make an appointment with your child'''s pediatrician if they don'''t meet these specific developmental milestones, or if they meet but lose them later on:Smiles by 6 months, Imitates facial expressions or sounds by 9 months, Coos or babbles by 12 months, Gestures (points or waves) by 14 months, Speaks with single words by 16 months and uses phrases of two words or more by 24 months, Plays pretend or “make-believe” by 18 months"],
+    "Symptoms": ["Autism spectrum disorder (ASD) can look different in different people. Its a developmental disability that affects the way people communicate, behave, or interact with others. What Are the Causes of Autism? Experts dont fully understand all of the causes of autism spectrum disorder. It seems to be genetic, but things such as parental age and prescription medications taken during pregnancy may be involved. But up to half of parents of children with ASD noticed issues by the time their child reached 12 months, and between 80% and 90% noticed problems by 2 years. Children with ASD will have symptoms throughout their lives, but its possible for them to get better as they get older. The autism spectrum is very wide. Some people might have very noticeable issues, others might not. The common thread is differences in social skills, communication, and behavior compared with people who aren't on the spectrum. How Does Autism Affect a Child's Social Skills? A child with ASD has a hard time interacting with others. Problems with social skills are some of the most common signs. They might want to have close relationships but not know how. If your child is on the spectrum, they might show some social symptoms by the time they're 8 to 10 months old, including: They don't respond to their name by their first birthday, Playing, sharing, or talking with other people don't interest them, They prefer to be alone, They avoid or reject physical contact, including hugging, They avoid eye contact, When they're upset, they don't like to be comforted, They don't understand emotions -- their own or others', They may not stretch out their arms to be picked up or guided with walking. How Does Autism Affect Communication, About 40% of kids with autism spectrum disorders don't talk at all, and between 25% and 30% develop some language skills during infancy but then lose them later. Some children with ASD start talking later in life. Delayed speech and language skills, Flat, robotic speaking voice, or singsong voice, Echolalia (repeating the same phrase over and over), Problems with pronouns (saying “you” instead of “I,” for example), Not using or rarely using common gestures (pointing or waving), and not responding to them, Inability to stay on topic when talking or answering questions, Not recognizing sarcasm or joking, Trouble expressing needs and emotions, Not getting signals from body language, tone of voice, and expressions, What Are Patterns of Behavior With Autism? Children with ASD also act in ways that seem unusual or have interests that aren't typical, including: Repetitive behaviors like hand-flapping, rocking, jumping, or twirling, Constant moving (pacing) and “hyper” behavior, Fixations on certain activities or objects, Specific routines or rituals (and getting upset when a routine is changed, even slightly), Extreme sensitivity to touch, light, and sound, Not taking part in “make-believe” play or imitating others' behaviors, Fussy eating habits, Lack of coordination, clumsiness, Impulsiveness (acting without thinking), Aggressive behavior, both with self and others, Short attention span, How Can I Spot Signs of Autism?, The earlier treatment for autism spectrum disorder begins, the more likely it is to be effective. That's why knowing how to identify the signs and symptoms is so important. Make an appointment with your child's pediatrician if they don't meet these specific developmental milestones, or if they meet but lose them later on:Smiles by 6 months, Imitates facial expressions or sounds by 9 months, Coos or babbles by 12 months, Gestures (points or waves) by 14 months, Speaks with single words by 16 months and uses phrases of two words or more by 24 months, Plays pretend or “make-believe” by 18 months"],
     "Treatment": [
         {
-        "Treatment_1": "Even if your child hasn'''t officially been diagnosed with autism spectrum disorder, they may still benefit from certain treatments. The Individuals with Disabilities Education Act (IDEA) makes those treatments possible for children under age 3 who may be at risk for developmental problems. The type of treatment your child receives for autism spectrum disorder depends on their individual needs. Because ASD is a spectrum disorder (meaning some children have mild symptoms and others have severe symptoms) and each child who has it is unique, there are a variety of treatments. They can include different kinds of therapies to improve speech and behavior, and sometimes medications to help manage any medical conditions related to autism. The treatments your child can benefit from most depends on their situation and needs, but the goal is the same: to reduce their symptoms and improve their learning and development.",
-        "Treatment_2": "Behavior and Communication Treatments. Applied Behavior Analysis (ABA). ABA is often used in schools and clinics to help your child learn positive behaviors and reduce negative ones. This approach can be used to improve a wide range of skills, and there are different types for different situations, including: Discrete trial training (DTT) uses simple lessons and positive reinforcement. Pivotal response training (PRT) helps develop motivation to learn and communicate. Early intensive behavioral intervention (EIBI) is best for children under age 5. Verbal behavior intervention (VBI) focuses on language skills. Developmental, Individual Differences, Relationship-Based Approach (DIR). This kind of treatment is better known as Floortime. Thats because it involves you getting on the floor with your child to play and do the activities they like. Its meant to support emotional and intellectual growth by helping them learn skills around communication and emotions.",
-        "Treatment_3": "Treatment and Education of Autistic and Related Communication-handicapped Children (TEACCH). This treatment uses visual cues such as picture cards to help your child learn everyday skills like getting dressed. Information is broken down into small steps so they can learn it more easily.",
-        "Treatment_4": "The Picture Exchange Communication System (PECS). This is another visual-based treatment, but it uses symbols instead of picture cards. Your child learns to ask questions and communicate through special symbols.",
-        "Treatment_5": "Occupational Therapy. This kind of treatment helps your child learn life skills like feeding and dressing themselves, bathing, and understanding how to relate to other people. The skills they learn are meant to help them live as independently as they can. Sensory Integration Therapy. If your child is easily upset by things like bright lights, certain sounds, or the feeling of being touched, this therapy can help them learn to deal with that kind of sensory information.",
-        "Treatment_6": "Medications: There is no cure for autism spectrum disorder, and there'''s currently no medication to treat it. But some medicines can help with related symptoms like depression, seizures, insomnia, and trouble focusing. Studies have shown that medication is most effective when it'''s combined with behavioral therapies. Risperidone (Risperdal) is the only drug approved by the FDA for children with autism spectrum disorder. It can be prescribed for children between 5 and 16 years old to help with irritability. Some doctors will prescribe other drugs in certain cases, including selective serotonin reuptake inhibitors (SSRIs), anti-anxiety medications, or stimulants, but they'''re not FDA-approved for autism spectrum disorder. Talk with your child'''s doctor about whether there are medicines that treat their symptoms.",
-        "Treatment_7": "Nutrition: Experts don'''t recommend any specific diets for children with autism spectrum disorder, but getting proper nutrition is important. Sometimes kids with ASD restrict their food or parents try eliminating things like gluten to see if it helps symptoms improve. However, there is no research that has proven that removing gluten or casein (proteins in wheat and milk products) from their diet is a helpful treatment for ASD, and limiting foods like dairy can prevent proper bone development. Kids with autism spectrum disorder tend to have thinner bones than kids without it, so bone-building foods are important. You might want to work with a nutritionist or registered dietitian to develop a healthy eating plan."
+        "Treatment": "Even if your child hasn't officially been diagnosed with autism spectrum disorder, they may still benefit from certain treatments. The Individuals with Disabilities Education Act (IDEA) makes those treatments possible for children under age 3 who may be at risk for developmental problems. The type of treatment your child receives for autism spectrum disorder depends on their individual needs. Because ASD is a spectrum disorder (meaning some children have mild symptoms and others have severe symptoms) and each child who has it is unique, there are a variety of treatments. They can include different kinds of therapies to improve speech and behavior, and sometimes medications to help manage any medical conditions related to autism. The treatments your child can benefit from most depends on their situation and needs, but the goal is the same: to reduce their symptoms and improve their learning and development."
+        },
+        {
+          "Treatment": "Behavior and Communication Treatments. Applied Behavior Analysis (ABA). ABA is often used in schools and clinics to help your child learn positive behaviors and reduce negative ones. This approach can be used to improve a wide range of skills, and there are different types for different situations, including: Discrete trial training (DTT) uses simple lessons and positive reinforcement. Pivotal response training (PRT) helps develop motivation to learn and communicate. Early intensive behavioral intervention (EIBI) is best for children under age 5. Verbal behavior intervention (VBI) focuses on language skills. Developmental, Individual Differences, Relationship-Based Approach (DIR). This kind of treatment is better known as Floortime. Thats because it involves you getting on the floor with your child to play and do the activities they like. Its meant to support emotional and intellectual growth by helping them learn skills around communication and emotions."
+        },
+        {
+          "Treatment": "Treatment and Education of Autistic and Related Communication-handicapped Children (TEACCH). This treatment uses visual cues such as picture cards to help your child learn everyday skills like getting dressed. Information is broken down into small steps so they can learn it more easily."
+        },
+        {
+          "Treatment": "The Picture Exchange Communication System (PECS). This is another visual-based treatment, but it uses symbols instead of picture cards. Your child learns to ask questions and communicate through special symbols."
+        },
+        {
+          "Treatment": "Occupational Therapy. This kind of treatment helps your child learn life skills like feeding and dressing themselves, bathing, and understanding how to relate to other people. The skills they learn are meant to help them live as independently as they can. Sensory Integration Therapy. If your child is easily upset by things like bright lights, certain sounds, or the feeling of being touched, this therapy can help them learn to deal with that kind of sensory information."
+        },
+        {
+          "Treatment": "Medications: There is no cure for autism spectrum disorder, and there's currently no medication to treat it. But some medicines can help with related symptoms like depression, seizures, insomnia, and trouble focusing. Studies have shown that medication is most effective when it's combined with behavioral therapies. Risperidone (Risperdal) is the only drug approved by the FDA for children with autism spectrum disorder. It can be prescribed for children between 5 and 16 years old to help with irritability. Some doctors will prescribe other drugs in certain cases, including selective serotonin reuptake inhibitors (SSRIs), anti-anxiety medications, or stimulants, but they're not FDA-approved for autism spectrum disorder. Talk with your child's doctor about whether there are medicines that treat their symptoms."
+        },
+        {
+          "Treatment": "Nutrition: Experts don't recommend any specific diets for children with autism spectrum disorder, but getting proper nutrition is important. Sometimes kids with ASD restrict their food or parents try eliminating things like gluten to see if it helps symptoms improve. However, there is no research that has proven that removing gluten or casein (proteins in wheat and milk products) from their diet is a helpful treatment for ASD, and limiting foods like dairy can prevent proper bone development. Kids with autism spectrum disorder tend to have thinner bones than kids without it, so bone-building foods are important. You might want to work with a nutritionist or registered dietitian to develop a healthy eating plan."
         }
       ],
     "Prevention": ""
     },
     {
     "Disease/Illness": "Cancer",
-    "Symptoms": ["Signs and symptoms of Cancer. It's important to be aware of any new or worrying symptoms. Although it's unlikely to be cancer, it's important to speak to a GP so they can investigate. Finding cancer early means it's easier to treat. If your GP suspects cancer, they'll refer you to a specialist – usually within 2 weeks. Changes in bowel habits Speak to a GP if you've noticed these changes and it's lasted for 3 weeks or more: tummy discomfort, blood in your poo, diarrhoea or constipation for no obvious reasona feeling of not having fully emptied your bowels after going to the toilet, pain in your stomach or back passage (anus), your poo is loose, pale or looks greasy, Bloating, Speak to a GP if you've had bloating for 3 weeks or more. You should also speak to a GP if you have any unexplained bleeding, such as: blood in your urine, vaginal bleeding between periods, vaginal bleeding a year or more after the menopause (postmenopausal bleeding), bleeding from your bottom, blood when you cough, blood in your vomit, Coughing, chest pain and breathlessness, Speak to a GP if you've had a cough for 3 weeks or more. Symptoms such as shortness of breath or chest pain may also be a sign of a condition such as pneumonia. Speak to a GP straight away if you have these types of symptoms. Lumps, Speak to a GP if you notice a lump in your breast or if you have a lump that's noticeably increasing in size elsewhere on your body. It'''s important to regularly check your breasts, underarms, groin and testicles for any new lumps or changes. Moles Speak to a GP if you have a mole that:changes shape or looks uneven changes colour, gets darker or has more than 2 colours starts itching, crusting, flaking or bleeding gets larger or more raised from the skin Any of the above changes means there's a chance you have malignant melanoma, a form of skin cancer. Unexplained weight loss You should also speak to a GP if you've lost a lot of weight over the last couple of months that cannot be explained by changes to your diet, exercise or stress. Read about unintentional weight loss. Tummy or back pain Speak to a GP if you have pain anywhere in your tummy or back and you'''re not sure what'''s causing it. This includes a dull pain that'''s always there or a sharp pain that comes and goes. Indigestion and heartburn Some cancers can give you indigestion, or heartburn and acid reflux. This can feel like burning in your chest (heartburn) and make you burp or hiccup more than usual. Speak to a GP if you get any of these symptoms regularly and are not sure why you'''re getting them. Itchy or yellow skin. Speak to a GP if your skin is itchy, and your skin or the whites of your eyes turn yellow (jaundice). Your pee may also look darker than usual. Feeling tired and unwell, With some cancers the symptoms can be harder to notice. It'''s important to speak to a GP if you think something is not right, or you keep feeling tired and unwell and you'''re not sure why. People at higher risk, It'''s particularly important to look out for cancer symptoms if: you have been diagnosed with a condition that means you'''re at higher risk of getting cancer 2 or more of your close relatives (such as a parent, brother or sister) have had cancer"],
+    "Symptoms": ["Signs and symptoms of Cancer. It's important to be aware of any new or worrying symptoms. Although it's unlikely to be cancer, it's important to speak to a GP so they can investigate. Finding cancer early means it's easier to treat. If your GP suspects cancer, they'll refer you to a specialist  usually within 2 weeks. Changes in bowel habits Speak to a GP if you've noticed these changes and it's lasted for 3 weeks or more: tummy discomfort, blood in your poo, diarrhoea or constipation for no obvious reasona feeling of not having fully emptied your bowels after going to the toilet, pain in your stomach or back passage (anus), your poo is loose, pale or looks greasy, Bloating, Speak to a GP if you've had bloating for 3 weeks or more. You should also speak to a GP if you have any unexplained bleeding, such as: blood in your urine, vaginal bleeding between periods, vaginal bleeding a year or more after the menopause (postmenopausal bleeding), bleeding from your bottom, blood when you cough, blood in your vomit, Coughing, chest pain and breathlessness, Speak to a GP if you've had a cough for 3 weeks or more. Symptoms such as shortness of breath or chest pain may also be a sign of a condition such as pneumonia. Speak to a GP straight away if you have these types of symptoms. Lumps, Speak to a GP if you notice a lump in your breast or if you have a lump that's noticeably increasing in size elsewhere on your body. It's important to regularly check your breasts, underarms, groin and testicles for any new lumps or changes. Moles Speak to a GP if you have a mole that:changes shape or looks uneven changes colour, gets darker or has more than 2 colours starts itching, crusting, flaking or bleeding gets larger or more raised from the skin Any of the above changes means there's a chance you have malignant melanoma, a form of skin cancer. Unexplained weight loss You should also speak to a GP if you've lost a lot of weight over the last couple of months that cannot be explained by changes to your diet, exercise or stress. Read about unintentional weight loss. Tummy or back pain Speak to a GP if you have pain anywhere in your tummy or back and you're not sure what's causing it. This includes a dull pain that's always there or a sharp pain that comes and goes. Indigestion and heartburn Some cancers can give you indigestion, or heartburn and acid reflux. This can feel like burning in your chest (heartburn) and make you burp or hiccup more than usual. Speak to a GP if you get any of these symptoms regularly and are not sure why you're getting them. Itchy or yellow skin. Speak to a GP if your skin is itchy, and your skin or the whites of your eyes turn yellow (jaundice). Your pee may also look darker than usual. Feeling tired and unwell, With some cancers the symptoms can be harder to notice. It's important to speak to a GP if you think something is not right, or you keep feeling tired and unwell and you're not sure why. People at higher risk, It's particularly important to look out for cancer symptoms if: you have been diagnosed with a condition that means you're at higher risk of getting cancer 2 or more of your close relatives (such as a parent, brother or sister) have had cancer"],
     "Treatment": [
         {
-        "Treatment_1": "There are many types of cancer treatment. The types of treatment that you have will depend on the type of cancer you have and how advanced it is. Some people with cancer will have only one treatment. But most people have a combination of treatments, such as surgery with chemotherapy and/or radiation therapy. You may also have immunotherapy, targeted therapy, or hormone therapy.",
-        "Treatment_2": "Clinical trials might also be an option for you. Clinical trials are research studies that involve people. Understanding what they are and how they work can help you decide if taking part in a trial is a good option for you.",
-        "Treatment_3": "When you need treatment for cancer, you have a lot to learn and think about. It is normal to feel overwhelmed and confused. But, talking with your doctor and learning all you can about all your treatment options, including clinical trials, can help you make a decision you feel good about. Our Questions to Ask Your Doctor About Treatment may help.",
-        "Treatment_4": null,
-        "Treatment_5": null,
-        "Treatment_6": null,
-        "Treatment_7": null,
-        "Treatment_8": null,
-        "Treatment_9": null,
-        "Treatment_10": null
+        "Treatment": "There are many types of cancer treatment. The types of treatment that you have will depend on the type of cancer you have and how advanced it is. Some people with cancer will have only one treatment. But most people have a combination of treatments, such as surgery with chemotherapy and/or radiation therapy. You may also have immunotherapy, targeted therapy, or hormone therapy."
+        },
+        {
+          "Treatment": "Clinical trials might also be an option for you. Clinical trials are research studies that involve people. Understanding what they are and how they work can help you decide if taking part in a trial is a good option for you."
+        },
+        {
+          "Treatment": "When you need treatment for cancer, you have a lot to learn and think about. It is normal to feel overwhelmed and confused. But, talking with your doctor and learning all you can about all your treatment options, including clinical trials, can help you make a decision you feel good about. Our Questions to Ask Your Doctor About Treatment may help."
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": ""
@@ -222,24 +376,58 @@
     "Symptoms": [""],
     "Treatment": [
         {
-        "Treatment_1": "",
-        "Treatment_2": "",
-        "Treatment_3": "",
-        "Treatment_4": "",
-        "Treatment_5": "",
-        "Treatment_6": "",
-        "Treatment_7": "",
-        "Treatment_8": "",
-        "Treatment_9": "",
-        "Treatment_10": "",
-        "Treatment_11": "",
-        "Treatment_12": "",
-        "Treatment_13": "",
-        "Treatment_14": "",
-        "Treatment_15": "",
-        "Treatment_16": "",
-        "Treatment_17": "",
-        "Treatment_18": ""
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": ""
@@ -249,24 +437,58 @@
     "Symptoms": [""],
     "Treatment": [
         {
-          "Treatment_1": "",
-          "Treatment_2": "",
-          "Treatment_3": "",
-          "Treatment_4": "",
-          "Treatment_5": "",
-          "Treatment_6": "",
-          "Treatment_7": "",
-          "Treatment_8": "",
-          "Treatment_9": "",
-          "Treatment_10": "",
-          "Treatment_11": "",
-          "Treatment_12": "",
-          "Treatment_13": "",
-          "Treatment_14": "",
-          "Treatment_15": "",
-          "Treatment_16": "",
-          "Treatment_17": "",
-          "Treatment_18": ""
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": ""
@@ -276,24 +498,58 @@
     "Symptoms": [""],
     "Treatment": [
         {
-          "Treatment_1": "",
-          "Treatment_2": "",
-          "Treatment_3": "",
-          "Treatment_4": "",
-          "Treatment_5": "",
-          "Treatment_6": "",
-          "Treatment_7": "",
-          "Treatment_8": "",
-          "Treatment_9": "",
-          "Treatment_10": "",
-          "Treatment_11": "",
-          "Treatment_12": "",
-          "Treatment_13": "",
-          "Treatment_14": "",
-          "Treatment_15": "",
-          "Treatment_16": "",
-          "Treatment_17": "",
-          "Treatment_18": ""
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": ""
@@ -303,24 +559,58 @@
     "Symptoms": [""],
     "Treatment": [
         {
-          "Treatment_1": "",
-          "Treatment_2": "",
-          "Treatment_3": "",
-          "Treatment_4": "",
-          "Treatment_5": "",
-          "Treatment_6": "",
-          "Treatment_7": "",
-          "Treatment_8": "",
-          "Treatment_9": "",
-          "Treatment_10": "",
-          "Treatment_11": "",
-          "Treatment_12": "",
-          "Treatment_13": "",
-          "Treatment_14": "",
-          "Treatment_15": "",
-          "Treatment_16": "",
-          "Treatment_17": "",
-          "Treatment_18": ""
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": ""
@@ -330,77 +620,58 @@
     "Symptoms": [""],
     "Treatment": [
         {
-          "Treatment_1": "",
-          "Treatment_2": "",
-          "Treatment_3": "",
-          "Treatment_4": "",
-          "Treatment_5": "",
-          "Treatment_6": "",
-          "Treatment_7": "",
-          "Treatment_8": "",
-          "Treatment_9": "",
-          "Treatment_10": "",
-          "Treatment_11": "",
-          "Treatment_12": "",
-          "Treatment_13": "",
-          "Treatment_14": "",
-          "Treatment_15": "",
-          "Treatment_16": "",
-          "Treatment_17": "",
-          "Treatment_18": ""
-        }
-      ],
-    "Prevention": ""
-    },{
-    "Disease/Illness": "",
-    "Symptoms": [""],
-    "Treatment": [
+          "Treatment": ""
+        },
         {
-          "Treatment_1": "",
-          "Treatment_2": "",
-          "Treatment_3": "",
-          "Treatment_4": "",
-          "Treatment_5": "",
-          "Treatment_6": "",
-          "Treatment_7": "",
-          "Treatment_8": "",
-          "Treatment_9": "",
-          "Treatment_10": "",
-          "Treatment_11": "",
-          "Treatment_12": "",
-          "Treatment_13": "",
-          "Treatment_14": "",
-          "Treatment_15": "",
-          "Treatment_16": "",
-          "Treatment_17": "",
-          "Treatment_18": ""
-        }
-      ],
-    "Prevention": ""
-    },
-    {
-    "Disease/Illness": "",
-    "Symptoms": [""],
-    "Treatment": [
+          "Treatment": ""
+        },
         {
-          "Treatment_1": "",
-          "Treatment_2": "",
-          "Treatment_3": "",
-          "Treatment_4": "",
-          "Treatment_5": "",
-          "Treatment_6": "",
-          "Treatment_7": "",
-          "Treatment_8": "",
-          "Treatment_9": "",
-          "Treatment_10": "",
-          "Treatment_11": "",
-          "Treatment_12": "",
-          "Treatment_13": "",
-          "Treatment_14": "",
-          "Treatment_15": "",
-          "Treatment_16": "",
-          "Treatment_17": "",
-          "Treatment_18": ""
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": ""
@@ -410,24 +681,58 @@
     "Symptoms": [""],
     "Treatment": [
         {
-          "Treatment_1": "",
-          "Treatment_2": "",
-          "Treatment_3": "",
-          "Treatment_4": "",
-          "Treatment_5": "",
-          "Treatment_6": "",
-          "Treatment_7": "",
-          "Treatment_8": "",
-          "Treatment_9": "",
-          "Treatment_10": "",
-          "Treatment_11": "",
-          "Treatment_12": "",
-          "Treatment_13": "",
-          "Treatment_14": "",
-          "Treatment_15": "",
-          "Treatment_16": "",
-          "Treatment_17": "",
-          "Treatment_18": ""
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": ""
@@ -437,24 +742,58 @@
     "Symptoms": [""],
     "Treatment": [
         {
-          "Treatment_1": "",
-          "Treatment_2": "",
-          "Treatment_3": "",
-          "Treatment_4": "",
-          "Treatment_5": "",
-          "Treatment_6": "",
-          "Treatment_7": "",
-          "Treatment_8": "",
-          "Treatment_9": "",
-          "Treatment_10": "",
-          "Treatment_11": "",
-          "Treatment_12": "",
-          "Treatment_13": "",
-          "Treatment_14": "",
-          "Treatment_15": "",
-          "Treatment_16": "",
-          "Treatment_17": "",
-          "Treatment_18": ""
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": ""
@@ -464,24 +803,58 @@
     "Symptoms": [""],
     "Treatment": [
         {
-          "Treatment_1": "",
-          "Treatment_2": "",
-          "Treatment_3": "",
-          "Treatment_4": "",
-          "Treatment_5": "",
-          "Treatment_6": "",
-          "Treatment_7": "",
-          "Treatment_8": "",
-          "Treatment_9": "",
-          "Treatment_10": "",
-          "Treatment_11": "",
-          "Treatment_12": "",
-          "Treatment_13": "",
-          "Treatment_14": "",
-          "Treatment_15": "",
-          "Treatment_16": "",
-          "Treatment_17": "",
-          "Treatment_18": ""
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": ""
@@ -491,26 +864,854 @@
     "Symptoms": [""],
     "Treatment": [
         {
-          "Treatment_1": "",
-          "Treatment_2": "",
-          "Treatment_3": "",
-          "Treatment_4": "",
-          "Treatment_5": "",
-          "Treatment_6": "",
-          "Treatment_7": "",
-          "Treatment_8": "",
-          "Treatment_9": "",
-          "Treatment_10": "",
-          "Treatment_11": "",
-          "Treatment_12": "",
-          "Treatment_13": "",
-          "Treatment_14": "",
-          "Treatment_15": "",
-          "Treatment_16": "",
-          "Treatment_17": "",
-          "Treatment_18": ""
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        }
+      ],
+    "Prevention": ""
+    },
+    {
+    "Disease/Illness": "",
+    "Symptoms": [""],
+    "Treatment": [
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        }
+      ],
+    "Prevention": ""
+    },
+    {
+    "Disease/Illness": "",
+    "Symptoms": [""],
+    "Treatment": [
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        }
+      ],
+    "Prevention": ""
+    },
+    {
+    "Disease/Illness": "",
+    "Symptoms": [""],
+    "Treatment": [
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        }
+      ],
+    "Prevention": ""
+    },
+    {
+    "Disease/Illness": "",
+    "Symptoms": [""],
+    "Treatment": [
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        }
+      ],
+    "Prevention": ""
+    },
+    {
+    "Disease/Illness": "",
+    "Symptoms": [""],
+    "Treatment": [
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        }
+      ],
+    "Prevention": ""
+    },
+    {
+    "Disease/Illness": "",
+    "Symptoms": [""],
+    "Treatment": [
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        }
+      ],
+    "Prevention": ""
+    },
+    {
+    "Disease/Illness": "",
+    "Symptoms": [""],
+    "Treatment": [
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        }
+      ],
+    "Prevention": ""
+    },
+    {
+    "Disease/Illness": "",
+    "Symptoms": [""],
+    "Treatment": [
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        }
+      ],
+    "Prevention": ""
+    },
+    {
+    "Disease/Illness": "",
+    "Symptoms": [""],
+    "Treatment": [
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        }
+      ],
+    "Prevention": ""
+    },
+    {
+    "Disease/Illness": "",
+    "Symptoms": [""],
+    "Treatment": [
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        }
+      ],
+    "Prevention": ""
+    },
+    {
+    "Disease/Illness": "",
+    "Symptoms": [""],
+    "Treatment": [
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        }
+      ],
+    "Prevention": ""
+    },
+    {
+    "Disease/Illness": "",
+    "Symptoms": [""],
+    "Treatment": [
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        }
+      ],
+    "Prevention": ""
+    },
+    {
+    "Disease/Illness": "",
+    "Symptoms": [""],
+    "Treatment": [
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
+        },
+        {
+          "Treatment": ""
         }
       ],
     "Prevention": ""
     }
-]
+  ]
+   
