@@ -1,0 +1,1693 @@
+[
+    {
+        "context": "i am really scared ",
+        "entities": [
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 12,
+                "end_index": 18
+            }
+        ]
+    },
+    {
+        "context": "i cant take the loud music the car is playing",
+        "entities": [
+            {
+                "entity_value": "loud music",
+                "entity_type": "situation",
+                "start_index": 16,
+                "end_index": 26
+            }
+        ]
+    },
+    {
+        "context": "the cars music is very loud music",
+        "entities": [
+            {
+                "entity_value": "loud music",
+                "entity_type": "situation",
+                "start_index": 23,
+                "end_index": 33
+            }
+        ]
+    },
+    {
+        "context": "the driver is driving dangerously",
+        "entities": [
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 14,
+                "end_index": 33
+            }
+        ]
+    },
+    {
+        "context": "i feel scared now that you took care of my concerns",
+        "entities": [
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 7,
+                "end_index": 13
+            }
+        ]
+    },
+    {
+        "context": "i am feeling a little bit scared because i am traveling in public transport",
+        "entities": [
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 26,
+                "end_index": 32
+            }
+        ]
+    },
+    {
+        "context": "i feel scared the driver is driving dangerously",
+        "entities": [
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 7,
+                "end_index": 13
+            },
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 28,
+                "end_index": 47
+            }
+        ]
+    },
+    {
+        "context": "the driver has  loud music",
+        "entities": [
+            {
+                "entity_value": "loud music",
+                "entity_type": "situation",
+                "start_index": 16,
+                "end_index": 26
+            }
+        ]
+    },
+    {
+        "context": "the driver is using loud music to iretate me",
+        "entities": [
+            {
+                "entity_value": "loud music",
+                "entity_type": "situation",
+                "start_index": 20,
+                "end_index": 30
+            }
+        ]
+    },
+    {
+        "context": "the driver is playing loud music and is not turning it down",
+        "entities": [
+            {
+                "entity_value": "loud music",
+                "entity_type": "situation",
+                "start_index": 22,
+                "end_index": 32
+            }
+        ]
+    },
+    {
+        "context": "I am scared because the driver is driving dangerously",
+        "entities": [
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 34,
+                "end_index": 53
+            },
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 5,
+                "end_index": 11
+            }
+        ]
+    },
+    {
+        "context": "The driver is driving dangerously and i am scared",
+        "entities": [
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 14,
+                "end_index": 33
+            },
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 43,
+                "end_index": 49
+            }
+        ]
+    },
+    {
+        "context": "I am scared because the driver is playing loud music and driving dangerously",
+        "entities": [
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 57,
+                "end_index": 76
+            },
+            {
+                "entity_value": "loud music",
+                "entity_type": "situation",
+                "start_index": 42,
+                "end_index": 52
+            },
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 5,
+                "end_index": 11
+            }
+        ]
+    },
+    {
+        "context": "I feel scared knowing that you have helped me",
+        "entities": [
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 7,
+                "end_index": 13
+            }
+        ]
+    },
+    {
+        "context": "I hate that the driver is driving dangerously and playing loud music",
+        "entities": [
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 26,
+                "end_index": 45
+            },
+            {
+                "entity_value": "loud music",
+                "entity_type": "situation",
+                "start_index": 58,
+                "end_index": 68
+            }
+        ]
+    },
+    {
+        "context": "Can you help me get the driver to stop playing loud music",
+        "entities": [
+            {
+                "entity_value": "loud music",
+                "entity_type": "situation",
+                "start_index": 47,
+                "end_index": 57
+            }
+        ]
+    },
+    {
+        "context": "i want the driver to stop driving dangerously",
+        "entities": [
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 26,
+                "end_index": 45
+            }
+        ]
+    },
+    {
+        "context": "the driver is still playing loud music",
+        "entities": [
+            {
+                "entity_value": "loud music",
+                "entity_type": "situation",
+                "start_index": 28,
+                "end_index": 38
+            }
+        ]
+    },
+    {
+        "context": "i am scared of the car crashing because of the drivers  driving dangerously",
+        "entities": [
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 56,
+                "end_index": 75
+            }
+        ]
+    },
+    {
+        "context": "I can't endure the loud music the driver is playing",
+        "entities": [
+            {
+                "entity_value": "loud music",
+                "entity_type": "situation",
+                "start_index": 19,
+                "end_index": 29
+            }
+        ]
+    },
+    {
+        "context": "I have a ear infection and i can't tolerate the loud music the driver is playing",
+        "entities": [
+            {
+                "entity_value": "loud music",
+                "entity_type": "situation",
+                "start_index": 48,
+                "end_index": 58
+            }
+        ]
+    },
+    {
+        "context": "i am scared for my life",
+        "entities": [
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 5,
+                "end_index": 11
+            }
+        ]
+    },
+    {
+        "context": "i think the car might crash because of the drivers driving dangerously",
+        "entities": [
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 51,
+                "end_index": 70
+            }
+        ]
+    },
+    {
+        "context": "Its very import that the driving stop driving dangerously",
+        "entities": [
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 38,
+                "end_index": 57
+            }
+        ]
+    },
+    {
+        "context": "i feel scared for my life",
+        "entities": [
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 7,
+                "end_index": 13
+            }
+        ]
+    },
+    {
+        "context": "i have a scared feeling",
+        "entities": [
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 9,
+                "end_index": 15
+            }
+        ]
+    },
+    {
+        "context": "the taxi number is dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 19,
+                "end_index": 26
+            }
+        ]
+    },
+    {
+        "context": "dhr4555 is the taxi number",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 0,
+                "end_index": 7
+            }
+        ]
+    },
+    {
+        "context": "i think the taxi number is dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 27,
+                "end_index": 34
+            }
+        ]
+    },
+    {
+        "context": "dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 0,
+                "end_index": 7
+            }
+        ]
+    },
+    {
+        "context": "the driver has a fake liscense plate but the number on that plate is dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 69,
+                "end_index": 76
+            }
+        ]
+    },
+    {
+        "context": "dhr4555 is the number on the liscense plate",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 0,
+                "end_index": 7
+            }
+        ]
+    },
+    {
+        "context": "i think its dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 12,
+                "end_index": 19
+            }
+        ]
+    },
+    {
+        "context": "its dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 4,
+                "end_index": 11
+            }
+        ]
+    },
+    {
+        "context": "the number i saw was dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 21,
+                "end_index": 28
+            }
+        ]
+    },
+    {
+        "context": "i not really sure but from what i see the number might be dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 58,
+                "end_index": 65
+            }
+        ]
+    },
+    {
+        "context": "the liscense number i saw was dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 30,
+                "end_index": 37
+            }
+        ]
+    },
+    {
+        "context": "i guess the number is dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 22,
+                "end_index": 29
+            }
+        ]
+    },
+    {
+        "context": "the taxi service told me the liscense number is dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 48,
+                "end_index": 55
+            }
+        ]
+    },
+    {
+        "context": "dhr4555 is the liscense number",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 0,
+                "end_index": 7
+            }
+        ]
+    },
+    {
+        "context": "the driver told me the liscense number is dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 42,
+                "end_index": 49
+            }
+        ]
+    },
+    {
+        "context": "i saw dhr4555 on the liscense plate",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 6,
+                "end_index": 13
+            }
+        ]
+    },
+    {
+        "context": "my eyes say dhr4555 on the window",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 12,
+                "end_index": 19
+            }
+        ]
+    },
+    {
+        "context": "i saw dhr4555 on the window and the top of the car",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 6,
+                "end_index": 13
+            }
+        ]
+    },
+    {
+        "context": "the driver has a badge that has the number dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 43,
+                "end_index": 50
+            }
+        ]
+    },
+    {
+        "context": "the taxi service told me the car number was dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 44,
+                "end_index": 51
+            }
+        ]
+    },
+    {
+        "context": "dhr4555 was the liscense number the taxi service told me",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 0,
+                "end_index": 7
+            }
+        ]
+    },
+    {
+        "context": "the taxi number is dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 19,
+                "end_index": 26
+            }
+        ]
+    },
+    {
+        "context": "dhr4555 is the taxi number i saw",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 0,
+                "end_index": 7
+            }
+        ]
+    },
+    {
+        "context": "dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 0,
+                "end_index": 7
+            }
+        ]
+    },
+    {
+        "context": "dhr4555",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 0,
+                "end_index": 7
+            }
+        ]
+    },
+    {
+        "context": "dhr4555 i think is the taxi number",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 0,
+                "end_index": 7
+            }
+        ]
+    },
+    {
+        "context": "the driver's name is John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 21,
+                "end_index": 29
+            }
+        ]
+    },
+    {
+        "context": "John Doe is the drivers name",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 0,
+                "end_index": 8
+            }
+        ]
+    },
+    {
+        "context": "the driver told me His name was John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 32,
+                "end_index": 40
+            }
+        ]
+    },
+    {
+        "context": "the driver's id says his name is John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 33,
+                "end_index": 41
+            }
+        ]
+    },
+    {
+        "context": "i could recall the driver saying his name was John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 46,
+                "end_index": 54
+            }
+        ]
+    },
+    {
+        "context": "i think its John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 12,
+                "end_index": 20
+            }
+        ]
+    },
+    {
+        "context": "John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 0,
+                "end_index": 8
+            }
+        ]
+    },
+    {
+        "context": "the taxi service told me the drivers name was John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 46,
+                "end_index": 54
+            }
+        ]
+    },
+    {
+        "context": "I overherd the driver saying his name was John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 42,
+                "end_index": 50
+            }
+        ]
+    },
+    {
+        "context": "the cars driver is John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 19,
+                "end_index": 27
+            }
+        ]
+    },
+    {
+        "context": "the name on the drivers id is John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 30,
+                "end_index": 38
+            }
+        ]
+    },
+    {
+        "context": "John Doe is the driver",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 0,
+                "end_index": 8
+            }
+        ]
+    },
+    {
+        "context": "the driver is John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 14,
+                "end_index": 22
+            }
+        ]
+    },
+    {
+        "context": "I think his name is John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 20,
+                "end_index": 28
+            }
+        ]
+    },
+    {
+        "context": "John Doe is his name",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 0,
+                "end_index": 8
+            }
+        ]
+    },
+    {
+        "context": "John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 0,
+                "end_index": 8
+            }
+        ]
+    },
+    {
+        "context": "the driver said his name was John Doe",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 29,
+                "end_index": 37
+            }
+        ]
+    },
+    {
+        "context": "i am currently on water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 18,
+                "end_index": 30
+            }
+        ]
+    },
+    {
+        "context": "my current location is water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 23,
+                "end_index": 35
+            }
+        ]
+    },
+    {
+        "context": "water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 0,
+                "end_index": 12
+            }
+        ]
+    },
+    {
+        "context": "the car just turn water street and is currently heading down water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 18,
+                "end_index": 30
+            }
+        ]
+    },
+    {
+        "context": "i am on water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 8,
+                "end_index": 20
+            }
+        ]
+    },
+    {
+        "context": "the car is heading on water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 22,
+                "end_index": 34
+            }
+        ]
+    },
+    {
+        "context": "the car just turned around and is on water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 37,
+                "end_index": 49
+            }
+        ]
+    },
+    {
+        "context": "water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 0,
+                "end_index": 12
+            }
+        ]
+    },
+    {
+        "context": "i driver is on water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 15,
+                "end_index": 27
+            }
+        ]
+    },
+    {
+        "context": "the current location of the taxi is water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 36,
+                "end_index": 48
+            }
+        ]
+    },
+    {
+        "context": "water street is where the car is",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 0,
+                "end_index": 12
+            }
+        ]
+    },
+    {
+        "context": "we are on water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 10,
+                "end_index": 22
+            }
+        ]
+    },
+    {
+        "context": "we just turned water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 15,
+                "end_index": 27
+            }
+        ]
+    },
+    {
+        "context": "the road we are on is water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 22,
+                "end_index": 34
+            }
+        ]
+    },
+    {
+        "context": "i think we are at water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 18,
+                "end_index": 30
+            }
+        ]
+    },
+    {
+        "context": "water street is where the driver is",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 0,
+                "end_index": 12
+            }
+        ]
+    },
+    {
+        "context": "we deh pon water street",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 11,
+                "end_index": 23
+            }
+        ]
+    },
+    {
+        "context": "the driver is a black male with gray hair and mustache",
+        "entities": [
+            {
+                "entity_value": "black male",
+                "entity_type": "driver",
+                "start_index": 16,
+                "end_index": 26
+            },
+            {
+                "entity_value": "gray hair",
+                "entity_type": "driver",
+                "start_index": 32,
+                "end_index": 41
+            },
+            {
+                "entity_value": "mustache",
+                "entity_type": "driver",
+                "start_index": 46,
+                "end_index": 54
+            }
+        ]
+    },
+    {
+        "context": "the driver has a mustache and gray hair",
+        "entities": [
+            {
+                "entity_value": "gray hair",
+                "entity_type": "driver",
+                "start_index": 30,
+                "end_index": 39
+            },
+            {
+                "entity_value": "mustache",
+                "entity_type": "driver",
+                "start_index": 17,
+                "end_index": 25
+            }
+        ]
+    },
+    {
+        "context": "the driver looks scary",
+        "entities": [
+            {
+                "entity_value": "scary",
+                "entity_type": "driver",
+                "start_index": 17,
+                "end_index": 22
+            }
+        ]
+    },
+    {
+        "context": "the driver is a black male",
+        "entities": [
+            {
+                "entity_value": "black",
+                "entity_type": "driver",
+                "start_index": 16,
+                "end_index": 21
+            },
+            {
+                "entity_value": "male",
+                "entity_type": "driver",
+                "start_index": 22,
+                "end_index": 26
+            }
+        ]
+    },
+    {
+        "context": "black shoes gray hair with a reeper mask",
+        "entities": [
+            {
+                "entity_value": "black shoes",
+                "entity_type": "driver",
+                "start_index": 0,
+                "end_index": 11
+            },
+            {
+                "entity_value": "gray hair",
+                "entity_type": "driver",
+                "start_index": 12,
+                "end_index": 21
+            },
+            {
+                "entity_value": "reeper mask",
+                "entity_type": "driver",
+                "start_index": 29,
+                "end_index": 40
+            }
+        ]
+    },
+    {
+        "context": "crooked teeth, black and old",
+        "entities": [
+            {
+                "entity_value": "old",
+                "entity_type": "driver",
+                "start_index": 25,
+                "end_index": 28
+            },
+            {
+                "entity_value": "crooked teeth",
+                "entity_type": "driver",
+                "start_index": 0,
+                "end_index": 13
+            },
+            {
+                "entity_value": "black",
+                "entity_type": "driver",
+                "start_index": 15,
+                "end_index": 20
+            }
+        ]
+    },
+    {
+        "context": "male with black hair",
+        "entities": [
+            {
+                "entity_value": "male",
+                "entity_type": "driver",
+                "start_index": 0,
+                "end_index": 4
+            },
+            {
+                "entity_value": "black hair",
+                "entity_type": "driver",
+                "start_index": 10,
+                "end_index": 20
+            }
+        ]
+    },
+    {
+        "context": "the driver is a young black male with a pink dress on",
+        "entities": [
+            {
+                "entity_value": "young",
+                "entity_type": "driver",
+                "start_index": 16,
+                "end_index": 21
+            },
+            {
+                "entity_value": "pink dress",
+                "entity_type": "driver",
+                "start_index": 40,
+                "end_index": 50
+            },
+            {
+                "entity_value": "black male",
+                "entity_type": "driver",
+                "start_index": 22,
+                "end_index": 32
+            }
+        ]
+    },
+    {
+        "context": "the driver has a white cap on with a brown pants and is a black male",
+        "entities": [
+            {
+                "entity_value": "white cap",
+                "entity_type": "driver",
+                "start_index": 17,
+                "end_index": 26
+            },
+            {
+                "entity_value": "brown pants",
+                "entity_type": "driver",
+                "start_index": 37,
+                "end_index": 48
+            },
+            {
+                "entity_value": "black male",
+                "entity_type": "driver",
+                "start_index": 58,
+                "end_index": 68
+            }
+        ]
+    },
+    {
+        "context": "the driver is a black male and has a white cap on",
+        "entities": [
+            {
+                "entity_value": "black male",
+                "entity_type": "driver",
+                "start_index": 16,
+                "end_index": 26
+            },
+            {
+                "entity_value": "white cap",
+                "entity_type": "driver",
+                "start_index": 37,
+                "end_index": 46
+            }
+        ]
+    },
+    {
+        "context": "the driver has on brown pants and has black hair",
+        "entities": [
+            {
+                "entity_value": "brown pants",
+                "entity_type": "driver",
+                "start_index": 18,
+                "end_index": 29
+            },
+            {
+                "entity_value": "black hair",
+                "entity_type": "driver",
+                "start_index": 38,
+                "end_index": 48
+            }
+        ]
+    },
+    {
+        "context": "The driver has crooked teeth a mustache and black shoes",
+        "entities": [
+            {
+                "entity_value": "mustache",
+                "entity_type": "driver",
+                "start_index": 31,
+                "end_index": 39
+            },
+            {
+                "entity_value": "black shoes",
+                "entity_type": "driver",
+                "start_index": 44,
+                "end_index": 55
+            },
+            {
+                "entity_value": "crooked teeth",
+                "entity_type": "driver",
+                "start_index": 15,
+                "end_index": 28
+            }
+        ]
+    },
+    {
+        "context": "male with gray hair",
+        "entities": [
+            {
+                "entity_value": "gray hair",
+                "entity_type": "driver",
+                "start_index": 10,
+                "end_index": 19
+            },
+            {
+                "entity_value": "male",
+                "entity_type": "driver",
+                "start_index": 0,
+                "end_index": 4
+            }
+        ]
+    },
+    {
+        "context": "black male with mustache",
+        "entities": [
+            {
+                "entity_value": "black male",
+                "entity_type": "driver",
+                "start_index": 0,
+                "end_index": 10
+            },
+            {
+                "entity_value": "mustache",
+                "entity_type": "driver",
+                "start_index": 16,
+                "end_index": 24
+            }
+        ]
+    },
+    {
+        "context": "the driver has on a pink dress",
+        "entities": [
+            {
+                "entity_value": "pink dress",
+                "entity_type": "driver",
+                "start_index": 20,
+                "end_index": 30
+            }
+        ]
+    },
+    {
+        "context": "pink dress and crooked teeth",
+        "entities": [
+            {
+                "entity_value": "pink dress",
+                "entity_type": "driver",
+                "start_index": 0,
+                "end_index": 10
+            },
+            {
+                "entity_value": "crooked teeth",
+                "entity_type": "driver",
+                "start_index": 15,
+                "end_index": 28
+            }
+        ]
+    },
+    {
+        "context": "the driver has on brown pants, white cap, black shoes, crooked teeth and she is a black male",
+        "entities": [
+            {
+                "entity_value": "brown pants",
+                "entity_type": "driver",
+                "start_index": 18,
+                "end_index": 29
+            },
+            {
+                "entity_value": "white cap",
+                "entity_type": "driver",
+                "start_index": 31,
+                "end_index": 40
+            },
+            {
+                "entity_value": "black shoes",
+                "entity_type": "driver",
+                "start_index": 42,
+                "end_index": 53
+            },
+            {
+                "entity_value": "crooked teeth",
+                "entity_type": "driver",
+                "start_index": 55,
+                "end_index": 68
+            },
+            {
+                "entity_value": "black male",
+                "entity_type": "driver",
+                "start_index": 82,
+                "end_index": 92
+            }
+        ]
+    },
+    {
+        "context": "i think the driver is a black male. he is wearing brown pants and a white cap",
+        "entities": [
+            {
+                "entity_value": "black male",
+                "entity_type": "driver",
+                "start_index": 24,
+                "end_index": 34
+            },
+            {
+                "entity_value": "brown pants",
+                "entity_type": "driver",
+                "start_index": 50,
+                "end_index": 61
+            },
+            {
+                "entity_value": "white cap",
+                "entity_type": "driver",
+                "start_index": 68,
+                "end_index": 77
+            }
+        ]
+    },
+    {
+        "context": "The driver has black hair",
+        "entities": [
+            {
+                "entity_value": "black hair",
+                "entity_type": "driver",
+                "start_index": 15,
+                "end_index": 25
+            }
+        ]
+    },
+    {
+        "context": "John Doe is currently turning water street and he is still driving dangerously",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 30,
+                "end_index": 42
+            },
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 59,
+                "end_index": 78
+            }
+        ]
+    },
+    {
+        "context": "John Doe is driving dangerously on water street",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 0,
+                "end_index": 8
+            },
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 12,
+                "end_index": 31
+            },
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 35,
+                "end_index": 47
+            }
+        ]
+    },
+    {
+        "context": "I am scared of John Doe",
+        "entities": [
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 5,
+                "end_index": 11
+            },
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 15,
+                "end_index": 23
+            }
+        ]
+    },
+    {
+        "context": "the taxi number is dhr4555 and John Doe is still driving dangerously",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 19,
+                "end_index": 26
+            },
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 49,
+                "end_index": 68
+            },
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 31,
+                "end_index": 39
+            }
+        ]
+    },
+    {
+        "context": "The black male just turned on water street with the loud music",
+        "entities": [
+            {
+                "entity_value": "black male",
+                "entity_type": "driver",
+                "start_index": 4,
+                "end_index": 14
+            },
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 30,
+                "end_index": 42
+            },
+            {
+                "entity_value": "loud music",
+                "entity_type": "situation",
+                "start_index": 52,
+                "end_index": 62
+            }
+        ]
+    },
+    {
+        "context": "John Doe cars number plate is dhr4555",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 0,
+                "end_index": 8
+            },
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 30,
+                "end_index": 37
+            }
+        ]
+    },
+    {
+        "context": "i am on water street and John Doe is driving dangerously",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 8,
+                "end_index": 20
+            },
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 25,
+                "end_index": 33
+            },
+            {
+                "entity_value": "driving dangerously",
+                "entity_type": "situation",
+                "start_index": 37,
+                "end_index": 56
+            }
+        ]
+    },
+    {
+        "context": "John Doe is wearing a brown pants and a white cap",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 0,
+                "end_index": 8
+            },
+            {
+                "entity_value": "brown pants",
+                "entity_type": "driver",
+                "start_index": 22,
+                "end_index": 33
+            },
+            {
+                "entity_value": "white cap",
+                "entity_type": "driver",
+                "start_index": 40,
+                "end_index": 49
+            }
+        ]
+    },
+    {
+        "context": "The black male is playing loud music",
+        "entities": [
+            {
+                "entity_value": "black male",
+                "entity_type": "driver",
+                "start_index": 4,
+                "end_index": 14
+            },
+            {
+                "entity_value": "loud music",
+                "entity_type": "situation",
+                "start_index": 26,
+                "end_index": 36
+            }
+        ]
+    },
+    {
+        "context": "the taxi number is dhr4555 and the driver is a black male with crooked teeth",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 19,
+                "end_index": 26
+            },
+            {
+                "entity_value": "black male",
+                "entity_type": "driver",
+                "start_index": 47,
+                "end_index": 57
+            },
+            {
+                "entity_value": "crooked teeth",
+                "entity_type": "driver",
+                "start_index": 63,
+                "end_index": 76
+            }
+        ]
+    },
+    {
+        "context": "dhr4555 is the taxi number and the drivers name is John Doe",
+        "entities": [
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 0,
+                "end_index": 7
+            },
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 51,
+                "end_index": 59
+            }
+        ]
+    },
+    {
+        "context": "John Doe is a black male with old black hair",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 0,
+                "end_index": 8
+            },
+            {
+                "entity_value": "black male",
+                "entity_type": "driver",
+                "start_index": 14,
+                "end_index": 24
+            },
+            {
+                "entity_value": "old",
+                "entity_type": "driver",
+                "start_index": 30,
+                "end_index": 33
+            },
+            {
+                "entity_value": "black hair",
+                "entity_type": "driver",
+                "start_index": 34,
+                "end_index": 44
+            }
+        ]
+    },
+    {
+        "context": "John Doe car is on water street and i am scared",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 0,
+                "end_index": 8
+            },
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 19,
+                "end_index": 31
+            },
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 41,
+                "end_index": 47
+            }
+        ]
+    },
+    {
+        "context": "water street is where John Doe is",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 0,
+                "end_index": 12
+            },
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 22,
+                "end_index": 30
+            }
+        ]
+    },
+    {
+        "context": "water street is where the black male is",
+        "entities": [
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 0,
+                "end_index": 12
+            },
+            {
+                "entity_value": "black male",
+                "entity_type": "driver",
+                "start_index": 26,
+                "end_index": 36
+            }
+        ]
+    },
+    {
+        "context": "John Doe is a black male and his car just turned water street. The car number is dhr4555 and i am scared.",
+        "entities": [
+            {
+                "entity_value": "John Doe",
+                "entity_type": "name",
+                "start_index": 0,
+                "end_index": 8
+            },
+            {
+                "entity_value": "black male",
+                "entity_type": "driver",
+                "start_index": 14,
+                "end_index": 24
+            },
+            {
+                "entity_value": "water street",
+                "entity_type": "location",
+                "start_index": 49,
+                "end_index": 61
+            },
+            {
+                "entity_value": "dhr4555",
+                "entity_type": "taxi_number",
+                "start_index": 81,
+                "end_index": 88
+            },
+            {
+                "entity_value": "scared",
+                "entity_type": "situation",
+                "start_index": 98,
+                "end_index": 104
+            }
+        ]
+    }
+]
