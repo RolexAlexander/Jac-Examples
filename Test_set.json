@@ -1,0 +1,607 @@
+[
+    {
+        "question": "i am really scared ",
+        "value": ["scared"],
+        "type": ["situation"]
+   },
+   {
+       "question": "i cant take the loud music the car is playing",
+       "value": ["loud music"],
+       "type": ["situation"]
+   },
+   {
+       "question": "the cars music is very loud music",
+       "value": ["loud music"],
+       "type": ["situation"]
+   },
+   {
+       "question": "the driver is driving dangerously",
+       "value": ["driving dangerously"],
+       "type": ["situation"]
+   },
+   {
+       "question": "i feel scared now that you took care of my concerns",
+       "value": ["scared"],
+       "type": ["situation"]
+   },
+   {
+       "question": "i am feeling a little bit scared because i am traveling in public transport",
+       "value": ["scared"],
+       "type": ["situation"]
+   },
+   {
+       "question": "i feel scared the driver is driving dangerously",
+       "value": ["scared","driving dangerously"],
+       "type": ["situation", "situation"]
+   },
+   {
+       "question": "the driver has  loud music",
+       "value": ["loud music"],
+       "type": ["situation"]
+   },
+   {
+       "question": "the driver is using loud music to iretate me",
+       "value": ["loud music"],
+       "type": ["situation"]
+   },
+   {
+       "question": "the driver is playing loud music and is not turning it down",
+       "value": ["loud music"],
+       "type": ["situation"]
+   },
+   {
+       "question": "I am scared because the driver is driving dangerously",
+       "value": ["driving dangerously", "scared"], 
+       "type": ["situation", "situation"]
+   },
+   {
+       "question": "The driver is driving dangerously and i am scared",
+       "value": ["driving dangerously", "scared"],
+       "type": ["situation", "situation"]
+   },
+   {
+       "question": "I am scared because the driver is playing loud music and driving dangerously",
+       "value": ["driving dangerously", "loud music", "scared"],
+       "type": ["situation", "situation", "situation"]
+   },
+   {
+       "question": "I feel scared knowing that you have helped me",
+       "value": ["scared"],
+       "type": ["situation"]
+   },
+   {
+       "question": "I hate that the driver is driving dangerously and playing loud music",
+       "value": ["driving dangerously", "loud music"],
+       "type": ["situation", "situation"]
+   },
+   {
+       "question": "Can you help me get the driver to stop playing loud music",
+       "value": ["loud music"],
+       "type": ["situation"]
+   },
+   {
+       "question": "i want the driver to stop driving dangerously",
+       "value": ["driving dangerously"],
+       "type": ["situation"]
+   },
+   {
+       "question": "the driver is still playing loud music",
+       "value": ["loud music"],
+       "type": ["situation"]
+   },
+   {
+       "question": "i am scared of the car crashing because of the drivers  driving dangerously",
+       "value": ["driving dangerously"],
+       "type": ["situation"]
+   },
+   {
+       "question": "I can't endure the loud music the driver is playing",
+       "value": ["loud music"],
+       "type": ["situation"]
+   },
+   {
+       "question": "I have a ear infection and i can't tolerate the loud music the driver is playing",
+       "value": ["loud music"],
+       "type": ["situation"]
+   },
+   {
+       "question": "i am scared for my life",
+       "value": ["scared"],
+       "type": ["situation"]
+   },
+   {
+       "question": "i think the car might crash because of the drivers driving dangerously",
+       "value": ["driving dangerously"],
+       "type": ["situation"]
+   },
+   {
+       "question": "Its very import that the driving stop driving dangerously",
+       "value": ["driving dangerously"],
+       "type": ["situation"]
+   },
+   {
+       "question": "i feel scared for my life",
+       "value": ["scared"],
+       "type": ["situation"]
+   },
+   {
+       "question": "i have a scared feeling",
+       "value": ["scared"],
+       "type": ["situation"]
+   },
+   {
+    "question": "the taxi number is dhr4555",
+    "value": ["dhr4555"],
+    "type": ["taxi_number"]
+    },
+    {
+        "question": "dhr4555 is the taxi number",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "i think the taxi number is dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "the driver has a fake liscense plate but the number on that plate is dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "dhr4555 is the number on the liscense plate",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "i think its dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "its dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "the number i saw was dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "i not really sure but from what i see the number might be dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "the liscense number i saw was dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "i guess the number is dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "the taxi service told me the liscense number is dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "dhr4555 is the liscense number",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "the driver told me the liscense number is dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "i saw dhr4555 on the liscense plate",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "my eyes say dhr4555 on the window",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "i saw dhr4555 on the window and the top of the car",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "the driver has a badge that has the number dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "the taxi service told me the car number was dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "dhr4555 was the liscense number the taxi service told me",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+    },
+    {
+        "question": "the taxi number is dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+   },
+   {
+        "question": "dhr4555 is the taxi number i saw",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+   },
+   {
+        "question": "dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+   },
+   {
+        "question": "dhr4555",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+   },
+   {
+        "question": "dhr4555 i think is the taxi number",
+        "value": ["dhr4555"],
+        "type": ["taxi_number"]
+   },
+   {
+    "question": "the driver's name is John Doe",
+    "value": ["John Doe"],
+    "type": ["name"]
+   },
+    {
+        "question": "John Doe is the drivers name",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "the driver told me His name was John Doe",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "the driver's id says his name is John Doe",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "i could recall the driver saying his name was John Doe",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "i think its John Doe",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "John Doe",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "the taxi service told me the drivers name was John Doe",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "I overherd the driver saying his name was John Doe",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "the cars driver is John Doe",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "the name on the drivers id is John Doe",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "John Doe is the driver",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "the driver is John Doe",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "I think his name is John Doe",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "John Doe is his name",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "John Doe",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+    {
+        "question": "the driver said his name was John Doe",
+        "value": ["John Doe"],
+        "type": ["name"]
+    },
+   {
+         "question": "i am currently on water street",
+         "value": ["water street"],
+         "type": ["location"]
+    },
+    {
+         "question": "my current location is water street",
+         "value": ["water street"],
+         "type": ["location"]
+    },
+    {
+         "question": "water street",
+         "value": ["water street"],
+         "type": ["location"]
+    },
+    {
+         "question": "the car just turn water street and is currently heading down water street",
+         "value": ["water street"],
+         "type": ["location"]
+    },
+    {
+         "question": "i am on water street",
+         "value": ["water street"],
+         "type": ["location"]
+    },  
+    {
+         "question": "the car is heading on water street",
+         "value": ["water street"],
+         "type": ["location"]
+    },
+    {
+         "question": "the car just turned around and is on water street",
+         "value": ["water street"],
+         "type": ["location"]
+    },
+    {
+         "question": "water street",
+         "value": ["water street"],
+         "type": ["location"]
+    },
+    {
+         "question": "i driver is on water street",
+         "value": ["water street"],
+         "type": ["location"]
+    },
+    {
+         "question": "the current location of the taxi is water street",
+         "value": ["water street"],
+         "type": ["location"]
+    },
+    {
+        "question": "water street is where the car is",
+        "value": ["water street"],
+        "type": ["location"]
+    },
+    {
+        "question": "we are on water street",
+        "value": ["water street"],
+        "type": ["location"]
+    },
+    {
+        "question": "we just turned water street",
+        "value": ["water street"],
+        "type": ["location"]
+    },
+    {
+        "question": "the road we are on is water street",
+        "value": ["water street"],
+        "type": ["location"]
+    },
+    {
+        "question": "i think we are at water street",
+        "value": ["water street"],
+        "type": ["location"]
+    },
+    {
+        "question": "water street is where the driver is",
+        "value": ["water street"],
+        "type": ["location"]
+    },
+    {
+        "question": "we deh pon water street",
+        "value": ["water street"],
+        "type": ["location"]
+    },
+    {
+         "question": "the driver is a black male with gray hair and mustache",
+         "value": ["black male", "gray hair", "mustache"],
+         "type": ["driver","driver", "driver"]
+    },
+    {
+         "question": "the driver has a mustache and gray hair",
+         "value": ["gray hair", "mustache"],
+         "type": ["driver","driver"]
+    },
+    {
+         "question": "the driver looks scary",
+         "value": ["scary"],
+         "type": ["driver"]
+    },
+    {
+         "question": "the driver is a black male",
+         "value": ["black", "male"],
+         "type": ["driver","driver"]
+    },
+    {
+         "question": "black shoes gray hair with a reeper mask",
+         "value": ["black shoes", "gray hair", "reeper mask"],
+         "type": ["driver","driver", "driver"]
+    },
+     {
+         "question": "crooked teeth, black and old",
+         "value": ["old", "crooked teeth", "black"],
+         "type": ["driver","driver", "driver"]
+    },
+    {
+         "question": "male with black hair",
+         "value": ["male", "black hair"],
+         "type": ["driver","driver"]
+    },
+    {
+         "question": "the driver is a young black male with a pink dress on",
+         "value": ["young", "pink dress", "black male"],
+         "type": ["driver","driver", "driver"]
+    },
+    {
+         "question": "the driver has a white cap on with a brown pants and is a black male",
+         "value": ["white cap", "brown pants", "black male"],
+         "type": ["driver","driver", "driver"]
+    },
+    {
+         "question": "the driver is a black male and has a white cap on",
+         "value": ["black male", "white cap"],
+         "type": ["driver", "driver"]
+    },
+    {
+         "question": "the driver has on brown pants and has black hair",
+         "value": ["brown pants", "black hair"],
+         "type": ["driver", "driver"]
+    },
+    {
+         "question": "The driver has crooked teeth a mustache and black shoes",
+         "value": ["mustache", "black shoes", "crooked teeth"],
+         "type": ["driver","driver", "driver"]
+    },
+    {
+         "question": "male with gray hair",
+         "value": ["gray hair", "male"],
+         "type": ["driver", "driver"]
+    },
+    {
+         "question": "black male with mustache",
+         "value": ["black male", "mustache"],
+         "type": ["driver", "driver"]
+    },
+    {
+         "question": "the driver has on a pink dress",
+         "value": ["pink dress"],
+         "type": ["driver"]
+    },
+    {
+         "question": "pink dress and crooked teeth",
+         "value": ["pink dress", "crooked teeth"],
+         "type": ["driver", "driver"]
+    },
+    {
+         "question": "the driver has on brown pants, white cap, black shoes, crooked teeth and she is a black male",
+         "value": ["brown pants", "white cap", "black shoes", "crooked teeth", "black male"],
+         "type": ["driver","driver", "driver", "driver", "driver"]
+    },
+    {
+         "question": "i think the driver is a black male. he is wearing brown pants and a white cap",
+         "value": ["black male", "brown pants", "white cap"],
+         "type": ["driver","driver", "driver"]
+    },
+    {
+         "question": "The driver has black hair",
+         "value": ["black hair"],
+         "type": ["driver"]
+    },
+    {
+         "question": "John Doe is currently turning water street and he is still driving dangerously",
+         "value": ["water street", "driving dangerously"],
+         "type": ["location", "situation"]
+    },
+    {
+         "question": "John Doe is driving dangerously on water street",
+         "value": ["John Doe", "driving dangerously", "water street"],
+         "type": ["name", "situation", "location"]
+    },
+    {
+         "question": "I am scared of John Doe",
+         "value": ["scared", "John Doe"],
+         "type": ["situation", "name"]
+    },
+    {
+         "question": "the taxi number is dhr4555 and John Doe is still driving dangerously",
+         "value": ["dhr4555", "driving dangerously", "John Doe"],
+         "type": ["taxi_number", "situation", "name"]
+    },
+    {
+         "question": "The black male just turned on water street with the loud music",
+         "value": ["black male", "water street", "loud music"],
+         "type": ["driver", "location", "situation"]
+    },
+    {
+         "question": "John Doe cars number plate is dhr4555",
+         "value": ["John Doe", "dhr4555"],
+         "type": ["name", "taxi_number"]
+    },
+    {
+         "question": "i am on water street and John Doe is driving dangerously",
+         "value": ["water street", "John Doe", "driving dangerously"],
+         "type": ["location", "name", "situation"]
+    },
+    {
+         "question": "John Doe is wearing a brown pants and a white cap",
+         "value": ["John Doe", "brown pants", "white cap"],
+         "type": ["name", "driver", "driver"]
+    },
+    {
+         "question": "The black male is playing loud music",
+         "value": ["black male", "loud music"],
+         "type": ["driver", "situation"]
+    },
+    {
+         "question": "the taxi number is dhr4555 and the driver is a black male with crooked teeth",
+         "value": ["dhr4555", "black male", "crooked teeth"],
+         "type": ["taxi_number", "driver", "driver"]
+    },
+    {
+         "question": "dhr4555 is the taxi number and the drivers name is John Doe",
+         "value": ["dhr4555", "John Doe"],
+         "type": ["taxi_number", "name"]
+    },
+    {
+         "question": "John Doe is a black male with old black hair",
+         "value": ["John Doe", "black male", "old", "black hair"],
+         "type": ["name", "driver", "driver", "driver"]
+    },
+    {
+         "question": "John Doe car is on water street and i am scared",
+         "value": ["John Doe", "water street", "scared"],
+         "type": ["name", "location", "situation"]
+    },
+    {
+         "question": "water street is where John Doe is",
+         "value": ["water street", "John Doe"],
+         "type": ["location", "name"]
+    },
+    {
+         "question": "water street is where the black male is",
+         "value": ["water street", "black male"],
+         "type": ["location", "driver"]
+    },
+    {
+         "question": "John Doe is a black male and his car just turned water street. The car number is dhr4555 and i am scared.",
+         "value": ["John Doe", "black male", "water street", "dhr4555", "scared"],
+         "type": ["name", "driver", "location", "taxi_number", "situation"]
+    }
+]
