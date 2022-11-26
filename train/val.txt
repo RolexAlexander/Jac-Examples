@@ -1,0 +1,1063 @@
+i O
+am O
+really O
+scared B-situation
+
+i O
+cant O
+take O
+the O
+loud B-situation
+music I-situation
+car O
+is O
+playing O
+
+the O
+cars O
+music I-situation
+is O
+very O
+loud B-situation
+
+the O
+driver O
+is O
+driving B-situation
+dangerously I-situation
+
+i O
+feel O
+scared B-situation
+now O
+that O
+you O
+took O
+care O
+of O
+my O
+concerns O
+
+i O
+am O
+feeling O
+a O
+little O
+bit O
+scared B-situation
+because O
+traveling O
+in O
+public O
+transport O
+
+i O
+feel O
+scared B-situation
+the O
+driver O
+is O
+driving B-situation
+dangerously I-situation
+
+the O
+driver O
+has O
+loud B-situation
+music I-situation
+
+the O
+driver O
+is O
+using O
+loud B-situation
+music I-situation
+to O
+iretate O
+me O
+
+the O
+driver O
+is O
+playing O
+loud B-situation
+music I-situation
+and O
+not O
+turning O
+it O
+down O
+
+I O
+am O
+scared B-situation
+because O
+the O
+driver O
+is O
+driving B-situation
+dangerously I-situation
+
+The O
+driver O
+is O
+driving B-situation
+dangerously I-situation
+and O
+i O
+am O
+scared B-situation
+
+I O
+am O
+scared B-situation
+because O
+the O
+driver O
+is O
+playing O
+loud B-situation
+music I-situation
+and O
+driving B-situation
+dangerously I-situation
+
+I O
+feel O
+scared B-situation
+knowing O
+that O
+you O
+have O
+helped O
+me O
+
+I O
+hate O
+that O
+the O
+driver O
+is O
+driving B-situation
+dangerously I-situation
+and O
+playing O
+loud B-situation
+music I-situation
+
+Can O
+you O
+help O
+me O
+get O
+the O
+driver O
+to O
+stop O
+playing O
+loud B-situation
+music I-situation
+
+i O
+want O
+the O
+driver O
+to O
+stop O
+driving B-situation
+dangerously I-situation
+
+the O
+driver O
+is O
+still O
+playing O
+loud B-situation
+music I-situation
+
+i O
+am O
+scared O
+of O
+the O
+car O
+crashing O
+because O
+drivers O
+driving B-situation
+dangerously I-situation
+
+I O
+can't O
+endure O
+the O
+loud B-situation
+music I-situation
+driver O
+is O
+playing O
+
+I O
+have O
+a O
+ear O
+infection O
+and O
+i O
+can't O
+tolerate O
+the O
+loud B-situation
+music I-situation
+driver O
+is O
+playing O
+
+i O
+am O
+scared B-situation
+for O
+my O
+life O
+
+i O
+think O
+the O
+car O
+might O
+crash O
+because O
+of O
+drivers O
+driving B-situation
+dangerously I-situation
+
+Its O
+very O
+import O
+that O
+the O
+driving B-situation
+stop O
+dangerously I-situation
+
+i O
+feel O
+scared B-situation
+for O
+my O
+life O
+
+i O
+have O
+a O
+scared B-situation
+feeling O
+
+the O
+taxi O
+number O
+is O
+dhr4555 B-taxi_number
+
+dhr4555 B-taxi_number
+is O
+the O
+taxi O
+number O
+
+i O
+think O
+the O
+taxi O
+number O
+is O
+dhr4555 B-taxi_number
+
+dhr4555 B-taxi_number
+
+the O
+driver O
+has O
+a O
+fake O
+liscense O
+plate O
+but O
+number O
+on O
+that O
+is O
+dhr4555 B-taxi_number
+
+dhr4555 B-taxi_number
+is O
+the O
+number O
+on O
+liscense O
+plate O
+
+i O
+think O
+its O
+dhr4555 B-taxi_number
+
+its O
+dhr4555 B-taxi_number
+
+the O
+number O
+i O
+saw O
+was O
+dhr4555 B-taxi_number
+
+i O
+not O
+really O
+sure O
+but O
+from O
+what O
+see O
+the O
+number O
+might O
+be O
+dhr4555 B-taxi_number
+
+the O
+liscense O
+number O
+i O
+saw O
+was O
+dhr4555 B-taxi_number
+
+i O
+guess O
+the O
+number O
+is O
+dhr4555 B-taxi_number
+
+the O
+taxi O
+service O
+told O
+me O
+liscense O
+number O
+is O
+dhr4555 B-taxi_number
+
+dhr4555 B-taxi_number
+is O
+the O
+liscense O
+number O
+
+the O
+driver O
+told O
+me O
+liscense O
+number O
+is O
+dhr4555 B-taxi_number
+
+i O
+saw O
+dhr4555 B-taxi_number
+on O
+the O
+liscense O
+plate O
+
+my O
+eyes O
+say O
+dhr4555 B-taxi_number
+on O
+the O
+window O
+
+i O
+saw O
+dhr4555 B-taxi_number
+on O
+the O
+window O
+and O
+top O
+of O
+car O
+
+the O
+driver O
+has O
+a O
+badge O
+that O
+number O
+dhr4555 B-taxi_number
+
+the O
+taxi O
+service O
+told O
+me O
+car O
+number O
+was O
+dhr4555 B-taxi_number
+
+dhr4555 B-taxi_number
+was O
+the O
+liscense O
+number O
+taxi O
+service O
+told O
+me O
+
+the O
+taxi O
+number O
+is O
+dhr4555 B-taxi_number
+
+dhr4555 B-taxi_number
+is O
+the O
+taxi O
+number O
+i O
+saw O
+
+dhr4555 B-taxi_number
+
+dhr4555 B-taxi_number
+
+dhr4555 B-taxi_number
+i O
+think O
+is O
+the O
+taxi O
+number O
+
+the O
+driver's O
+name O
+is O
+John B-name
+Doe I-name
+
+John B-name
+Doe I-name
+is O
+the O
+drivers O
+name O
+
+the O
+driver O
+told O
+me O
+His O
+name O
+was O
+John B-name
+Doe I-name
+
+the O
+driver's O
+id O
+says O
+his O
+name O
+is O
+John B-name
+Doe I-name
+
+i O
+could O
+recall O
+the O
+driver O
+saying O
+his O
+name O
+was O
+John B-name
+Doe I-name
+
+i O
+think O
+its O
+John B-name
+Doe I-name
+
+John B-name
+Doe I-name
+
+the O
+taxi O
+service O
+told O
+me O
+drivers O
+name O
+was O
+John B-name
+Doe I-name
+
+I O
+overherd O
+the O
+driver O
+saying O
+his O
+name O
+was O
+John B-name
+Doe I-name
+
+the O
+cars O
+driver O
+is O
+John B-name
+Doe I-name
+
+the O
+name O
+on O
+drivers O
+id O
+is O
+John B-name
+Doe I-name
+
+John B-name
+Doe I-name
+is O
+the O
+driver O
+
+the O
+driver O
+is O
+John B-name
+Doe I-name
+
+I O
+think O
+his O
+name O
+is O
+John B-name
+Doe I-name
+
+John B-name
+Doe I-name
+is O
+his O
+name O
+
+John B-name
+Doe I-name
+
+the O
+driver O
+said O
+his O
+name O
+was O
+John B-name
+Doe I-name
+
+i O
+am O
+currently O
+on O
+water B-location
+street I-location
+
+my O
+current O
+location O
+is O
+water B-location
+street I-location
+
+water B-location
+street I-location
+
+the O
+car O
+just O
+turn O
+water B-location
+street I-location
+and O
+is O
+currently O
+heading O
+down O
+
+i O
+am O
+on O
+water B-location
+street I-location
+
+the O
+car O
+is O
+heading O
+on O
+water B-location
+street I-location
+
+the O
+car O
+just O
+turned O
+around O
+and O
+is O
+on O
+water B-location
+street I-location
+
+water B-location
+street I-location
+
+i O
+driver O
+is O
+on O
+water B-location
+street I-location
+
+the O
+current O
+location O
+of O
+taxi O
+is O
+water B-location
+street I-location
+
+water B-location
+street I-location
+is O
+where O
+the O
+car O
+
+we O
+are O
+on O
+water B-location
+street I-location
+
+we O
+just O
+turned O
+water B-location
+street I-location
+
+the O
+road O
+we O
+are O
+on O
+is O
+water B-location
+street I-location
+
+i O
+think O
+we O
+are O
+at O
+water B-location
+street I-location
+
+water B-location
+street I-location
+is O
+where O
+the O
+driver O
+
+we O
+deh O
+pon O
+water B-location
+street I-location
+
+the O
+driver O
+is O
+a O
+black B-driver
+male I-driver
+with O
+gray B-driver
+hair I-driver
+and O
+mustache B-driver
+
+the O
+driver O
+has O
+a O
+mustache B-driver
+and O
+gray B-driver
+hair I-driver
+
+the O
+driver O
+looks O
+scary B-driver
+
+the O
+driver O
+is O
+a O
+black B-driver
+male B-driver
+
+black B-driver
+shoes I-driver
+gray B-driver
+hair I-driver
+with O
+a O
+reeper B-driver
+mask I-driver
+
+crooked B-driver
+teeth, O
+black B-driver
+and O
+old B-driver
+teeth I-driver
+
+male B-driver
+with O
+black B-driver
+hair I-driver
+
+the O
+driver O
+is O
+a O
+young B-driver
+black B-driver
+male I-driver
+with O
+pink B-driver
+dress I-driver
+on O
+
+the O
+driver O
+has O
+a O
+white B-driver
+cap I-driver
+on O
+with O
+brown B-driver
+pants I-driver
+and O
+is O
+black B-driver
+male I-driver
+
+the O
+driver O
+is O
+a O
+black B-driver
+male I-driver
+and O
+has O
+white B-driver
+cap I-driver
+on O
+
+the O
+driver O
+has O
+on O
+brown B-driver
+pants I-driver
+and O
+black B-driver
+hair I-driver
+
+The O
+driver O
+has O
+crooked B-driver
+teeth I-driver
+a O
+mustache B-driver
+and O
+black B-driver
+shoes I-driver
+
+male B-driver
+with O
+gray B-driver
+hair I-driver
+
+black B-driver
+male I-driver
+with O
+mustache B-driver
+
+the O
+driver O
+has O
+on O
+a O
+pink B-driver
+dress I-driver
+
+pink B-driver
+dress I-driver
+and O
+crooked B-driver
+teeth I-driver
+
+the O
+driver O
+has O
+on O
+brown B-driver
+pants, O
+white B-driver
+cap, O
+black B-driver
+shoes, O
+crooked B-driver
+teeth I-driver
+and O
+she O
+is O
+a O
+male I-driver
+pants I-driver
+cap I-driver
+shoes I-driver
+
+i O
+think O
+the O
+driver O
+is O
+a O
+black B-driver
+male. O
+he O
+wearing O
+brown B-driver
+pants I-driver
+and O
+white B-driver
+cap I-driver
+male I-driver
+
+The O
+driver O
+has O
+black B-driver
+hair I-driver
+
+John O
+Doe O
+is O
+currently O
+turning O
+water B-location
+street I-location
+and O
+he O
+still O
+driving B-situation
+dangerously I-situation
+
+John B-name
+Doe I-name
+is O
+driving B-situation
+dangerously I-situation
+on O
+water B-location
+street I-location
+
+I O
+am O
+scared B-situation
+of O
+John B-name
+Doe I-name
+
+the O
+taxi O
+number O
+is O
+dhr4555 B-taxi_number
+and O
+John B-name
+Doe I-name
+still O
+driving B-situation
+dangerously I-situation
+
+The O
+black B-driver
+male I-driver
+just O
+turned O
+on O
+water B-location
+street I-location
+with O
+the O
+loud B-situation
+music I-situation
+
+John B-name
+Doe I-name
+cars O
+number O
+plate O
+is O
+dhr4555 B-taxi_number
+
+i O
+am O
+on O
+water B-location
+street I-location
+and O
+John B-name
+Doe I-name
+is O
+driving B-situation
+dangerously I-situation
+
+John B-name
+Doe I-name
+is O
+wearing O
+a O
+brown B-driver
+pants I-driver
+and O
+white B-driver
+cap I-driver
+
+The O
+black B-driver
+male I-driver
+is O
+playing O
+loud B-situation
+music I-situation
+
+the O
+taxi O
+number O
+is O
+dhr4555 B-taxi_number
+and O
+driver O
+a O
+black B-driver
+male I-driver
+with O
+crooked B-driver
+teeth I-driver
+
+dhr4555 B-taxi_number
+is O
+the O
+taxi O
+number O
+and O
+drivers O
+name O
+John B-name
+Doe I-name
+
+John B-name
+Doe I-name
+is O
+a O
+black B-driver
+male I-driver
+with O
+old B-driver
+hair I-driver
+
+John B-name
+Doe I-name
+car O
+is O
+on O
+water B-location
+street I-location
+and O
+i O
+am O
+scared B-situation
+
+water B-location
+street I-location
+is O
+where O
+John B-name
+Doe I-name
+
+water B-location
+street I-location
+is O
+where O
+the O
+black B-driver
+male I-driver
+
+John B-name
+Doe I-name
+is O
+a O
+black B-driver
+male I-driver
+and O
+his O
+car O
+just O
+turned O
+water B-location
+street. O
+The O
+number O
+dhr4555 B-taxi_number
+i O
+am O
+scared. O
+street I-location
+scared B-situation
+
