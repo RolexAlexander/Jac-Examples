@@ -1,0 +1,60 @@
+{
+    "success": true,
+    "report": [
+        {
+            "message": "What disease/illness treatment would you like to know about?",
+            "utterance": "treatment",
+            "intent": "Treatment",
+            "scores": {},
+            "node": {
+                "name": "state",
+                "kind": "node",
+                "jid": "urn:uuid:91e7929e-7d5a-450c-81c9-d0315e67faf5",
+                "j_timestamp": "2022-11-29T19:13:44.672141",
+                "j_type": "node",
+                "context": {
+                    "title": "",
+                    "response": "What disease/illness treatment would you like to know about?",
+                    "prompts": [
+                        "",
+                        "Acne",
+                        "Allergy",
+                        "Alzheimer",
+                        "Ankylosing Spondylitis",
+                        "Anorexia",
+                        "Panic Attacks",
+                        "Asthma",
+                        "Atrial Fibrillation",
+                        "Autism Spectrum Disorder",
+                        "Cancer",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "visited": 0
+                }
+            }
+        }
+    ],
+    "final_node": "urn:uuid:ea1c630f-5f08-407e-9c9a-b4e82209f4cf",
+    "yielded": false
+}

@@ -1,0 +1,5 @@
+Commands to train tfm_ner
+
+Train command: jac run tfm_ner.jac -walk train -ctx "{\"train_file\": \"train_tfn_ner.json\"}"
+Test command: jac run tfm_ner.jac -walk infer
+save command: jac run tfm_ner.jac -walk save_model -ctx "{\"model_path\": \"Saved_models\"}"
