@@ -1,0 +1,107 @@
+<html>
+    <style>
+        .header1{
+            margin-top: 100px;
+            text-align:center;
+            padding-left: 100px;
+            padding: top 100px;
+            font-size: 50pt;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .field{
+            text-align:center;
+            padding-left: 100px;
+            padding-right: 50px;
+            padding-top: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20pt;
+        }
+        .instructions{
+            text-align:left;
+            padding-left: 100px;
+            padding-right: 50px;
+            padding-top: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20pt;
+            color: black;
+        }
+        .bottondownload{
+            font-size: 23pt;
+            text-align: center;
+            color: black;
+            background-color: rgb(248, 0, 136);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: 100px;
+            margin-right: 100px;
+            border: 3px outset black;
+        }
+        .text_color{
+            color: black;
+            text-decoration: none;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        a:visited{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: none;
+            background-color: black;
+            color: rgb(248, 0, 136);
+            border: 3px outset rgb(248, 0, 136);
+        }
+        a:active{
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        function gethighlightedtext(){
+            var text = "";
+            document.getSelection.toString();
+            if(window.getSelection){
+                text = window.getSelection().toString();
+            }else if (document.selection && document.selection.type != "Control"){
+                text = document.selection.createRange().text;
+            }
+            return text;
+        }
+        
+        function format_text(){
+            var text_f = gethighlightedtext();
+            new_text = "["+text_f+")"; 
+            find_text = new_text.search(" ");
+            text_index = find_text+1;
+            var final_text = new_text.slice(0,find_text) +"]"+" "+"("+new_text.slice(text_index);
+            entire_text = document.getElementById("Input Sentence").value;
+            start_index = entire_text.search(text_f); 
+            last_index = start_index + text_f.length;
+            var new_string = entire_text.slice(0,start_index) +final_text+ entire_text.slice(last_index);
+            document.getElementById("output").innerHTML = new_string;
+            document.getElementById("Input Sentence").value = new_string;
+            return new_string;
+        }
+        
+        document.onmouseup = format_text;
+        
+       
+    </script>
+    <title>
+        Tagging Entities
+    </title>
+    <body>
+        <div class = "header1"> <b>Entity Extractor</b></div>
+        <div class = "instructions"><p> To create the training file for the TFM_NER you have to input the text in the box below with the class/type next to it. After that you must high light the text associated with it. </p></div><br>
+        <div class = "field">
+            <form>
+                <textarea name="Input Sentence" id="Input Sentence" cols="90" rows="30"></textarea>
+                <p></p>
+                <textarea name="Output Sentence" id="output" cols="90" rows="30"></textarea><br><input type="Submit" name="Submit"><p></p><p></p><p></p>
+                <div class = "bottondownload"><b><a href="tfm_ner_data.json"><div class="text_color">Download</div></a></b></div>
+            </form>
+        </div>
+    </body>
+</html>
