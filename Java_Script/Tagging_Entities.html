@@ -73,7 +73,7 @@
         function format_text(){
             var text_f = gethighlightedtext();
             new_text = "["+text_f+")"; 
-            find_text = new_text.search(" ");
+            find_text = new_text.lastIndexOf(" ");
             text_index = find_text+1;
             var final_text = new_text.slice(0,find_text) +"]"+" "+"("+new_text.slice(text_index);
             entire_text = document.getElementById("Input Sentence").value;
@@ -82,6 +82,7 @@
             var new_string = entire_text.slice(0,start_index) +final_text+ entire_text.slice(last_index);
             document.getElementById("output").innerHTML = new_string;
             document.getElementById("Input Sentence").value = new_string;
+            console.log(found_this);
             return new_string;
         }
         
