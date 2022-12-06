@@ -1,1 +1,18 @@
-[]
+[
+    "I would like a mohawk haircut_style at 1:30 pm",
+    "I would like a mohawk at 1:30 pm time",
+    "I just need a mohawk haircut_style on monday at 1 pm",
+    "I just need a mohawk on monday dayofweek at 1 pm",
+    "I just need a mohawk on monday at 1 pm time",
+    "I need a mohawk haircut_style at 1:30 pm on monday",
+    "I need a mohawk at 1:30 pm time on monday"
+],
+[
+    "I would like a mohawk  at 1:30 pm",
+    "I would like a mohawk at 1:30 pm ",
+    "I just need a mohawk  on monday at 1 pm",
+    "I just need a mohawk on monday  at 1 pm",
+    "I just need a mohawk on monday at 1 pm ",
+    "I need a mohawk  at 1:30 pm on monday",
+    "I need a mohawk at 1:30 pm on monday"
+]

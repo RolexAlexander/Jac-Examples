@@ -66,13 +66,13 @@
     </title>
     <body>
         <div class = "header1"> <b>Entity Extractor</b></div>
-        <div class = "instructions"><p> To create the training file for the TFM_NER you have to input the text in the box below with the class/type next to it. After that you must high light the text associated with it. </p></div><br>
+        <div class = "instructions"><p id="instruc"> To create the training file for the TFM_NER you have to input the text in the box below with the class/type next to it. After that you must high light the text associated with it. </p></div><br>
         <div class = "field">
             <form id="Tag_entities" onsubmit="onformsubmit();">
                 <textarea name="Input Sentence" id="Input Sentence" cols="90" rows="30"></textarea><br><p></p>
                 <p></p>
-                <select name="tagging_method" id="tagging_method"><option value="Variable Name and Type">Variable Name and Type</option><option value="Tagging Using Buttons">Tagging Using Buttons</option><option value="Tagging With drop down Menu">Tagging With drop down Menu</option><option value="Tagging with pop up menu">Tagging with pop up menu</option></select><button id="Create_button">Add Button</button><input type="text" id="button_name"><input type="text" id="Remove_button"><button id="remove_btn">Remove Button</button><p></p>
-                <select name="Tag" id="Tag_type"></select>
+                <select name="tagging_method" id="tagging_method"><option value="Variable Name and Type">Variable Name and Type</option><option value="Tagging Using Buttons">Tagging Using Buttons</option><option value="Tagging With drop down Menu">Tagging With drop down Menu</option><option value="Tagging with pop up menu">Tagging with pop up menu</option><option value="generate tags">generate tags</option></select><button id="Create_button">Add Tag</button><input type="text" id="button_name"><input type="text" id="Remove_button"><button id="remove_btn">Remove Tag</button><p></p>
+                <select name="Tag" id="Tag_type"><option value="Add a tag">Add a Tag</option></select><br>
             </form>
             <form id="Get_Tags" onsubmit="onformsubmit();">
                 <textarea name="Output Sentence" id="output" cols="90" rows="30"></textarea><br><p></p><input type="Submit" name="Submit" id="submit_tag"><p></p><p></p>
@@ -82,25 +82,63 @@
     </body>
     <script>
         let tagging_type = " ";
+        let method = document.getElementById("tagging_method").value;
+        document.getElementById("tagging_method").addEventListener("change", chosen_method);
+        function chosen_method(){
+            method = document.getElementById("tagging_method").value;
+            console.log(method);
+            if(method === "Variable Name and Type"){
+                console.log("The instructions are the same");
+            }
+            if(method === "Tagging Using Buttons"){
+                document.getElementById("instruc").innerHTML = "To tag the text for the TFM_Ner, you must first add tags by using the add tag button below. Next you tap the tag created then highlight the text to be tagged then press Alt on your keyboard. You can change tagging type using the drop down menu near the add tag button.";
+            }
+            if(method === "Tagging With drop down Menu"){
+                document.getElementById("instruc").innerHTML = "To tag the text, first use the add tag box to create tag types for the dropdown menu. Then chang the drop down menu to the tage you want, then you highlight the text and press Alt on your keyboard.";
+            }
+            if(method === "Tagging with pop up menu"){
+                document.getElementById("instruc").innerHTML = "To tag the text for the tfm_ner first you hight the text you want to tag, then you press Alt on your key board. A pop up menu will appear. You then have to enter the tag type/name there and press ok.";
+            }
+        }
         function set_value(){
-            tagging_type = document.activeElement.innerHTML;
-            console.log(tagging_type);
+            console.log("We change so the tagging type changed");
+            if(method === "Tagging Using Buttons"){
+                tagging_type = document.activeElement.innerHTML;
+                console.log(tagging_type);
+            }
+            if(method === "Tagging With drop down Menu"){
+                tagging_type = document.getElementById("Tag_type").value;
+                console.log(tagging_type);
+            }
+            
         }
         function onformsubmit(){
             event.preventDefault();
         }
-        document.getElementById("Create_button").addEventListener("click", create_new_button);
-        let name_button = "";
-        function create_new_button(){
-            name_button = document.getElementById("button_name").value;
-            generate_button();
+        document.getElementById("Create_button").addEventListener("click", create_new_tag);
+        let name_tag = "";
+        function create_new_tag(){
+            name_tag = document.getElementById("button_name").value;
+            generate_tag();
         }
-        function generate_button(){
-            let btn = document.createElement("button");
-            btn.innerHTML = name_button;
-            btn.id = btn.innerHTML;
-            document.getElementById("Tag_entities").appendChild(btn);
-            document.getElementById(btn.innerHTML).addEventListener("click", set_value);
+        function generate_tag(){
+            if(method == "Tagging Using Buttons"){
+                console.log(name_tag);
+                let btn = document.createElement("button");
+                btn.innerHTML = name_tag;
+                btn.id = btn.innerHTML;
+                document.getElementById("Tag_entities").appendChild(btn);
+                document.getElementById(btn.innerHTML).addEventListener("click", set_value);
+            }
+            if(method == "Tagging With drop down Menu"){
+                console.log(name_tag);
+                let option = document.createElement("option");
+                option.innerHTML = name_tag;
+                option.id = option.innerHTML;
+                document.getElementById("Tag_type").appendChild(option);
+                document.getElementById("Tag_type").addEventListener("change", set_value);
+            }
+            
         }
         document.getElementById("remove_btn").addEventListener("click",remove_the_button);
         function remove_the_button(){
@@ -142,9 +180,47 @@
             document.getElementById("Input Sentence").value = new_string;
             return new_string;
         }
+
+        function tag_menu(){
+            var text_h = gethighlightedtext();
+            new_text = "["+text_h+"]"+" "+"("+tagging_type+")"; 
+            entire_text = document.getElementById("Input Sentence").value;
+            start_index = entire_text.search(text_h); 
+            last_index = start_index + text_h.length;
+            var new_string = entire_text.slice(0,start_index) +new_text+ entire_text.slice(last_index);
+            document.getElementById("Input Sentence").value = new_string;
+            return new_string;
+        }
+
+        function prompt_tag(){
+            var text_i = gethighlightedtext();
+            tagging_type = prompt("Enter the Tag Type");
+            new_text = "["+text_i+"]"+" "+"("+tagging_type+")"; 
+            entire_text = document.getElementById("Input Sentence").value;
+            start_index = entire_text.search(text_i); 
+            last_index = start_index + text_i.length;
+            var new_string = entire_text.slice(0,start_index) +new_text+ entire_text.slice(last_index);
+            document.getElementById("Input Sentence").value = new_string;
+            return new_string;
+        }
+
         function start_tagging(){
             if(event.keyCode === 18){
-                tag_text();
+                if(method === "Variable Name and Type"){
+                    format_text();
+                }
+                if(method === "Tagging Using Buttons"){
+                    tag_text();
+                }
+                if(method === "Tagging With drop down Menu"){
+                    tag_menu();
+                }
+                if(method === "Tagging with pop up menu"){
+                    prompt_tag();
+                }
+                if(method === "generate tags"){
+                    
+                }
             }
         }
         document.onkeyup = start_tagging;
