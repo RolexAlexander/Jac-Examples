@@ -71,8 +71,10 @@
             <form id="Tag_entities" onsubmit="onformsubmit();">
                 <textarea name="Input Sentence" id="Input Sentence" cols="90" rows="30"></textarea><br><p></p>
                 <p></p>
-                <button id="Name">Name</button>
-                <p></p>
+                <select name="tagging_method" id="tagging_method"><option value="Variable Name and Type">Variable Name and Type</option><option value="Tagging Using Buttons">Tagging Using Buttons</option><option value="Tagging With drop down Menu">Tagging With drop down Menu</option><option value="Tagging with pop up menu">Tagging with pop up menu</option></select><button id="Create_button">Add Button</button><input type="text" id="button_name"><input type="text" id="Remove_button"><button id="remove_btn">Remove Button</button><p></p>
+                <select name="Tag" id="Tag_type"></select>
+            </form>
+            <form id="Get_Tags" onsubmit="onformsubmit();">
                 <textarea name="Output Sentence" id="output" cols="90" rows="30"></textarea><br><p></p><input type="Submit" name="Submit" id="submit_tag"><p></p><p></p>
                 <div class = "bottondownload"><b><a href="tfm_ner_data.json"><div class="text_color">Download</div></a></b></div>
             </form>
@@ -80,13 +82,30 @@
     </body>
     <script>
         let tagging_type = " ";
-        document.getElementById("Name").addEventListener("click", set_value);
         function set_value(){
-            tagging_type = document.getElementById("Name").innerHTML;
+            tagging_type = document.activeElement.innerHTML;
             console.log(tagging_type);
         }
         function onformsubmit(){
             event.preventDefault();
+        }
+        document.getElementById("Create_button").addEventListener("click", create_new_button);
+        let name_button = "";
+        function create_new_button(){
+            name_button = document.getElementById("button_name").value;
+            generate_button();
+        }
+        function generate_button(){
+            let btn = document.createElement("button");
+            btn.innerHTML = name_button;
+            btn.id = btn.innerHTML;
+            document.getElementById("Tag_entities").appendChild(btn);
+            document.getElementById(btn.innerHTML).addEventListener("click", set_value);
+        }
+        document.getElementById("remove_btn").addEventListener("click",remove_the_button);
+        function remove_the_button(){
+            name_btn = document.getElementById("Remove_button").value;
+            removing_button = document.getElementById(name_btn).remove();
         }
         function gethighlightedtext(){
             var text = "";
@@ -109,7 +128,6 @@
             start_index = entire_text.search(text_f); 
             last_index = start_index + text_f.length;
             var new_string = entire_text.slice(0,start_index) +final_text+ entire_text.slice(last_index);
-            document.getElementById("output").innerHTML = new_string;
             document.getElementById("Input Sentence").value = new_string;
             return new_string;
         }
@@ -121,7 +139,6 @@
             start_index = entire_text.search(text_g); 
             last_index = start_index + text_g.length;
             var new_string = entire_text.slice(0,start_index) +new_text+ entire_text.slice(last_index);
-            document.getElementById("output").innerHTML = new_string;
             document.getElementById("Input Sentence").value = new_string;
             return new_string;
         }
