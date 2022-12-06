@@ -57,8 +57,37 @@
         a:active{
             text-decoration: none;
         }
+        .checkbox{
+            font-size: 20pt;
+        }
     </style>
+    <title>
+        Tagging Entities
+    </title>
+    <body>
+        <div class = "header1"> <b>Entity Extractor</b></div>
+        <div class = "instructions"><p> To create the training file for the TFM_NER you have to input the text in the box below with the class/type next to it. After that you must high light the text associated with it. </p></div><br>
+        <div class = "field">
+            <form id="Tag_entities" onsubmit="onformsubmit();">
+                <textarea name="Input Sentence" id="Input Sentence" cols="90" rows="30"></textarea><br><p></p>
+                <p></p>
+                <button id="Name">Name</button>
+                <p></p>
+                <textarea name="Output Sentence" id="output" cols="90" rows="30"></textarea><br><p></p><input type="Submit" name="Submit" id="submit_tag"><p></p><p></p>
+                <div class = "bottondownload"><b><a href="tfm_ner_data.json"><div class="text_color">Download</div></a></b></div>
+            </form>
+        </div>
+    </body>
     <script>
+        let tagging_type = " ";
+        document.getElementById("Name").addEventListener("click", set_value);
+        function set_value(){
+            tagging_type = document.getElementById("Name").innerHTML;
+            console.log(tagging_type);
+        }
+        function onformsubmit(){
+            event.preventDefault();
+        }
         function gethighlightedtext(){
             var text = "";
             document.getSelection.toString();
@@ -82,27 +111,25 @@
             var new_string = entire_text.slice(0,start_index) +final_text+ entire_text.slice(last_index);
             document.getElementById("output").innerHTML = new_string;
             document.getElementById("Input Sentence").value = new_string;
-            console.log(found_this);
             return new_string;
         }
-        
-        document.onmouseup = format_text;
-        
-       
+
+        function tag_text(){
+            var text_g = gethighlightedtext();
+            new_text = "["+text_g+"]"+" "+"("+tagging_type+")"; 
+            entire_text = document.getElementById("Input Sentence").value;
+            start_index = entire_text.search(text_g); 
+            last_index = start_index + text_g.length;
+            var new_string = entire_text.slice(0,start_index) +new_text+ entire_text.slice(last_index);
+            document.getElementById("output").innerHTML = new_string;
+            document.getElementById("Input Sentence").value = new_string;
+            return new_string;
+        }
+        function start_tagging(){
+            if(event.keyCode === 18){
+                tag_text();
+            }
+        }
+        document.onkeyup = start_tagging;
     </script>
-    <title>
-        Tagging Entities
-    </title>
-    <body>
-        <div class = "header1"> <b>Entity Extractor</b></div>
-        <div class = "instructions"><p> To create the training file for the TFM_NER you have to input the text in the box below with the class/type next to it. After that you must high light the text associated with it. </p></div><br>
-        <div class = "field">
-            <form>
-                <textarea name="Input Sentence" id="Input Sentence" cols="90" rows="30"></textarea>
-                <p></p>
-                <textarea name="Output Sentence" id="output" cols="90" rows="30"></textarea><br><input type="Submit" name="Submit"><p></p><p></p><p></p>
-                <div class = "bottondownload"><b><a href="tfm_ner_data.json"><div class="text_color">Download</div></a></b></div>
-            </form>
-        </div>
-    </body>
 </html>
