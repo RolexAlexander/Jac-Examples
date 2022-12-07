@@ -219,7 +219,9 @@
                     prompt_tag();
                 }
                 if(method === "generate tags"){
-                    
+                    entire_text = document.getElementById("Input Sentence").value;
+                    result = entire_text.match(/[(.*?)]/);
+                    console.log(result);
                 }
             }
         }
