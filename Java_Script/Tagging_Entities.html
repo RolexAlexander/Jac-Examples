@@ -71,7 +71,7 @@
             <form id="Tag_entities" onsubmit="onformsubmit();">
                 <textarea name="Input Sentence" id="Input Sentence" cols="90" rows="30"></textarea><br><p></p>
                 <p></p>
-                <select name="tagging_method" id="tagging_method"><option value="Variable Name and Type">Variable Name and Type</option><option value="Tagging Using Buttons">Tagging Using Buttons</option><option value="Tagging With drop down Menu">Tagging With drop down Menu</option><option value="Tagging with pop up menu">Tagging with pop up menu</option><option value="generate tags">generate tags</option></select><button id="Create_button">Add Tag</button><input type="text" id="button_name"><input type="text" id="Remove_button"><button id="remove_btn">Remove Tag</button><p></p>
+                <select name="tagging_method" id="tagging_method"><option value="Variable Name and Type">Variable Name and Type</option><option value="Tagging Using Buttons">Tagging Using Buttons</option><option value="Tagging With drop down Menu">Tagging With drop down Menu</option><option value="Tagging with pop up menu">Tagging with pop up menu</option><option value="generate tags with buttons">generate tags with buttons</option><option value="generate tags with lists">generate tags with lists</option></select><button id="Create_button">Add Tag</button><input type="text" id="button_name"><input type="text" id="Remove_button"><button id="remove_btn">Remove Tag</button><p></p>
                 <select name="Tag" id="Tag_type"><option value="Add a tag">Add a Tag</option></select><br>
             </form>
             <form id="Get_Tags" onsubmit="onformsubmit();">
@@ -218,10 +218,51 @@
                 if(method === "Tagging with pop up menu"){
                     prompt_tag();
                 }
-                if(method === "generate tags"){
-                    entire_text = document.getElementById("Input Sentence").value;
-                    result = entire_text.match(/[(.*?)]/);
-                    console.log(result);
+                if(method === "generate tags with buttons"){
+                    entire_text = document.getElementById("Input Sentence").value+" ";
+                    while(entire_text.search(" ") >= 0){
+                        text_checking = entire_text.slice(0, 1);
+                        entire_text = entire_text;
+                        entire_text = entire_text.slice(1);
+                        console.log(entire_text);
+                        console.log(text_checking);
+                        if(text_checking == "("){
+                            found_txt = entire_text.search(" ");
+                            console.log(found_txt);
+                            tag_typ = entire_text.slice(0,found_txt-1);
+                            console.log(tag_typ);
+                            name_tag = tag_typ;
+                            console.log(name_tag);
+                            let btn = document.createElement("button");
+                            btn.innerHTML = name_tag;
+                            btn.id = btn.innerHTML;
+                            document.getElementById("Tag_entities").appendChild(btn);
+                            document.getElementById(btn.innerHTML).addEventListener("click", set_value);
+                        }
+                    }
+                }
+                if(method === "generate tags with lists"){
+                    entire_text = document.getElementById("Input Sentence").value+" ";
+                    while(entire_text.search(" ") >= 0){
+                        text_checking = entire_text.slice(0, 1);
+                        entire_text = entire_text;
+                        entire_text = entire_text.slice(1);
+                        console.log(entire_text);
+                        console.log(text_checking);
+                        if(text_checking == "("){
+                            found_txt = entire_text.search(" ");
+                            console.log(found_txt);
+                            tag_typ = entire_text.slice(0,found_txt-1);
+                            console.log(tag_typ);
+                            name_tag = tag_typ;
+                            console.log(name_tag);
+                            let option = document.createElement("option");
+                            option.innerHTML = name_tag;
+                            option.id = option.innerHTML;
+                            document.getElementById("Tag_type").appendChild(option);
+                            document.getElementById("Tag_type").addEventListener("change", set_value);
+                        }
+                    }
                 }
             }
         }
