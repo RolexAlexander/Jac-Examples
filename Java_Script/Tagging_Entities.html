@@ -28,14 +28,12 @@
         .bottondownload{
             font-size: 23pt;
             text-align: center;
+            width: 1042px;
             color: black;
             background-color: rgb(248, 0, 136);
             padding-top: 10px;
             padding-bottom: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
-            margin-left: 100px;
-            margin-right: 100px;
+            align-self: left;
             border: 3px outset black;
         }
         .text_color{
@@ -60,30 +58,85 @@
         .checkbox{
             font-size: 20pt;
         }
+        .box_new{
+            height: 450px;
+            width: 1000px;
+            background-color: antiquewhite;
+            border: 3px red outset;
+            padding-top: 20px;
+            text-align: left;
+            padding: 20px;
+            overflow: hidden;
+            display: flex;
+        }
+        .title_box{
+            height: 70px;
+            width: 750px;
+            background-color: rgb(253, 143, 0);
+            border: 3px rgb(250, 106, 183) outset;
+            text-align: center;
+            padding-left: 20px;
+        }
+        .controls{
+            height: 410px;
+            width: 200px;
+            background-color: beige;
+            border: 3px;
+            padding: 20px;
+        }
+        .menu_official{
+            height: 50px;
+            width: 1026px;
+            background-color: rgb(178, 110, 241);
+            padding: 10px;
+            display: -webkit-flex;
+            text-align: center;
+        }
     </style>
     <title>
         Tagging Entities
     </title>
     <body>
-        <div class = "header1"> <b>Entity Extractor</b></div>
+        <div class = "header1"> <b><div class="title_box">Entity Extractor</div></b></div>
         <div class = "instructions"><p id="instruc"> To create the training file for the TFM_NER you have to input the text in the box below with the class/type next to it. After that you must high light the text associated with it. </p></div><br>
         <div class = "field">
             <form id="Tag_entities" onsubmit="onformsubmit();">
-                <textarea name="Input Sentence" id="Input Sentence" cols="90" rows="30"></textarea><br><p></p>
+                <div class="box_new"><textarea name="Input Sentence" id="Input Sentence" cols="100" rows="20"></textarea><div class="controls"></div>
+                <br><p></p>
                 <p></p>
-                <select name="tagging_method" id="tagging_method"><option value="Variable Name and Type">Variable Name and Type</option><option value="Tagging Using Buttons">Tagging Using Buttons</option><option value="Tagging With drop down Menu">Tagging With drop down Menu</option><option value="Tagging with pop up menu">Tagging with pop up menu</option><option value="generate tags with buttons">generate tags with buttons</option><option value="generate tags with lists">generate tags with lists</option></select><button id="Create_button">Add Tag</button><input type="text" id="button_name"><input type="text" id="Remove_button"><button id="remove_btn">Remove Tag</button><p></p>
-                <select name="Tag" id="Tag_type"><option value="Add a tag">Add a Tag</option></select><br>
+                </div>
+                <div class="menu_official">
+                    <select name="tagging_method" id="tagging_method"><option value="Variable Name and Type">Variable Name and Type</option><option value="Tagging Using Buttons">Tagging Using Buttons</option><option value="Tagging With drop down Menu">Tagging With drop down Menu</option><option value="Tagging with pop up menu">Tagging with pop up menu</option><option value="generate tags with buttons">generate tags with buttons</option><option value="generate tags with lists">generate tags with lists</option></select><button id="Create_button">Add Tag</button><input type="text" id="button_name"><input type="text" id="Remove_button"><button id="remove_btn">Remove Tag</button><p></p>
+                    <select name="Tag" id="Tag_type"><option value="Add a tag">Add a Tag</option></select><br>
+                    <button id="Tag_All" onclick="update_all_tag()">Tag All</button>
+                    <button id="Single Tag" onclick="Single_tag()">Single Tag</button>
+                </div>
+                
             </form>
             <form id="Get_Tags" onsubmit="onformsubmit();">
-                <textarea name="Output Sentence" id="output" cols="90" rows="30"></textarea><br><p></p><input type="Submit" name="Submit" id="submit_tag"><p></p><p></p>
+                <!-- <textarea name="Output Sentence" id="output" cols="90" rows="30"></textarea><br><p></p><input type="Submit" name="Submit" id="submit_tag"><p></p><p></p> -->
                 <div class = "bottondownload"><b><a href="tfm_ner_data.json"><div class="text_color">Download</div></a></b></div>
             </form>
         </div>
     </body>
     <script>
         let tagging_type = " ";
+        let position_start = 0;
+        let position_end = 0;
+        let Tag_All = false;
         let method = document.getElementById("tagging_method").value;
         document.getElementById("tagging_method").addEventListener("change", chosen_method);
+
+        function update_all_tag(){
+            Tag_All = true;
+            console.log(Tag_All);
+        }
+
+        function Single_tag(){
+            Tag_All=false;
+            console.log(Tag_All);
+        }
+        
         function chosen_method(){
             method = document.getElementById("tagging_method").value;
             console.log(method);
@@ -153,41 +206,116 @@
             }else if (document.selection && document.selection.type != "Control"){
                 text = document.selection.createRange().text;
             }
+            text_area = document.getElementById("Input Sentence");
+            text_area.focus();
+            Positions = getInputSelection(text_area);
+            position_start = Positions["start"];
+            position_end = Positions["end"];
+            console.log(Positions);
+            console.log(Positions["start"]);
+            console.log(Positions["end"]);
+            console.log(position_start);
+            console.log(position_end);
             return text;
         }
+
+
+
+
+function getInputSelection(el) {
+    var start = 0, end = 0, normalizedValue, range, textInputRange, len, endRange;
+
+    if (typeof el.selectionStart == "number" && typeof el.selectionEnd == "number") {
+        start = el.selectionStart;
+        end = el.selectionEnd;
+    } else {
+        range = document.selection.createRange();
+
+        if (range && range.parentElement() == el) {
+            len = el.value.length;
+            normalizedValue = el.value.replace(/\r\n/g, "\n");
+
+            // Create a working TextRange that lives only in the input
+            textInputRange = el.createTextRange();
+            textInputRange.moveToBookmark(range.getBookmark());
+
+            // Check if the start and end of the selection are at the very end
+            // of the input, since moveStart/moveEnd doesn't return what we want
+            // in those cases
+            endRange = el.createTextRange();
+            endRange.collapse(false);
+
+            if (textInputRange.compareEndPoints("StartToEnd", endRange) > -1) {
+                start = end = len;
+            } else {
+                start = -textInputRange.moveStart("character", -len);
+                start += normalizedValue.slice(0, start).split("\n").length - 1;
+
+                if (textInputRange.compareEndPoints("EndToEnd", endRange) > -1) {
+                    end = len;
+                } else {
+                    end = -textInputRange.moveEnd("character", -len);
+                    end += normalizedValue.slice(0, end).split("\n").length - 1;
+                }
+            }
+        }
+    }
+
+    return {
+        start: start,
+        end: end
+    };
+}
+
+
         
         function format_text(){
             var text_f = gethighlightedtext();
             new_text = "["+text_f+")"; 
             find_text = new_text.lastIndexOf(" ");
             text_index = find_text+1;
-            var final_text = new_text.slice(0,find_text) +"]"+" "+"("+new_text.slice(text_index);
+            var final_text = new_text.slice(0,find_text) +"]"+"("+new_text.slice(text_index);
             entire_text = document.getElementById("Input Sentence").value;
-            start_index = entire_text.search(text_f); 
-            last_index = start_index + text_f.length;
-            var new_string = entire_text.slice(0,start_index) +final_text+ entire_text.slice(last_index);
+            var new_string = entire_text.slice(0,position_start) +final_text+ entire_text.slice(position_end);
+            if(Tag_All === true){
+                const re_str = new RegExp(text_f,"g");
+                new_string = entire_text.replace(re_str, final_text);
+                console.log(new_string);
+            }
             document.getElementById("Input Sentence").value = new_string;
             return new_string;
         }
+        // fix bugs
 
         function tag_text(){
             var text_g = gethighlightedtext();
-            new_text = "["+text_g+"]"+" "+"("+tagging_type+")"; 
+            new_text = "["+text_g+"]"+"("+tagging_type+")"; 
             entire_text = document.getElementById("Input Sentence").value;
-            start_index = entire_text.search(text_g); 
-            last_index = start_index + text_g.length;
-            var new_string = entire_text.slice(0,start_index) +new_text+ entire_text.slice(last_index);
+            var new_string = entire_text.slice(0,position_start) +new_text+ entire_text.slice(position_end);
+            if(Tag_All === true){
+                const re_str = new RegExp(text_g,"g");
+                new_string = entire_text.replace(re_str, new_text);
+                console.log(new_string);
+            }
             document.getElementById("Input Sentence").value = new_string;
+            real = document.getElementById("Input Sentence");
+            realss = real.getAttribute("name");
+            console.log(realss);
+            console.log(real);
+            console.log(real.value)
             return new_string;
         }
 
         function tag_menu(){
             var text_h = gethighlightedtext();
-            new_text = "["+text_h+"]"+" "+"("+tagging_type+")"; 
+            new_text = "["+text_h+"]"+"("+tagging_type+")"; 
             entire_text = document.getElementById("Input Sentence").value;
-            start_index = entire_text.search(text_h); 
-            last_index = start_index + text_h.length;
-            var new_string = entire_text.slice(0,start_index) +new_text+ entire_text.slice(last_index);
+            var new_string = entire_text.slice(0,position_start) +new_text+ entire_text.slice(position_end);
+            if(Tag_All === true){
+                const re_str = new RegExp(text_h,"g");
+                new_string = entire_text.replace(re_str, new_text);
+                console.log(new_string);
+            }
             document.getElementById("Input Sentence").value = new_string;
             return new_string;
         }
@@ -195,11 +323,14 @@
         function prompt_tag(){
             var text_i = gethighlightedtext();
             tagging_type = prompt("Enter the Tag Type");
-            new_text = "["+text_i+"]"+" "+"("+tagging_type+")"; 
+            new_text = "["+text_i+"]"+"("+tagging_type+")"; 
             entire_text = document.getElementById("Input Sentence").value;
-            start_index = entire_text.search(text_i); 
-            last_index = start_index + text_i.length;
-            var new_string = entire_text.slice(0,start_index) +new_text+ entire_text.slice(last_index);
+            var new_string = entire_text.slice(0,position_start) +new_text+ entire_text.slice(position_end);
+            if(Tag_All === true){
+                const re_str = new RegExp(text_i,"g");
+                new_string = entire_text.replace(re_str, new_text);
+                console.log(new_string);
+            }
             document.getElementById("Input Sentence").value = new_string;
             return new_string;
         }
