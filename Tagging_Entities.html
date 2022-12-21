@@ -1,0 +1,577 @@
+<html>
+    <style>
+        .header1{
+            margin-top: 100px;
+            text-align:center;
+            padding-left: 100px;
+            padding: top 100px;
+            font-size: 50pt;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .field{
+            text-align:center;
+            padding-left: 100px;
+            padding-right: 50px;
+            padding-top: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20pt;
+        }
+        .instructions{
+            text-align:left;
+            padding-left: 100px;
+            padding-right: 50px;
+            padding-top: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20pt;
+            color: black;
+        }
+        .bottondownload{
+            font-size: 23pt;
+            text-align: center;
+            width: 1042px;
+            color: black;
+            background-color: rgb(248, 0, 136);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            align-self: left;
+            border: 3px outset black;
+            position: absolute;
+            margin-top: 560px;
+        }
+        .text_color{
+            color: black;
+            text-decoration: none;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        a:visited{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: none;
+            background-color: black;
+            color: rgb(248, 0, 136);
+            border: 3px outset rgb(248, 0, 136);
+        }
+        a:active{
+            text-decoration: none;
+        }
+        .checkbox{
+            font-size: 20pt;
+        }
+        .box_new{
+            height: 450px;
+            width: 1000px;
+            background-color: antiquewhite;
+            border: 3px red outset;
+            padding-top: 20px;
+            text-align: left;
+            padding: 20px;
+            overflow: hidden;
+            display: flex;
+            position: absolute;
+        }
+        .title_box{
+            height: 70px;
+            width: 750px;
+            background-color: rgb(253, 143, 0);
+            border: 3px rgb(250, 106, 183) outset;
+            text-align: center;
+            padding-left: 20px;
+        }
+        .controls{
+            height: 410px;
+            width: 200px;
+            background-color: antiquewhite;
+            border: 3px;
+            padding: 20px;
+            position: relative;
+        }
+        .menu_official{
+            height: 50px;
+            width: 1026px;
+            background-color: rgb(178, 110, 241);
+            padding: 10px;
+            display: -webkit-flex;
+            text-align: center;
+            margin-top: 480px;
+            position: absolute;
+        }
+        .show_over{
+            display: none;
+            /* width: 150px;
+            height: 80px; */
+            margin-right: 200px;
+            margin-left: 300px;
+            margin-top: 200px;
+            z-index: 5;
+            background-color: aqua;
+            text-align: center;
+            color: burlywood;
+            font-size: large;
+            position: absolute;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: 5px rgb(168, 168, 63) outset;
+            /* padding: 100px; */
+        }
+        .user_controls{
+            background-color: aliceblue;
+            height: 420px;
+            width: 200px;
+            background-color: beige;
+            border: 3px;
+            padding: 10px;
+            position: absolute;
+            margin-left: 800px;
+            margin-top: 1px;
+            font-size: large;
+        }
+    </style>
+    <title>
+        Tagging Entities
+    </title>
+    <body>
+        <div class = "header1"> <b><div class="title_box">Entity Extractor</div></b></div>
+        <div class = "instructions"><p id="instruc"> To create the training file for the TFM_NER you have to input the text in the box below with the class/type next to it. After that you must high light the text associated with it. </p></div><br>
+        <div class = "field">
+            <form id="Tag_entities" onsubmit="onformsubmit();">
+                <div class="box_new"><textarea name="Input Sentence" id="Input Sentence" cols="100" rows="20"></textarea><div class="controls"></div>
+                <br><p></p>
+                <p></p>
+                </div>
+                <div class="show_over"><form id="popover_button" onsubmit="onformsubmit();"></form></div>
+                <div class="show_over"><form id="drop_down_over" onsubmit="onformsubmit();"><select name="Tag" id="pop_tag"><option value="Add a tag">Add a Tag</option></select><br></form></div>
+                <div class="menu_official">
+                    <select name="tagging_method" id="tagging_method"><option value="Variable Name and Type">Variable Name and Type</option><option value="Tagging Using Buttons">Tagging Using Buttons</option><option value="Tagging With drop down Menu">Tagging With drop down Menu</option><option value="Tagging With popover button">Tagging With popover button</option><option value="Tagging with pop up menu">Tagging with pop up menu</option><option value="generate tags with buttons">generate tags with buttons</option><option value="generate tags with lists">generate tags with lists</option></select><button id="Create_button">Add Tag</button><input type="text" id="button_name"><input type="text" id="Remove_button"><button id="remove_btn">Remove Tag</button><p></p>
+                    <select name="Tag" id="Tag_type"><option value="Add a tag">Add a Tag</option></select><br>
+                    <button id="Tag_All" onclick="update_all_tag()">Tag All</button>
+                    <button id="Single Tag" onclick="Single_tag()">Single Tag</button>
+                </div>
+                
+            </form>
+            <div class="user_controls">
+                <form id="User_Buttons" onsubmit="onformsubmit();">
+                    <select name="Tag" id="Slelect_tag"><option value="Add a tag">Add a Tag</option></select><br>
+                </form>
+            </div>
+            <form id="Get_Tags" onsubmit="onformsubmit();">
+                <!-- <textarea name="Output Sentence" id="output" cols="90" rows="30"></textarea><br><p></p><input type="Submit" name="Submit" id="submit_tag"><p></p><p></p> -->
+                <div class = "bottondownload"><b><a href="tfm_ner_data.json"><div class="text_color">Download</div></a></b></div>
+            </form>
+        </div>
+    </body>
+    <script>
+        let tagging_type = " ";
+        let position_start = 0;
+        let position_end = 0;
+        let Tag_All = false;
+        let method = document.getElementById("tagging_method").value;
+        document.getElementById("tagging_method").addEventListener("change", chosen_method);
+
+        function update_all_tag(){
+            Tag_All = true;
+            console.log(Tag_All);
+        }
+
+        function Single_tag(){
+            Tag_All=false;
+            console.log(Tag_All);
+        }
+        
+        function chosen_method(){
+            method = document.getElementById("tagging_method").value;
+            console.log(method);
+            if(method === "Variable Name and Type"){
+                console.log("The instructions are the same");
+            }
+            if(method === "Tagging Using Buttons"){
+                document.getElementById("instruc").innerHTML = "To tag the text for the TFM_Ner, you must first add tags by using the add tag button below. Next you tap the tag created then highlight the text to be tagged then press Alt on your keyboard. You can change tagging type using the drop down menu near the add tag button.";
+            }
+            if(method === "Tagging With drop down Menu"){
+                document.getElementById("instruc").innerHTML = "To tag the text, first use the add tag box to create tag types for the dropdown menu. Then chang the drop down menu to the tage you want, then you highlight the text and press Alt on your keyboard.";
+            }
+            if(method === "Tagging with pop up menu"){
+                document.getElementById("instruc").innerHTML = "To tag the text for the tfm_ner first you hight the text you want to tag, then you press Alt on your key board. A pop up menu will appear where you will select the tag. You then have to select the tag you want.";
+            }
+            if(method === "Tagging With popover button"){
+                document.getElementById("instruc").innerHTML = "To tag the text for the tfm_ner first you hight the text you want to tag, then you press Alt on your key board. A pop up menu will appear. You then have to select the tag you want.";
+            }
+        }
+        function set_value(){
+            console.log("We change so the tagging type changed");
+            if(method === "Tagging Using Buttons"){
+                tagging_type = document.activeElement.innerHTML;
+                console.log(tagging_type);
+            }
+            if(method === "Tagging With drop down Menu"){
+                tagging_type = document.getElementById("Tag_type").value;
+                console.log(tagging_type);
+            }
+            if(method === "Tagging with pop up menu"){
+                tagging_type = document.getElementById("pop_tag").value;
+                console.log(tagging_type);
+            }
+            if(method === "Tagging With popover button"){
+                tagging_type = document.activeElement.innerHTML;
+                console.log(tagging_type);
+            }            
+        }
+        function onformsubmit(){
+            event.preventDefault();
+        }
+        document.getElementById("Create_button").addEventListener("click", create_new_tag);
+        let name_tag = "";
+        function create_new_tag(){
+            name_tag = document.getElementById("button_name").value;
+            generate_tag();
+        }
+        function generate_tag(){
+            if(method == "Tagging Using Buttons"){
+                console.log(name_tag);
+                let btn = document.createElement("button");
+                btn.innerHTML = name_tag;
+                btn.id = btn.innerHTML;
+                btn.style.backgroundColor = "brown";
+                btn.style.padding = "10px";
+                btn.style.margin = "10px";
+                btn.style.textAlign = "centre";
+                document.getElementById("User_Buttons").appendChild(btn);
+                document.getElementById(btn.innerHTML).addEventListener("click", set_value);
+            }
+            if(method == "Tagging With drop down Menu"){
+                console.log(name_tag);
+                let option = document.createElement("option");
+                option.innerHTML = name_tag;
+                option.id = option.innerHTML;
+                document.getElementById("Slelect_tag").appendChild(option);
+                document.getElementById("Slelect_tag").addEventListener("change", set_value);
+            }
+            if(method === "Tagging with pop up menu"){
+                console.log(name_tag);
+                let option = document.createElement("option");
+                option.innerHTML = name_tag;
+                option.id = option.innerHTML;
+                document.getElementById("pop_tag").appendChild(option);
+                document.getElementById("Slelect_tag").addEventListener("change", set_value);
+            }
+            if(method === "Tagging With popover button"){
+                console.log(name_tag);
+                let btn = document.createElement("button");
+                btn.innerHTML = name_tag;
+                btn.id = btn.innerHTML;
+                btn.style.backgroundColor = "brown";
+                btn.style.padding = "10px";
+                btn.style.margin = "10px";
+                document.getElementById("popover_button").appendChild(btn);
+                document.getElementById(btn.innerHTML).addEventListener("click", set_value);
+            }
+        }
+        document.getElementById("remove_btn").addEventListener("click",remove_the_button);
+        function remove_the_button(){
+            if(method == "Tagging Using Buttons"){
+                name_btn = document.getElementById("Remove_button").value;
+                removing_button = document.getElementById(name_btn).remove();
+            }
+            if(method == "Tagging With drop down Menu"){
+                name_btn = document.getElementById("Remove_button").value;
+                removing_button = document.getElementById(name_btn).remove();
+            }
+            if(method === "Tagging with pop up menu"){
+                name_btn = document.getElementById("Remove_button").value;
+                removing_button = document.getElementById(name_btn).remove();
+            }
+            if(method === "Tagging With popover button"){
+                name_btn = document.getElementById("Remove_button").value;
+                removing_button = document.getElementById(name_btn).remove();
+            }
+        }
+        function gethighlightedtext(){
+            var text = "";
+            document.getSelection.toString();
+            if(window.getSelection){
+                text = window.getSelection().toString();
+            }else if (document.selection && document.selection.type != "Control"){
+                text = document.selection.createRange().text;
+            }
+            text_area = document.getElementById("Input Sentence");
+            text_area.focus();
+            Positions = getInputSelection(text_area);
+            position_start = Positions["start"];
+            position_end = Positions["end"];
+            console.log(Positions);
+            console.log(Positions["start"]);
+            console.log(Positions["end"]);
+            console.log(position_start);
+            console.log(position_end);
+            return text;
+        }
+
+
+
+
+function getInputSelection(el) {
+    var start = 0, end = 0, normalizedValue, range, textInputRange, len, endRange;
+
+    if (typeof el.selectionStart == "number" && typeof el.selectionEnd == "number") {
+        start = el.selectionStart;
+        end = el.selectionEnd;
+    } else {
+        range = document.selection.createRange();
+
+        if (range && range.parentElement() == el) {
+            len = el.value.length;
+            normalizedValue = el.value.replace(/\r\n/g, "\n");
+
+            // Create a working TextRange that lives only in the input
+            textInputRange = el.createTextRange();
+            textInputRange.moveToBookmark(range.getBookmark());
+
+            // Check if the start and end of the selection are at the very end
+            // of the input, since moveStart/moveEnd doesn't return what we want
+            // in those cases
+            endRange = el.createTextRange();
+            endRange.collapse(false);
+
+            if (textInputRange.compareEndPoints("StartToEnd", endRange) > -1) {
+                start = end = len;
+            } else {
+                start = -textInputRange.moveStart("character", -len);
+                start += normalizedValue.slice(0, start).split("\n").length - 1;
+
+                if (textInputRange.compareEndPoints("EndToEnd", endRange) > -1) {
+                    end = len;
+                } else {
+                    end = -textInputRange.moveEnd("character", -len);
+                    end += normalizedValue.slice(0, end).split("\n").length - 1;
+                }
+            }
+        }
+    }
+
+    return {
+        start: start,
+        end: end
+    };
+}
+
+
+        
+        function format_text(){
+            var text_f = gethighlightedtext();
+            new_text = "["+text_f+")"; 
+            find_text = new_text.lastIndexOf(" ");
+            text_index = find_text+1;
+            var final_text = new_text.slice(0,find_text) +"]"+"("+new_text.slice(text_index);
+            entire_text = document.getElementById("Input Sentence").value;
+            var new_string = entire_text.slice(0,position_start) +final_text+ entire_text.slice(position_end);
+            if(Tag_All === true){
+                const re_str = new RegExp(text_f,"g");
+                new_string = entire_text.replace(re_str, final_text);
+                console.log(new_string);
+            }
+            document.getElementById("Input Sentence").value = new_string;
+            return new_string;
+        }
+        // fix bugs
+
+        function tag_text(){
+            var text_g = gethighlightedtext();
+            new_text = "["+text_g+"]"+"("+tagging_type+")"; 
+            entire_text = document.getElementById("Input Sentence").value;
+            var new_string = entire_text.slice(0,position_start) +new_text+ entire_text.slice(position_end);
+            if(Tag_All === true){
+                const re_str = new RegExp(text_g,"g");
+                new_string = entire_text.replace(re_str, new_text);
+                console.log(new_string);
+            }
+            document.getElementById("Input Sentence").value = new_string;
+            real = document.getElementById("Input Sentence");
+            realss = real.getAttribute("name");
+            console.log(realss);
+            console.log(real);
+            console.log(real.value)
+            return new_string;
+        }
+
+        function tag_menu(){
+            var text_h = gethighlightedtext();
+            new_text = "["+text_h+"]"+"("+tagging_type+")"; 
+            entire_text = document.getElementById("Input Sentence").value;
+            var new_string = entire_text.slice(0,position_start) +new_text+ entire_text.slice(position_end);
+            if(Tag_All === true){
+                const re_str = new RegExp(text_h,"g");
+                new_string = entire_text.replace(re_str, new_text);
+                console.log(new_string);
+            }
+            document.getElementById("Input Sentence").value = new_string;
+            return new_string;
+        }
+
+        function prompt_tag(){
+            var text_i = gethighlightedtext();
+            tagging_type = prompt("Enter the Tag Type");
+            new_text = "["+text_i+"]"+"("+tagging_type+")"; 
+            entire_text = document.getElementById("Input Sentence").value;
+            var new_string = entire_text.slice(0,position_start) +new_text+ entire_text.slice(position_end);
+            if(Tag_All === true){
+                const re_str = new RegExp(text_i,"g");
+                new_string = entire_text.replace(re_str, new_text);
+                console.log(new_string);
+            }
+            document.getElementById("Input Sentence").value = new_string;
+            return new_string;
+        }
+
+        function popup_tag_menu(){
+            user_menu = document.getElementById("drop_down_over");
+            user_menu.style.display = "ruby-text";
+            alert("I tried to display the hidden manu");
+            var text_h = gethighlightedtext();
+            new_text = "["+text_h+"]"+"("+tagging_type+")"; 
+            entire_text = document.getElementById("Input Sentence").value;
+            var new_string = entire_text.slice(0,position_start) +new_text+ entire_text.slice(position_end);
+            if(Tag_All === true){
+                const re_str = new RegExp(text_h,"g");
+                new_string = entire_text.replace(re_str, new_text);
+                console.log(new_string);
+            }
+            document.getElementById("Input Sentence").value = new_string;
+            return new_string;
+        }
+
+        function popup_button_menu(){
+            user_menu = document.getElementById("popover_button"); 
+            user_menu.style.display = "ruby-text";
+            var text_g = gethighlightedtext();
+            new_text = "["+text_g+"]"+"("+tagging_type+")"; 
+            entire_text = document.getElementById("Input Sentence").value;
+            var new_string = entire_text.slice(0,position_start) +new_text+ entire_text.slice(position_end);
+            if(Tag_All === true){
+                const re_str = new RegExp(text_g,"g");
+                new_string = entire_text.replace(re_str, new_text);
+                console.log(new_string);
+            }
+            document.getElementById("Input Sentence").value = new_string;
+            real = document.getElementById("Input Sentence");
+            realss = real.getAttribute("name");
+            console.log(realss);
+            console.log(real);
+            console.log(real.value)
+            return new_string;
+        }
+
+        function start_tagging(){
+            if(event.keyCode === 18){
+                if(method === "Variable Name and Type"){
+                    format_text();
+                }
+                if(method === "Tagging Using Buttons"){
+                    tag_text();
+                }
+                if(method === "Tagging With drop down Menu"){
+                    tag_menu();
+                }
+                if(method === "Tagging with pop up menu"){
+                    popup_tag_menu();
+                }
+                if(method === "Tagging With popover button"){
+                    popup_button_menu();
+                }
+                if(method === "generate tags with buttons"){
+                    entire_text = document.getElementById("Input Sentence").value+" ";
+                    while(entire_text.search(" ") >= 0){
+                        text_checking = entire_text.slice(0, 1);
+                        entire_text = entire_text;
+                        entire_text = entire_text.slice(1);
+                        console.log(entire_text);
+                        console.log(text_checking);
+                        if(text_checking == "("){
+                            found_txt = entire_text.search(" ");
+                            console.log(found_txt);
+                            tag_typ = entire_text.slice(0,found_txt-1);
+                            console.log(tag_typ);
+                            name_tag = tag_typ;
+                            console.log(name_tag);
+                            let btn = document.createElement("button");
+                            btn.innerHTML = name_tag;
+                            btn.id = btn.innerHTML;
+                            document.getElementById("Tag_entities").appendChild(btn);
+                            document.getElementById(btn.innerHTML).addEventListener("click", set_value);
+                        }
+                    }
+                }
+                if(method === "generate tags with lists"){
+                    entire_text = document.getElementById("Input Sentence").value+" ";
+                    while(entire_text.search(" ") >= 0){
+                        text_checking = entire_text.slice(0, 1);
+                        entire_text = entire_text;
+                        entire_text = entire_text.slice(1);
+                        console.log(entire_text);
+                        console.log(text_checking);
+                        if(text_checking == "("){
+                            found_txt = entire_text.search(" ");
+                            console.log(found_txt);
+                            tag_typ = entire_text.slice(0,found_txt-1);
+                            console.log(tag_typ);
+                            name_tag = tag_typ;
+                            console.log(name_tag);
+                            let option = document.createElement("option");
+                            option.innerHTML = name_tag;
+                            option.id = option.innerHTML;
+                            document.getElementById("Tag_type").appendChild(option);
+                            document.getElementById("Tag_type").addEventListener("change", set_value);
+                        }
+                    }
+                }
+            }
+        }
+        document.onkeyup = start_tagging;
+        // document.onkeydown = function(event) {
+        // if (event.altKey && event.target.tagName === "TEXTAREA") {
+        //     // Check if the menu exists
+        //     var menu = document.getElementById("menu");
+        //     if (!menu) {
+        //     // Create the menu
+        //     menu = document.createElement("div");
+        //     menu.id = "menu";
+        //     menu.className = "menu";
+
+        //     // Add menu items
+        //     var item1 = document.createElement("div");
+        //     item1.className = "menu-item";
+        //     item1.innerText = "Item 1";
+        //     menu.appendChild(item1);
+
+        //     var item2 = document.createElement("div");
+        //     item2.className = "menu-item";
+        //     item2.innerText = "Item 2";
+        //     menu.appendChild(item2);
+
+        //     // Append the menu to the body
+        //     document.body.appendChild(menu);
+        //     }
+
+        //     // Show the menu
+        //     menu.style.display = "block";
+        //     menu.style.left = event.target.offsetLeft + event.offsetX + "px";
+        //     menu.style.top = event.target.offsetTop + event.offsetY + "px";
+        //     menu.style.width = "200px";
+        //     menu.style.height = "200px";
+        //     menu.style.backgroundColor = "#CCC";
+        //     menu.style.border = "1px solid #333";
+        //     menu.style.borderRadius = "5px";
+        //     menu.style.boxShadow = "5px 5px 5px #888";
+
+        //     // Add a click event listener to the menu items
+        //     var menuItems = document.querySelectorAll(".menu-item");
+        //     menuItems.forEach(function(item) {
+        //     item.addEventListener("click", function() {
+        //         // Hide the menu
+        //         menu.style.display = "none";
+        //     });
+        //     });
+        // }
+        // };
+    </script>
+</html>
