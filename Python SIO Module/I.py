@@ -2,27 +2,25 @@ import requests
 import urllib.request
 from jaseci.actions.live_actions import jaseci_action  # step 1
 
-account_sid = 'ACee822b0413f5082a689a80dd3b966328' 
-auth_token = '68d2580abca094db45be410317f3aaf4'
+headers = {
+    "Authorization": "Bearer EAAuwHrSFCigBAIHOXqlqlhZClIjqbLQ5Q93eQMUPAStZB9eu6BVA2EmGWNRAnSRxXjiWBbodaEnppC7ZCP1uVStLFTMNOZBhaj5ZAWogSWSsfkZB1ayjtKQE1vK4qXnhRbwA05ZCg8I1dZCZCzDJQWJrZA9Chna7PeZCzgz9riWSFjGoqchjAP9GdfMZC07dRcR4czlVQvRMvIK4IAZDZD",
+    "Content-Type": "application/json"
+}
 
 @jaseci_action(act_group=["I"], allow_remote=True)
 
-def get_media(image_url, audio_url, file_name):
-    if image_url:
-        urllib.request.urlretrieve(image_url, file_name)
+def get_media(image_id, audio_id, file_name):
+    if image_id:
+        urllib.request.urlretrieve(image_id, file_name)
 
-    if audio_url:
-        response = requests.get(audio_url, auth=(account_sid, auth_token))
+    if audio_id:
+        url = "https://graph.facebook.com/v15.0/"+audio_id+"?phone_number_id=100744942921876"
+        response = requests.get(url, headers=headers)
+        print(response.json())
+        data = response.json()
+        audio_url = data["url"]
+        response = requests.get(audio_url, headers=headers)
         with open(file_name, 'wb') as f:
             f.write(response.content)
 
-
-
-
-# send_media("media.mp3", 'whatsapp:+5926136206')
-image = "https://i.ytimg.com/vi/G68oSgFotZA/maxresdefault.jpg"
-file_name = "1111111111111111111111.jpg"
-get_media(image, None, file_name)
-audio_url = "https://api.twilio.com/2010-04-01/Accounts/ACee822b0413f5082a689a80dd3b966328/Messages/MM9851f61a3a0b55df4fbf742f413a5f09/Media/ME6487161e92ff32d0819030c84d48847d"
-file_name = "1111111111111111111.mp3"
-get_media(None, audio_url, file_name)
+get_media(None, "865104201303257", "user_utterance.mp3")
