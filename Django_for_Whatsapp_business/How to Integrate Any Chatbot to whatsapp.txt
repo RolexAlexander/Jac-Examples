@@ -1,0 +1,27 @@
+How to Integrate Any Chatbot to whatsapp
+
+first install django and ngrok
+
+second run this command in the terminal:  django-admin startproject nameofproject
+go to urls file and paste this commad in line under line 17 from django.urls.conf import include
+
+next migrate all the files by running the command: python3 manage.py migrate
+after run server with the command: python3 manage.py runserver 0.0.0.0:8000
+you can change 8000 to any port you want
+next you need to load ngrokopen ngrok application and run the command ngrok http 8000
+if you used another port to run django you need to put it there else run it with 8000
+paste the bot folder in your current folder
+next we need to change the settings and urls files of the  folder you created and the views file of the bot folder
+for the change file you have to go to the urls and paste path("", include("bot.urls")). When you are finish it should look like that below
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path("", include("bot.urls"))
+]
+next go to the settings file and find ALLOWED_HOSTS and paste the ngrok link without the http infront. That is if the ngrok link is http://ba0e-2800-3c0-2050-3a5-414d-eb20-7d8-e4fd.sa.ngrok.io
+you will paste ba0e-2800-3c0-2050-3a5-414d-eb20-7d8-e4fd.sa.ngrok.io
+when you are done it should look like ALLOWED_HOSTS = ['ba0e-2800-3c0-2050-3a5-414d-eb20-7d8-e4fd.sa.ngrok.io']
+the las t file to edit is the bot file
+go to the bot folder and open the views.py folder. in this folder you will have to change the account_sid, auth_token, auth, sent, utterance and name 
+the account_sid and auth_token has to be replaced with your twillio information and sent has to be replaced with the sentinel id and the auth with the token the utterance has to be replaced with name of the variable the walker uses to accept inputs and the name variable value "talker" has to be changed to the name of the talker your bot is using
+migrate the items to the server again if you get any errors addtionally you should use port 8000 any other port would mean you have to change alot more code
+your bot should be ran on server 0.0.0.0:9000
